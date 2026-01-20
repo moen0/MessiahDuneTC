@@ -21,6 +21,7 @@
 		10 = mediterranean_byzantine
 	}
 }
+
 imperial_culture = {
     color = { 0.8 0.7 0.3 }
 
@@ -58,5 +59,25 @@ fremen_culture = {
 
     ethnicities = {
         10 = arab
+    }
+}
+
+caladan_culture = {
+    color = { 0.2 0.1 0.3 }
+
+    ethos = ethos_courtly
+    heritage = heritage_latin
+    language = language_latin
+    martial_custom = martial_custom_male_only
+
+    name_list = name_list_italian
+
+    coa_gfx = { western_coa_gfx }
+    building_gfx = { western_building_gfx }
+    clothing_gfx = { western_clothing_gfx }
+    unit_gfx = { western_unit_gfx }
+
+    ethnicities = {
+        10 = mediterranean
     }
 }

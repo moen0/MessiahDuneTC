@@ -17,7 +17,7 @@
 	}
 }
 challenge_character_paul = {
-    start_date = 1.1.1
+    start_date = 10191.1.1
     character = {
         name = "bookmark_dune_atlantis"
         dynasty = 2

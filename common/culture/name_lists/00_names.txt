@@ -1,0 +1,14 @@
+name_list_fremen = {
+    male_names = {
+        Stilgar Jamis Liet
+    }
+
+    female_names = {
+        Chani Alia Irulan Harah Mapes Shadout Ramallo
+        Faroula Lichna Sabiha
+    }
+
+    dynasty_names = {
+        Tabr Naib
+    }
+}
