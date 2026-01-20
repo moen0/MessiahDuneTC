@@ -1,0 +1,88 @@
+# e_atlantis
+#  k_atlantis
+#   d_atlantis 
+#    c_atlantis
+
+1 = {
+    culture = atlantean
+    religion = atlantite
+    holding = castle_holding
+}
+
+2 = {
+	holding = none
+}
+
+3 = {
+	holding = none
+}
+
+#    c_atlantis_b
+
+4 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+5 = {
+	holding = none
+}
+
+6 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+#    c_atlantis_c
+
+7 = {
+	culture = atlantean
+	religion = atlantite
+	holding = castle_holding
+}
+
+8 = {
+	holding = none
+}
+
+9 = {
+	holding = none
+}
+
+## arrakis
+
+
+14 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = castle_holding
+}
+15 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = none
+}
+16 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = castle_holding
+}
+17 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = none
+}
+18 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = castle_holding
+}
+19 = {
+    culture = fremen_culture
+    religion = zensunni
+    holding = castle_holding
+}
+
+

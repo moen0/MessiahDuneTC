@@ -1,0 +1,9 @@
+﻿1 = {
+	name = "dynn_atlas"
+	culture = "greek"
+}
+2 = {
+    name = "dynn_Atreides"
+    culture = "imperial_culture"
+}
+

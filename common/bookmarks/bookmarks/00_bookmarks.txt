@@ -1,0 +1,52 @@
+﻿bm_1_atlantis = {
+	start_date = 1.1.1
+	is_playable = yes
+	group = bm_group_atlantis
+
+	weight = {
+		value = 0
+	}
+
+	# Atlas
+	character = {
+		name = "bookmark_atlantis_atlas"
+		dynasty = 1
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1.1.1
+		title = d_atlantis
+		government = feudal_government
+		culture = atlantean
+		religion = atlantite
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 1
+		position = { 200 400 }
+		animation = personality_bold
+	}
+}
+bm_1_dune = {
+    start_date = 10191.1.1
+    is_playable = yes
+    group = bm_group_dune
+
+    weight = {
+        value = 0
+    }
+
+    # Paul
+    character = {
+        name = "bookmark_dune_paul"
+        dynasty = 2
+        dynasty_splendor_level = 1
+        type = male
+        birth = 10172.1.1
+        title = k_arrakis
+        government = feudal_government
+        culture = fremen_culture
+        religion = zensunni
+        difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+        history_id = 2
+        position = { 200 400 }
+        animation = personality_bold
+    }
+}

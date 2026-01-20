@@ -1,0 +1,16 @@
+version="0.1"
+tags={
+	"Total Conversion"
+}
+name="Messiah"
+replace_path="common/bookmarks"
+replace_path="common/dynasties"
+replace_path="common/dynasty_houses"
+replace_path="history/artifacts"
+replace_path="history/characters"
+replace_path="history/provinces"
+replace_path="history/titles"
+replace_path="history/wars"
+replace_path="tests"
+replace_path="map_data"
+supported_version="1.17.*"
