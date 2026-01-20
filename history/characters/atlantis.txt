@@ -13,6 +13,28 @@
 }
 
 2 = {
+    name = "Paulos"
+    dynasty = 2
+    dna = 2
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+3 = {
+    name = "Leto"
+    dynasty = 2
+    dna = 2
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+    1.1.1 = {
+        birth = yes
+    }
+}
+
+2 = {
     name = "Paul"
     dynasty = 2
     dna = 2

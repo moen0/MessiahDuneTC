@@ -24,6 +24,7 @@
 		animation = personality_bold
 	}
 }
+
 bm_1_dune = {
     start_date = 10191.1.1
     is_playable = yes

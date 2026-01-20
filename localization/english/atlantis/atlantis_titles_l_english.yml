@@ -14,3 +14,30 @@
  b_atlantis_7: "Dipylon"
  b_atlantis_8: "Kerameikos"
  b_atlantis_9: "Acharnai"
+
+ ## MESSIAH
+ #EMPIRE
+ e_imperium: "Imperium"
+ e_imperium_adj: "Imperial"
+
+ # Kingdom
+ k_arrakis: "Arrakis"
+ k_arrakis_adj: "Arrakeen"
+
+ # Duchy
+ d_northern_arrakis: "Northern Arrakis"
+ d_northern_arrakis_adj: "Northern Arrakeen"
+
+ # Counties
+ c_arrakeen: "Arrakeen"
+ c_arrakeen_adj: "Arrakeen"
+ c_carthag: "Carthag"
+ c_carthag_adj: "Carthagi"
+
+ # Baronies
+ b_arrakeen: "Arrakeen"
+ b_arrakeen2: "Arrakeen Depot"
+ b_arrakeen3: "Arrakeen Outskirts"
+ b_carthag: "Carthag"
+ b_imperialbasin: "Imperial Basin"
+ b_imperialbasin2: "Imperial Basin South"
