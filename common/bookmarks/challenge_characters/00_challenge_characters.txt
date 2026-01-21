@@ -1,5 +1,5 @@
 ﻿challenge_character_atlantis = {
-	start_date = 1.1.1
+	start_date = 191.1.1
 	character = {
 		name = "bookmark_atlantis_atlas"
 		dynasty = 1
@@ -17,13 +17,13 @@
 	}
 }
 challenge_character_paul = {
-    start_date = 10191.1.1
+    start_date = 191.1.1
     character = {
         name = "bookmark_dune_atlantis"
         dynasty = 2
         dynasty_splendor_level = 3
         type = male
-        birth = 1.1.1
+        birth = 176.1.1
         title = k_arrakis
         government = feudal_government
         culture = fremen_culture

@@ -27,15 +27,15 @@ e_imperium = {
     1.1.1 = { holder = 2 }
 }
 k_arrakis = {
-    1.1.1 = { holder = 2 }
+    191.1.1 = { holder = 3 }
 }
 d_northern_arrakis = {
-    1.1.1 = { holder = 2 }
+    191.1.1 = { holder = 3 }
 }
 c_arrakeen = {
-    1.1.1 = { holder = 2 }
+    191.1.1 = { holder = 3 }
 }
 c_carthag = {
-    1.1.1 = { holder = 2 }
+    191.1.1 = { holder = 3 }
 }
 

@@ -48,3 +48,19 @@
  heritage_egyptian_name: "Hidden"
  heritage_hunnic_name: "Hidden"
  heritage_ancient_greek_name: "Hidden"
+## Dune Council positions
+
+
+ councillor_chancellor:0 "Mentat"
+ councillor_steward:0 "Quartermaster"
+ councillor_marshal:0 "Warmaster"
+ councillor_spymaster:0 "Shadow Master"
+ court_physician_court_position:0 "Suk Doctor"
+ knight:0 "Swordmaster"
+ knight_female:0 "Swordmaster"
+ executioner:0 "Deathstill Operator"
+ executioner_female:0 "Deathstill Operator"
+ food_taster:0 "Poison Snooper"
+ food_taster_female:0 "Poison Snooper"
+ cupbearer:0 "Water Bearer"
+ cupbearer_female:0 "Water Bearer"

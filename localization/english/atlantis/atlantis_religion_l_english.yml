@@ -9,3 +9,22 @@
 
  holy_site_atlantis_name: "Atlantis"
  holy_site_atlantis_effect_name: "From [holy_site|E] #weak ($holy_site_atlantis_name$)#!"
+##DUNE
+ orange_catholic: "Orange Catholicism"
+ orange_catholic_adj: "Orange Catholic"
+ orange_catholic_desc: "The Orange Catholic faith emerged from the Commission of Ecumenical Translators, unifying the religious traditions of humanity into a single doctrine centered on the Orange Catholic Bible."
+
+ orange_catholic_faith: "Orange Catholicism"
+ orange_catholic_faith_adj: "Orange Catholic"
+ orange_catholic_faith_desc: "The dominant religion of the Imperium, blending ancient Abrahamic traditions into a unified faith governed by the Orange Catholic Bible."
+
+ zensunni: "Zensunni"
+ zensunni_adj: "Zensunni"
+ zensunni_desc: "An ancient syncretic faith combining Zen Buddhism and Sunni Islam, carried by wanderers across the stars until finding refuge on Arrakis."
+
+ zensunni_faith: "Zensunni Wanderers"
+ zensunni_faith_adj: "Zensunni"
+ zensunni_faith_desc: "The faith of the Fremen, shaped by millennia of persecution and desert survival. They await the Lisan al-Gaib, the Voice from the Outer World."
+
+ holy_site_arrakeen_name: "Arrakeen"
+ holy_site_arrakeen_effect_name: "From [holy_site|E] #weak ($holy_site_arrakeen_name$)#!"

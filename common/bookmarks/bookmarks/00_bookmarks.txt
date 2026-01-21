@@ -1,5 +1,5 @@
 ﻿bm_1_atlantis = {
-	start_date = 1.1.1
+	start_date = 191.1.1
 	is_playable = yes
 	group = bm_group_atlantis
 
@@ -26,7 +26,7 @@
 }
 
 bm_1_dune = {
-    start_date = 10191.1.1
+    start_date = 191.1.1
     is_playable = yes
     group = bm_group_dune
 
@@ -40,7 +40,7 @@ bm_1_dune = {
         dynasty = 2
         dynasty_splendor_level = 1
         type = male
-        birth = 10172.1.1
+        birth = 172.1.1
         title = k_arrakis
         government = feudal_government
         culture = fremen_culture
