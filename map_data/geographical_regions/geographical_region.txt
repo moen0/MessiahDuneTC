@@ -1,155 +1,71 @@
 ﻿# Geographical regions
-# Regions can be declared with one or more of the following fields:
-#	duchies = { }, takes duchy title names declared in landed_titles.txt
-#	counties = { }, takes county title names declared in landed_titles.txt
-#	provinces = { }, takes province id numbers declared in /history/provinces
-#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region.
-#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
-
-# Regions provide the following modifiers:
-# key + _development_growth
-# key + _development_growth_factor
-# This requires "generate_modifiers = yes" in the region
 
 ###########################################################################
 # World Regions
-#	These groups are mutually exclusive on the same tier & should cover every part of the map
 ###########################################################################
-
-# world_europe
-# > world_europe_west
-# >> world_europe_west_britannia
-# >> world_europe_west_germania
-# >> world_europe_west_francia
-# >> world_europe_west_iberia
-# > world_europe_north
-# > world_europe_south
-# >> world_europe_south_east
-# >> world_europe_south_italy
-# > world_europe_east
-
-# world_asia_minor
-
-# world_middle_east
-# > world_middle_east_jerusalem
-# > world_middle_east_arabia
-# > world_middle_east_persia
-
-# world_india
-# > world_india_deccan
-# > world_india_bengal
-# > world_india_rajastan
-# > custom_lanka
-
-# world_africa
-# > world_africa_north
-# >> world_africa_north_west
-# >> world_africa_north_east
-# > world_africa_west
-# > world_africa_east
-
-# world_steppe
-# > world_steppe_tarim
-# > world_steppe_west
-# > world_steppe_east
-
-# world_tibet
-
-# world_burma
-# > custom_arakan_mountains
-
-# sea_atlantic_ocean
-# > sea_north_atlantic
-# >> sea_baltic_sea
-# >> sea_north_sea
-# >> sea_english_channel
-# >> sea_irish_sea
-# >> sea_bay_of_biscay
-# >> sea_macaronesia
-# >> sea_mediterranean_sea
-# >>> sea_western_mediterranean_sea
-# >>> sea_ionian_sea
-# >>> sea_adriatic_sea
-# >>> sea_aegean_sea
-# >>> sea_black_sea
-# > sea_south_atlantic
-# >> sea_gulf_of_guinea
-
-# sea_indian_ocean
-# > sea_bay_of_somalia
-# > sea_red_sea
-# > sea_gulf_of_aden
-# > sea_persian_gulf
-# > sea_arabian_sea
-# > sea_bay_of_bengal
-
-# sea_inland_steppe_seas
-# > sea_caspian_sea
-# > sea_aral_sea
 
 #########################
 #### VANILLA REGIONS ####
 #########################
 world_europe_south = {
-	duchies = {
-		d_atlantis
-	}
+    duchies = {
+        d_atlantis
+    }
 }
-world_europe = { 
-	regions = {
-		world_europe_south
-	}
+world_europe = {
+    regions = {
+        world_europe_south
+    }
 }
 material_wood_walnut = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_wood_maple = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_woods_dogwood = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_woods_hazel = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_cloth_linen = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_hsb_deer_antler = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 material_hsb_boar_tusk = {
-	regions = {
-		world_europe_south
-	}
+    regions = {
+        world_europe_south
+    }
 }
 sea_south_atlantic = {
-	provinces = {
-		10 11 12 13
-	}
+    provinces = {
+        10 11 12 13
+    }
 }
 sea_atlantic_ocean = {
-	regions = {
-		sea_south_atlantic
-	}
+    regions = {
+        sea_south_atlantic
+    }
 }
 hunt_animal_deer_region = {
-	regions = {
-		# Europe
-		world_europe
-	}
+    regions = {
+        world_europe
+    }
 }
 
 ################################
@@ -201,7 +117,6 @@ material_woods_ebony = { }
 material_woods_yew = { }
 material_woods_bamboo = { }
 material_woods_cherry = { }
-material_woods_dogwood = { }
 material_woods_hickory = { }
 material_woods_palm = { }
 material_woods_mulberry = { }
@@ -293,12 +208,6 @@ custom_iceland = { }
 custom_gotland = { }
 custom_polabia = { }
 custom_beth_nahrain = { }
-graphical_western = { }
-graphical_mena = { }
-graphical_india = { }
-graphical_mediterranean = { }
-graphical_steppe = { }
-graphical_siberia = { }
 world_innovation_elephants = { generate_modifiers = yes }
 world_innovation_camels = { generate_modifiers = yes }
 world_horse_buildings_in_hills_and_mountains = { }
@@ -534,6 +443,9 @@ sahel_north_africa_nomad_area = { }
 sahel_sub_saharan_africa_nomad_area = { }
 horn_of_africa_nomad_area = { }
 nubia_nomad_area = { }
+eastern_plateau_nomad_area = { }
+western_plateau_nomad_area = { }
+river_valley_nomad_area = { }
 
 ###########################
 #### GRAPHICAL REGIONS ####
@@ -542,25 +454,31 @@ nubia_nomad_area = { }
 graphical_western = {
     graphical = yes
     color = { 255 0 0 }
-    provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 }
+    provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 }
 }
 
 graphical_mena = {
-	graphical = yes
-	color = { 255 255 0 }
+    graphical = yes
+    color = { 255 255 0 }
+    provinces = { 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 }
 }
 
 graphical_india = {
-	graphical = yes
-	color = { 0 255 0 }
+    graphical = yes
+    color = { 0 255 0 }
 }
 
 graphical_mediterranean = {
-	graphical = yes
-	color = { 0 0 255 }
+    graphical = yes
+    color = { 0 0 255 }
 }
 
 graphical_steppe = {
-	graphical = yes
-	color = { 0 255 255 }
+    graphical = yes
+    color = { 0 255 255 }
+}
+
+graphical_siberia = {
+    graphical = yes
+    color = { 128 128 128 }
 }
