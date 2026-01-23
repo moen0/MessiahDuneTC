@@ -1,0 +1,90 @@
+## Dune traits
+
+swordmaster = {
+    index = 1000
+
+    martial = 8
+    prowess = 12
+
+    attraction_opinion = 10
+    same_trait_opinion = 15
+
+    desc = swordmaster_desc
+
+    valid_sex = all
+
+    compatibility = {
+        brave = 1
+        ambitious = 0.5
+        craven = -1
+    }
+}
+
+
+mentat = {
+    index = 1002
+
+    diplomacy = 4
+    martial = 2
+    stewardship = 6
+    intrigue = 4
+    learning = 8
+
+    monthly_prestige = 0.5
+
+    same_trait_opinion = 20
+
+    desc = mentat_desc
+
+    valid_sex = all
+
+    compatibility = {
+        intelligent = 1
+        patient = 1
+        arbitrary = -1
+    }
+}
+
+spice_addict = {
+    index = 1003
+
+    learning = 2
+    intrigue = 2
+
+    health = -0.5
+    fertility = -0.15
+
+    same_trait_opinion = 10
+
+    desc = spice_addict_desc
+
+    valid_sex = all
+
+    compatibility = {
+        temperate = -1
+        gluttonous = 0.5
+    }
+}
+
+suk_doctor = {
+    index = 1004
+
+    learning = 10
+    intrigue = -5
+
+    health = 1
+
+    court_physician_aptitude = 50
+
+    same_trait_opinion = 15
+
+    desc = suk_doctor_desc
+
+    valid_sex = all
+
+    compatibility = {
+        compassionate = 1
+        sadistic = -1
+        honest = 1
+    }
+}

@@ -1,0 +1,208 @@
+﻿1 = { 
+	name = "Atlas"
+	dynasty = 1
+	dna = 1
+	religion = "atlantite"
+	culture = "atlantean"
+	1.1.1 = {
+		birth = yes
+	}
+	1.1.2 = {
+		death = yes
+	}
+}
+
+2 = {
+    name = "Paulos"
+    dynasty = 2
+    dna = 2
+    religion = "orange_catholic_faith"
+    culture = "caladan_culture"
+
+    trait = education_diplomacy_4
+    trait = just
+    trait = patient
+
+    110.1.1 = {
+        birth = yes
+    }
+    154.1.1 = {
+        death = yes
+    }
+}
+
+3 = {
+    name = "Leto"
+    father = 2
+    dynasty = 2
+    religion = "orange_catholic_faith"
+    culture = "caladan_culture"
+
+    trait = education_diplomacy_5
+    trait = just
+    trait = brave
+    trait = compassionate
+    trait = ambitious
+    trait = diplomacy_lifestyle
+
+    140.1.1 = {
+        birth = yes
+    }
+    160.1.1 = {
+        add_concubine = 5
+    }
+    191.1.3 = {
+        death = yes
+    }
+}
+
+4 = {
+    name = "Paul"
+    dynasty = 2
+    father = 3
+    mother = 5
+
+    trait = brave
+    trait = mentat
+    trait = spice_addict
+    trait = swordmaster
+    trait = ambitious
+    trait = weirding_way
+
+    dna = "paul_dna"
+
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+    176.1.1 = {
+        birth = yes
+    }
+    219.1.2 = {
+        death = yes
+    }
+}
+
+5 = {
+    name = "Jessica"
+    female = yes
+    dynasty = 2
+    religion = "zensunni_faith"
+    culture = "caladan_culture"
+
+    trait = education_intrigue_5
+    trait = beautiful
+    trait = intelligent
+    trait = weirding_way
+    trait = spice_addict
+    trait = compassionate
+
+    154.1.1 = {
+        birth = yes
+    }
+}
+
+# ALIA ATREIDES
+6 = {
+    name = "Alia"
+    female = yes
+    father = 5
+    mother = 3
+    dynasty = 1
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+
+    trait = education_intrigue_5
+    trait = weirding_way
+    trait = spice_addict
+
+    191.6.1 = {
+        birth = yes
+    }
+}
+
+# DUNCAN IDAHO
+30 = {
+    name = "Duncan"
+    dynasty = 2
+    religion = "orange_catholic_faith"
+    culture = "caladan_culture"
+
+    trait = education_martial_5
+    trait = brave
+    trait = loyal
+    trait = honest
+    trait = swordmaster
+
+
+    155.1.1 = {
+        birth = yes
+    }
+    191.1.5 = {
+        death = { killer =  }
+    }
+}
+
+# GURNEY HALLECK
+31 = {
+    name = "Gurney"
+    dynasty = 2
+    religion = "orange_catholic_faith"
+    culture = "caladan_culture"
+
+    trait = education_martial_4
+    trait = brave
+    trait = wrathful
+    trait = scarred
+    trait = poet
+    trait = swordmaster
+
+
+    150.1.1 = {
+        birth = yes
+    }
+}
+
+
+# THUFIR HAWAT
+32 = {
+    name = "Thufir"
+    dynasty = 4
+    religion = "orange_catholic_faith"
+    culture = "caladan_culture"
+
+    trait = education_intrigue_5
+    trait = mentat
+    trait = patient
+    trait = paranoid
+    trait = loyal
+
+
+    100.1.1 = {
+        birth = yes
+    }
+    191.6.1 = {
+        death = yes
+    }
+}
+
+# DR. WELLINGTON YUEH
+33 = {
+    name = "Wellington"
+    dynasty = 5
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_learning_5
+    trait = suk_doctor
+    trait = craven
+    trait = deceitful
+    trait = compassionate
+
+    dna = "yueh_dna"
+
+    135.1.1 = {
+        birth = yes
+    }
+    191.1.3 = {
+        death = { killer = 50 }
+    }
+}

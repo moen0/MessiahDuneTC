@@ -5,6 +5,39 @@
 2 = {
     name = "dynn_Atreides"
     culture = "imperial_culture"
-    coat_of_arms = atreides_coa
 }
 
+3 = {
+    name = "dynn_Idaho"
+    culture = caladan_culture
+}
+
+4 = {
+    name = "dynn_Halleck"
+    culture = caladan_culture
+}
+
+5 = {
+    name = "dynn_Hawat"
+    culture = caladan_culture
+}
+
+6 = {
+    name = "dynn_Yueh"
+    culture = imperial_culture
+}
+
+6 = {
+    name = "dynn_Harkonnen"
+    culture = imperial_culture
+}
+
+7 = {
+    name = "dynn_DeVries"
+    culture = imperial_culture
+}
+
+8 = {
+    name = "dynn_Corrino"
+    culture = imperial_culture
+}
