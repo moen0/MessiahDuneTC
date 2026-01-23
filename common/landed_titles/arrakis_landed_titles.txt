@@ -136,10 +136,7 @@ e_imperium = {
                     province = 18
                     color = { 170 130 70 }
                 }
-                b_imperialbasin2 = {
-                    province = 18
-                    color = { 160 120 60 }
-                }
+
                 b_wind_trap = {
                     province = 22
                     color = { 185 65 40 }

@@ -36,6 +36,6 @@ c_arrakeen = {
     191.1.1 = { holder = 4 }
 }
 c_carthag = {
-    191.1.1 = { holder = 3 }
+    191.1.1 = { holder = 4 }
 }
 

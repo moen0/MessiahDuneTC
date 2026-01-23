@@ -11,8 +11,6 @@ swordmaster = {
 
     desc = swordmaster_desc
 
-    icon = "gfx/interface/icons/traits/swordmaster.dds"
-
     valid_sex = all
 
     compatibility = {
@@ -38,8 +36,6 @@ mentat = {
 
     desc = mentat_desc
 
-    icon = "gfx/interface/icons/traits/mentat.dds"
-
     valid_sex = all
 
     compatibility = {
@@ -62,8 +58,6 @@ spice_addict = {
 
     desc = spice_addict_desc
 
-    icon = "gfx/interface/icons/traits/spice_addict.dds"
-
     valid_sex = all
 
     compatibility = {
@@ -72,3 +66,25 @@ spice_addict = {
     }
 }
 
+suk_doctor = {
+    index = 1004
+
+    learning = 10
+    intrigue = -5
+
+    health = 1
+
+    court_physician_aptitude = 50
+
+    same_trait_opinion = 15
+
+    desc = suk_doctor_desc
+
+    valid_sex = all
+
+    compatibility = {
+        compassionate = 1
+        sadistic = -1
+        honest = 1
+    }
+}

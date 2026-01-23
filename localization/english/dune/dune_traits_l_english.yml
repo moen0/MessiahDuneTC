@@ -1,15 +1,15 @@
 ﻿l_english:
- swordmaster: "Swordmaster"
+ trait_swordmaster: "Swordmaster"
  swordmaster_desc: "Trained in the deadly art of blade combat, this warrior has mastered the techniques of shield fighting and close-quarters combat. Their skill with a blade is legendary."
 
- weirding_way: "Weirding Way"
+ trait_weirding_way: "Weirding Way"
  weirding_way_desc: "Initiated in the Bene Gesserit combat techniques, this fighter moves with unnatural speed and precision. Their prana-bindu training makes them a terrifying opponent."
 
- mentat: "Mentat"
+ trait_mentat: "Mentat"
  mentat_desc: "A human computer, trained from youth to perform complex calculations and analysis without the aid of thinking machines. Their mind is a weapon sharper than any blade."
 
- spice_addict: "Spice Addict"
+ trait_spice_addict: "Spice Addict"
  spice_addict_desc: "Deeply addicted to the geriatric spice melange. While it grants expanded consciousness, withdrawal means certain death. The eyes have turned blue-within-blue."
 
- suk_doctor: "Suk Doctor"
+ trait_suk_doctor: "Suk Doctor"
  suk_doctor_desc: "Graduate of the Suk School of Medicine, marked by the diamond tattoo on the forehead. Imperial conditioning makes it impossible for them to take a human life - or so it is believed."

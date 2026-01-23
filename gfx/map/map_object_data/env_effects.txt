@@ -306,15 +306,6 @@ object={
 5237.664062 0.000000 1830.575684 0.000000 0.000000 0.000000 1.000000 0.511047 0.511047 0.511047
 "}
 object={
-	name="env_forest_mountains"
-	render_pass=Map
-	clamp_to_water_level=yes
-	generated_content=no
-	layer="env_effect_mountains_layer"
-	entity="env_mist_sun"
-	count=0
-}
-object={
 	name="env_mist_forest"
 	render_pass=Map
 	clamp_to_water_level=yes
