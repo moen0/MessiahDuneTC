@@ -253,7 +253,163 @@ orange_catholic = {
     doctrine = doctrine_kinslaying_close_kin_crime
     doctrine = doctrine_deviancy_shunned
     doctrine = doctrine_witchcraft_shunned
+    localization = {
+        HighGodName = christianity_high_god_name
+        HighGodName2 = christianity_high_god_name_2
+        HighGodNamePossessive = christianity_high_god_name_possessive
+        HighGodNameSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+        HighGodNameAlternate = christianity_high_god_name_alternate
+        HighGodNameAlternatePossessive = christianity_high_god_name_alternate_possessive
 
+        CreatorName = christianity_creator_god_name
+        CreatorNamePossessive = christianity_creator_god_name_possessive
+        CreatorSheHe = CHARACTER_SHEHE_HE
+        CreatorHerHis = CHARACTER_HERHIS_HIS
+        CreatorHerHim = CHARACTER_HERHIM_HIM
+
+        HealthGodName = christianity_high_god_name
+        HealthGodNamePossessive = christianity_high_god_name_possessive
+        HealthGodSheHe = CHARACTER_SHEHE_HE
+        HealthGodHerHis = CHARACTER_HERHIS_HIS
+        HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+        FertilityGodName = christianity_high_god_name
+        FertilityGodNamePossessive = christianity_high_god_name_possessive
+        FertilityGodSheHe = CHARACTER_SHEHE_HE
+        FertilityGodHerHis = CHARACTER_HERHIS_HIS
+        FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+        WealthGodName = christianity_high_god_name
+        WealthGodNamePossessive = christianity_high_god_name_possessive
+        WealthGodSheHe = CHARACTER_SHEHE_HE
+        WealthGodHerHis = CHARACTER_HERHIS_HIS
+        WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+        HouseholdGodName = christianity_high_god_name
+        HouseholdGodNamePossessive = christianity_high_god_name_possessive
+        HouseholdGodSheHe = CHARACTER_SHEHE_HE
+        HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+        HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+        FateGodName = christianity_high_god_name
+        FateGodNamePossessive = christianity_high_god_name_possessive
+        FateGodSheHe = CHARACTER_SHEHE_HE
+        FateGodHerHis = CHARACTER_HERHIS_HIS
+        FateGodHerHim = CHARACTER_HERHIM_HIM
+
+        KnowledgeGodName = christianity_high_god_name
+        KnowledgeGodNamePossessive = christianity_high_god_name_possessive
+        KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+        KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+        KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+        WarGodName = christianity_high_god_name
+        WarGodNamePossessive = christianity_high_god_name_possessive
+        WarGodSheHe = CHARACTER_SHEHE_HE
+        WarGodHerHis = CHARACTER_HERHIS_HIS
+        WarGodHerHim = CHARACTER_HERHIM_HIM
+
+        TricksterGodName = christianity_devil_name
+        TricksterGodNamePossessive = christianity_devil_name_possessive
+        TricksterGodSheHe = CHARACTER_SHEHE_HE
+        TricksterGodHerHis = CHARACTER_HERHIS_HIS
+        TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+        NightGodName = christianity_high_god_name
+        NightGodNamePossessive = christianity_high_god_name_possessive
+        NightGodSheHe = CHARACTER_SHEHE_HE
+        NightGodHerHis = CHARACTER_HERHIS_HIS
+        NightGodHerHim = CHARACTER_HERHIM_HIM
+
+        WaterGodName = christianity_high_god_name
+        WaterGodNamePossessive = christianity_high_god_name_possessive
+        WaterGodSheHe = CHARACTER_SHEHE_HE
+        WaterGodHerHis = CHARACTER_HERHIS_HIS
+        WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+        PantheonTerm = christianity_pantheon_term
+        PantheonTerm2 = christianity_pantheon_term_2
+        PantheonTerm3 = christianity_pantheon_term_3
+        PantheonTermHasHave = pantheon_term_has
+
+        GoodGodNames = { christianity_high_god_name }
+        DevilName = christianity_devil_name
+        DevilNamePossessive = christianity_devil_name_possessive
+        DevilSheHe = CHARACTER_SHEHE_HE
+        DevilHerHis = CHARACTER_HERHIS_HIS
+        DevilHerselfHimself = CHARACTER_HIMSELF
+        EvilGodNames = { christianity_devil_name }
+
+        HouseOfWorship = christianity_house_of_worship
+        HouseOfWorship2 = christianity_house_of_worship_2
+        HouseOfWorship3 = christianity_house_of_worship_3
+        HouseOfWorshipPlural = christianity_house_of_worship_plural
+
+        ReligiousSymbol = christianity_religious_symbol
+        ReligiousSymbol2 = christianity_religious_symbol_2
+        ReligiousSymbol3 = christianity_religious_symbol_3
+
+        ReligiousText = christianity_religious_text
+        ReligiousText2 = christianity_religious_text_2
+        ReligiousText3 = christianity_religious_text_3
+
+        ReligiousHeadName = christianity_religious_head_title
+        ReligiousHeadTitleName = christianity_religious_head_title_name
+
+        DevoteeMale = christianity_devotee_male
+        DevoteeMalePlural = christianity_devotee_male_plural
+        DevoteeFemale = christianity_devotee_female
+        DevoteeFemalePlural = christianity_devotee_female_plural
+        DevoteeNeuter = christianity_devotee_neuter
+        DevoteeNeuterPlural = christianity_devotee_neuter_plural
+
+        PriestMale = christianity_priest_male
+        PriestMalePlural = christianity_priest_male_plural
+        PriestFemale = christianity_priest_female
+        PriestFemalePlural = christianity_priest_female_plural
+        PriestNeuter = christianity_priest_male
+        PriestNeuterPlural = christianity_priest_male_plural
+
+        AltPriestTermPlural = christianity_priest_alternate_plural
+
+        BishopMale = christianity_bishop_male
+        BishopMalePlural = christianity_bishop_male_plural
+        BishopFemale = christianity_bishop_female
+        BishopFemalePlural = christianity_bishop_female_plural
+        BishopNeuter = christianity_bishop_male
+        BishopNeuterPlural = christianity_bishop_male_plural
+
+        DivineRealm = christianity_divine_realm
+        DivineRealm2 = christianity_divine_realm_2
+        DivineRealm3 = christianity_divine_realm_3
+
+        PositiveAfterLife = christianity_positive_afterlife
+        PositiveAfterLife2 = christianity_positive_afterlife_2
+        PositiveAfterLife3 = christianity_positive_afterlife_3
+
+        NegativeAfterLife = christianity_negative_afterlife
+        NegativeAfterLife2 = christianity_negative_afterlife_2
+        NegativeAfterLife3 = christianity_negative_afterlife_3
+
+        DeathDeityName = christianity_death_deity_name
+        DeathDeityNamePossessive = christianity_death_deity_name_possessive
+        DeathDeitySheHe = CHARACTER_SHEHE_HE
+        DeathDeityHerHis = CHARACTER_HERHIS_HIS
+        DeathDeityHerHim = CHARACTER_HERHIM_HIM
+
+        WitchGodName = christianity_devil_name
+        WitchGodNamePossessive = christianity_devil_name_possessive
+        WitchGodHerHis = CHARACTER_HERHIS_HIS
+        WitchGodSheHe = CHARACTER_SHEHE_HE
+        WitchGodHerHim = CHARACTER_HERHIM_HIM
+        WitchGodMistressMaster = master
+        WitchGodMotherFather = father
+
+        GHWName = ghw_crusade
+        GHWNamePlural = ghw_crusades
+    }
     faiths = {
         orange_catholic_faith = {
             color = { 1.0 0.6 0.0 }
@@ -290,7 +446,163 @@ zensunni = {
     doctrine = doctrine_kinslaying_close_kin_crime
     doctrine = doctrine_deviancy_accepted
     doctrine = doctrine_witchcraft_accepted
+    localization = {
+        HighGodName = christianity_high_god_name
+        HighGodName2 = christianity_high_god_name_2
+        HighGodNamePossessive = christianity_high_god_name_possessive
+        HighGodNameSheHe = CHARACTER_SHEHE_HE
+        HighGodHerselfHimself = CHARACTER_HIMSELF
+        HighGodHerHis = CHARACTER_HERHIS_HIS
+        HighGodNameAlternate = christianity_high_god_name_alternate
+        HighGodNameAlternatePossessive = christianity_high_god_name_alternate_possessive
 
+        CreatorName = christianity_creator_god_name
+        CreatorNamePossessive = christianity_creator_god_name_possessive
+        CreatorSheHe = CHARACTER_SHEHE_HE
+        CreatorHerHis = CHARACTER_HERHIS_HIS
+        CreatorHerHim = CHARACTER_HERHIM_HIM
+
+        HealthGodName = christianity_high_god_name
+        HealthGodNamePossessive = christianity_high_god_name_possessive
+        HealthGodSheHe = CHARACTER_SHEHE_HE
+        HealthGodHerHis = CHARACTER_HERHIS_HIS
+        HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+        FertilityGodName = christianity_high_god_name
+        FertilityGodNamePossessive = christianity_high_god_name_possessive
+        FertilityGodSheHe = CHARACTER_SHEHE_HE
+        FertilityGodHerHis = CHARACTER_HERHIS_HIS
+        FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+        WealthGodName = christianity_high_god_name
+        WealthGodNamePossessive = christianity_high_god_name_possessive
+        WealthGodSheHe = CHARACTER_SHEHE_HE
+        WealthGodHerHis = CHARACTER_HERHIS_HIS
+        WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+        HouseholdGodName = christianity_high_god_name
+        HouseholdGodNamePossessive = christianity_high_god_name_possessive
+        HouseholdGodSheHe = CHARACTER_SHEHE_HE
+        HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+        HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+        FateGodName = christianity_high_god_name
+        FateGodNamePossessive = christianity_high_god_name_possessive
+        FateGodSheHe = CHARACTER_SHEHE_HE
+        FateGodHerHis = CHARACTER_HERHIS_HIS
+        FateGodHerHim = CHARACTER_HERHIM_HIM
+
+        KnowledgeGodName = christianity_high_god_name
+        KnowledgeGodNamePossessive = christianity_high_god_name_possessive
+        KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+        KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+        KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+        WarGodName = christianity_high_god_name
+        WarGodNamePossessive = christianity_high_god_name_possessive
+        WarGodSheHe = CHARACTER_SHEHE_HE
+        WarGodHerHis = CHARACTER_HERHIS_HIS
+        WarGodHerHim = CHARACTER_HERHIM_HIM
+
+        TricksterGodName = christianity_devil_name
+        TricksterGodNamePossessive = christianity_devil_name_possessive
+        TricksterGodSheHe = CHARACTER_SHEHE_HE
+        TricksterGodHerHis = CHARACTER_HERHIS_HIS
+        TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+        NightGodName = christianity_high_god_name
+        NightGodNamePossessive = christianity_high_god_name_possessive
+        NightGodSheHe = CHARACTER_SHEHE_HE
+        NightGodHerHis = CHARACTER_HERHIS_HIS
+        NightGodHerHim = CHARACTER_HERHIM_HIM
+
+        WaterGodName = christianity_high_god_name
+        WaterGodNamePossessive = christianity_high_god_name_possessive
+        WaterGodSheHe = CHARACTER_SHEHE_HE
+        WaterGodHerHis = CHARACTER_HERHIS_HIS
+        WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+        PantheonTerm = christianity_pantheon_term
+        PantheonTerm2 = christianity_pantheon_term_2
+        PantheonTerm3 = christianity_pantheon_term_3
+        PantheonTermHasHave = pantheon_term_has
+
+        GoodGodNames = { christianity_high_god_name }
+        DevilName = christianity_devil_name
+        DevilNamePossessive = christianity_devil_name_possessive
+        DevilSheHe = CHARACTER_SHEHE_HE
+        DevilHerHis = CHARACTER_HERHIS_HIS
+        DevilHerselfHimself = CHARACTER_HIMSELF
+        EvilGodNames = { christianity_devil_name }
+
+        HouseOfWorship = christianity_house_of_worship
+        HouseOfWorship2 = christianity_house_of_worship_2
+        HouseOfWorship3 = christianity_house_of_worship_3
+        HouseOfWorshipPlural = christianity_house_of_worship_plural
+
+        ReligiousSymbol = christianity_religious_symbol
+        ReligiousSymbol2 = christianity_religious_symbol_2
+        ReligiousSymbol3 = christianity_religious_symbol_3
+
+        ReligiousText = christianity_religious_text
+        ReligiousText2 = christianity_religious_text_2
+        ReligiousText3 = christianity_religious_text_3
+
+        ReligiousHeadName = christianity_religious_head_title
+        ReligiousHeadTitleName = christianity_religious_head_title_name
+
+        DevoteeMale = christianity_devotee_male
+        DevoteeMalePlural = christianity_devotee_male_plural
+        DevoteeFemale = christianity_devotee_female
+        DevoteeFemalePlural = christianity_devotee_female_plural
+        DevoteeNeuter = christianity_devotee_neuter
+        DevoteeNeuterPlural = christianity_devotee_neuter_plural
+
+        PriestMale = christianity_priest_male
+        PriestMalePlural = christianity_priest_male_plural
+        PriestFemale = christianity_priest_female
+        PriestFemalePlural = christianity_priest_female_plural
+        PriestNeuter = christianity_priest_male
+        PriestNeuterPlural = christianity_priest_male_plural
+
+        AltPriestTermPlural = christianity_priest_alternate_plural
+
+        BishopMale = christianity_bishop_male
+        BishopMalePlural = christianity_bishop_male_plural
+        BishopFemale = christianity_bishop_female
+        BishopFemalePlural = christianity_bishop_female_plural
+        BishopNeuter = christianity_bishop_male
+        BishopNeuterPlural = christianity_bishop_male_plural
+
+        DivineRealm = christianity_divine_realm
+        DivineRealm2 = christianity_divine_realm_2
+        DivineRealm3 = christianity_divine_realm_3
+
+        PositiveAfterLife = christianity_positive_afterlife
+        PositiveAfterLife2 = christianity_positive_afterlife_2
+        PositiveAfterLife3 = christianity_positive_afterlife_3
+
+        NegativeAfterLife = christianity_negative_afterlife
+        NegativeAfterLife2 = christianity_negative_afterlife_2
+        NegativeAfterLife3 = christianity_negative_afterlife_3
+
+        DeathDeityName = christianity_death_deity_name
+        DeathDeityNamePossessive = christianity_death_deity_name_possessive
+        DeathDeitySheHe = CHARACTER_SHEHE_HE
+        DeathDeityHerHis = CHARACTER_HERHIS_HIS
+        DeathDeityHerHim = CHARACTER_HERHIM_HIM
+
+        WitchGodName = christianity_devil_name
+        WitchGodNamePossessive = christianity_devil_name_possessive
+        WitchGodHerHis = CHARACTER_HERHIS_HIS
+        WitchGodSheHe = CHARACTER_SHEHE_HE
+        WitchGodHerHim = CHARACTER_HERHIM_HIM
+        WitchGodMistressMaster = master
+        WitchGodMotherFather = father
+
+        GHWName = ghw_crusade
+        GHWNamePlural = ghw_crusades
+    }
     faiths = {
         zensunni_faith = {
             color = { 0.7 0.5 0.2 }

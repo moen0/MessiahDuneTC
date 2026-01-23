@@ -49,6 +49,18 @@
 17 = { winter_severity_bias = 0.50 }
 18 = { winter_severity_bias = 0.50 }
 19 = { winter_severity_bias = 0.50 }
+20 = { winter_severity_bias = 0.50 }
+21 = { winter_severity_bias = 0.50 }
+22 = { winter_severity_bias = 0.50 }
+23 = { winter_severity_bias = 0.50 }
+24 = { winter_severity_bias = 0.50 }
+25 = { winter_severity_bias = 0.50 }
+26 = { winter_severity_bias = 0.50 }
+27 = { winter_severity_bias = 0.50 }
+28 = { winter_severity_bias = 0.50 }
+29 = { winter_severity_bias = 0.50 }
+30 = { winter_severity_bias = 0.50 }
+31 = { winter_severity_bias = 0.50 }
 
 #############
 # SEA ZONES

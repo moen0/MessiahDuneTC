@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:1
-bookmark_atlantis_atlas={
+challenge_character_paul={
 	type=boy
 	id=2
 	random_seed=2484513939

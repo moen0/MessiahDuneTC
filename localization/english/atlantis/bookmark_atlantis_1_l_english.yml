@@ -1,12 +1,8 @@
 ﻿l_english:
- bm_1_atlantis:0 "Bookmark"
- bm_1_atlantis_desc:1 "This is a bookmark."
 
- bookmark_atlantis_atlas:0 "Atlas"
- bookmark_atlantis_atlas_desc:0 "Atlas is a bookmark character."
 
  bm_1_dune:0 "Dune"
- bm_1_dune_desc:0 "Dune"
+ bm_group_dune_desc:0 "Dune"
  bm_group_dune:0 "Dune Bookmarks"
 bookmark_dune_paul:0 "Paul Atreides"
 bookmark_dune_paul_desc:0 "Paul Atreides, the son of Duke Leto."

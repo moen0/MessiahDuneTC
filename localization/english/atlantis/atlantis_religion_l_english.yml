@@ -28,3 +28,9 @@
 
  holy_site_arrakeen_name: "Arrakeen"
  holy_site_arrakeen_effect_name: "From [holy_site|E] #weak ($holy_site_arrakeen_name$)#!"
+ fremen_culture_collective_noun:0 "Fremen"
+ fremen_culture_prefix:0 "Fremen"
+ imperial_culture_collective_noun:0 "Imperials"
+ imperial_culture_prefix:0 "Imperial"
+ caladan_culture_collective_noun:0 "Caladani"
+ caladan_culture_prefix:0 "Caladan"

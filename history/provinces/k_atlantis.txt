@@ -5,7 +5,7 @@
 
 1 = {
     culture = atlantean
-    religion = atlantite
+    religion = zensunni_faith
     holding = castle_holding
 }
 
@@ -21,7 +21,7 @@
 
 4 = {
 	culture = atlantean
-	religion = atlantite
+	religion = zensunni_faith
 	holding = castle_holding
 }
 
@@ -31,7 +31,7 @@
 
 6 = {
 	culture = atlantean
-	religion = atlantite
+	religion = zensunni_faith
 	holding = castle_holding
 }
 
@@ -39,7 +39,7 @@
 
 7 = {
 	culture = atlantean
-	religion = atlantite
+	religion = zensunni_faith
 	holding = castle_holding
 }
 
@@ -56,92 +56,92 @@
 
 14 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 15 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 16 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 17 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 18 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 19 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 20 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 21 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 22 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 23 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 24 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 25 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 26 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 27 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 28 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 29 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = castle_holding
 }
 30 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 31 = {
     culture = fremen_culture
-    religion = zensunni
+    religion = zensunni_faith
     holding = none
 }
 

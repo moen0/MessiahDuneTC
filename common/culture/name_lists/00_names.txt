@@ -1,10 +1,10 @@
-name_list_fremen = {
+﻿name_list_fremen = {
     male_names = {
         Stilgar Jamis Liet
     }
 
     female_names = {
-        Chani Alia Irulan Harah Mapes Shadout Ramallo
+        Chani  Harah Mapes Shadout Ramallo
         Faroula Lichna Sabiha
     }
 

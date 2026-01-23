@@ -1,8 +1,8 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
 # History database id:1
-challenge_character_atlas={
+challenge_character_paul={
 	type=boy
-	id=1
+	id=4
 	genes={ 		hair_color={ 199 234 199 234 }
  		skin_color={ 138 105 138 105 }
  		eye_color={ 84 157 84 157 }

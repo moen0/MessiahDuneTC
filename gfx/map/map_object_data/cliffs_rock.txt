@@ -8,15 +8,6 @@
 	count=0
 }
 object={
-	name="cliff big 02"
-	render_pass=Map
-	clamp_to_water_level=no
-	generated_content=no
-	layer="temp_layer"
-	pdxmesh="cliff_big_02_mesh"
-	count=0
-}
-object={
 	name="cliff end 01"
 	render_pass=Map
 	clamp_to_water_level=no
@@ -50,15 +41,6 @@ object={
 	generated_content=no
 	layer="temp_layer"
 	pdxmesh="cliff_rock_02_mesh"
-	count=0
-}
-object={
-	name="cliff rock 03"
-	render_pass=Map
-	clamp_to_water_level=no
-	generated_content=no
-	layer="temp_layer"
-	pdxmesh="cliff_rock_03_mesh"
 	count=0
 }
 object={
