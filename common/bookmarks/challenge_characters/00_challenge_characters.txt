@@ -1,7 +1,7 @@
 ﻿challenge_character_paul = {
     start_date = 191.1.1
     character = {
-        name = "challenge_character_paul"
+        name = "bookmark_dune_paul"
         dynasty = 2
         dynasty_splendor_level = 3
         type = male
@@ -9,7 +9,7 @@
         title = k_arrakis
         government = feudal_government
         culture = fremen_culture
-        religion = zensunni
+        religion = zensunni_faith
         difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
         history_id = 4
 

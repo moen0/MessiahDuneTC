@@ -1,8 +1,8 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:1
-challenge_character_paul={
-	type=boy
-	id=2
+bookmark_dune_paul={
+    type=boy
+	id=4
 	random_seed=2484513939
 	genes={ 		hair_color={ 199 234 199 234 }
  		skin_color={ 138 105 138 105 }
