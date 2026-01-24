@@ -1,4 +1,4 @@
-mahdi_revealed_opinion = {
+﻿mahdi_revealed_opinion = {
     opinion = 50
     decay = { years = 100 }
 }

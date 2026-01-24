@@ -1,4 +1,4 @@
-namespace = kwisatz_haderach
+﻿namespace = kwisatz_haderach
 
 # Water of Life Ceremony
 kwisatz_haderach.001 = {

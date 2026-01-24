@@ -1,4 +1,4 @@
-# Kwisatz Haderach Decision
+﻿# Kwisatz Haderach Decision
 become_kwisatz_haderach_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
 

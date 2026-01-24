@@ -15,7 +15,6 @@
 2 = {
     name = "Paulos"
     dynasty = 2
-    dna = 2
     religion = "orange_catholic_faith"
     culture = "caladan_culture"
 
@@ -51,7 +50,7 @@
     160.1.1 = {
         add_concubine = 5
     }
-    191.1.3 = {
+    191.3.1 = {
         death =  { killer = 50 }
     }
 }
@@ -62,6 +61,8 @@
     father = 3
     mother = 5
 
+    dna = "paul_dna"
+
     trait = brave
     trait = mentat
     trait = spice_addict
@@ -70,7 +71,6 @@
     trait = weirding_way
     trait = the_voice
 
-    dna = "paul_dna"
 
     religion = "zensunni_faith"
     culture = "fremen_culture"

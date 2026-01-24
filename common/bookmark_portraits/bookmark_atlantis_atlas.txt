@@ -1,8 +1,9 @@
-# Auto generated file, do not edit manually. Created using console command dump_bookmark_portrait_for
+# Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:1
-challenge_character_paul={
+bookmark_dune_paul={
 	type=boy
 	id=4
+	random_seed=2484513939
 	genes={ 		hair_color={ 199 234 199 234 }
  		skin_color={ 138 105 138 105 }
  		eye_color={ 84 157 84 157 }
@@ -119,13 +120,9 @@ challenge_character_paul={
  		headgear={ "no_headgear" 0 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
-	entity={ 979141817 979141817 }
+	entity={ 616600735 3478549277 }
 	tags={ {
-			hash=1989892411
-			invert=no
-		}
- {
-			hash=2125534279
+			hash=2670398845
 			invert=no
 		}
  {
@@ -133,20 +130,13 @@ challenge_character_paul={
 			invert=no
 		}
  {
-			hash=2793867254
+			hash=2337953491
 			invert=no
 		}
  {
-			hash=3672171019
-			invert=no
-		}
- {
-			hash=3500802322
-			invert=no
-		}
- {
-			hash=2670398845
+			hash=75156179
 			invert=no
 		}
  }
 }
+

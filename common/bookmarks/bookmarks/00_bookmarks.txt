@@ -1,78 +1,27 @@
-﻿
-bm_fall_of_atreides = {
-    start_date = 191.1.4
-    is_playable = yes
-    group = bm_group_dune
+﻿bm_fall_of_atreides = {
+	start_date = 191.3.1
+	is_playable = yes
+	group = bm_group_dune
 
-    weight = {
-        value = 100
-    }
+	weight = {
+		value = 0
+	}
 
-    # Paul Atreides - Fremen Fugitive
-    character = {
-        name = "bookmark_paul_atreides"
-        dynasty = 2
-        dynasty_splendor_level = 3
-        type = male
-        birth = 176.1.1
-        title = d_tuonq_basin
-        government = tribal_government
+	# Paul
+	character = {
+		name = "bookmark_dune_paul"
+		dynasty = 2
+		dynasty_splendor_level = 2
+		type = male
+		birth = 176.1.1
+		title = d_tuonq_basin
+        government = feudal_government
         culture = fremen_culture
         religion = zensunni
         difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
         history_id = 4
-        position = { 600 400 }
-        animation = personality_bold
-    }
 
-    # Glossu Rabban - Harkonnen Overlord
-    character = {
-        name = "bookmark_glossu_rabban"
-        dynasty = 9
-        dynasty_splendor_level = 4
-        type = male
-        birth = 153.1.1
-        title = k_arrakis
-        government = feudal_government
-        culture = imperial_culture
-        religion = orange_catholic
-        difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-        history_id = 51
-        position = { 200 400 }
-        animation = personality_cruel
-    }
-
-    # Stilgar - Naib of Sietch Tabr
-    character = {
-        name = "bookmark_stilgar"
-        dynasty = 12
-        dynasty_splendor_level = 2
-        type = male
-        birth = 145.1.1
-        title = d_sietch_tabr
-        government = tribal_government
-        culture = fremen_culture
-        religion = zensunni
-        difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-        history_id = 40
-        position = { 400 200 }
-        animation = personality_honorable
-    }
-
-    # Emperor Shaddam IV
-    character = {
-        name = "bookmark_shaddam"
-        dynasty = 8
-        dynasty_splendor_level = 5
-        type = male
-        birth = 119.1.1
-        title = e_imperium
-        government = feudal_government
-        culture = imperial_culture
-        religion = orange_catholic
-        difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
-        history_id = 60
-        position = { 400 600 }
-        animation = personality_rational
-    }
+		position = { 200 400 }
+		animation = personality_bold
+	}
 }

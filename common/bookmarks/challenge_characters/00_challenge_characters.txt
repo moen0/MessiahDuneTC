@@ -1,4 +1,5 @@
-﻿challenge_character_paul = {
+﻿
+challenge_character_paul = {
     start_date = 191.1.4
     character = {
         name = "bookmark_dune_paul"
@@ -9,7 +10,7 @@
         title = d_tuonq_basin
         government = feudal_government
         culture = fremen_culture
-        religion = zensunni_faith
+        religion = zensunni
         difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
         history_id = 4
 

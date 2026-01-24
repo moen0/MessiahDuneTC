@@ -1,4 +1,4 @@
-namespace = arrakis_struggle
+﻿namespace = arrakis_struggle
 
 # Struggle Begins - Leto Dies
 arrakis_struggle.001 = {
