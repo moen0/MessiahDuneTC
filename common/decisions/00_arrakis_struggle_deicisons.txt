@@ -10,7 +10,6 @@ become_kwisatz_haderach_decision = {
     is_shown = {
         has_character_flag = paul_atreides
         NOT = { has_trait = kwisatz_haderach }
-        age >= 17
     }
 
     is_valid = {
@@ -20,6 +19,7 @@ become_kwisatz_haderach_decision = {
             any_owned_story = {
                 story_type = story_fremen_survival
             }
+            age >= 17
         }
         has_trait = spice_addict
     }

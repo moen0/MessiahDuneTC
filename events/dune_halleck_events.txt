@@ -1,0 +1,257 @@
+﻿namespace = gurney_halleck
+
+# Gurney Halleck Returns
+gurney_halleck.001 = {
+    type = character_event
+    title = gurney_halleck.001.t
+    desc = gurney_halleck.001.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+
+    right_portrait = {
+        character = scope:gurney
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        current_date >= 192.1.4
+        NOT = { has_character_flag = gurney_returned }
+        is_alive = yes
+    }
+
+    immediate = {
+        character:31 = {
+            save_scope_as = gurney
+            if = {
+                limit = { is_alive = no }
+                # Gurney died somehow, create new one
+            }
+        }
+        add_character_flag = gurney_returned
+    }
+
+    option = {
+        name = gurney_halleck.001.a
+        # Accept Gurney
+        scope:gurney = {
+            add_to_court = root
+            add_opinion = {
+                target = root
+                modifier = reunited_loyalty_opinion
+                opinion = 50
+            }
+        }
+
+        add_prestige = 100
+
+        custom_tooltip = gurney_joins_court_tt
+    }
+
+    option = {
+        name = gurney_halleck.001.b
+        # Refuse - too dangerous
+        trigger = {
+            OR = {
+                has_trait = paranoid
+                has_trait = craven
+            }
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = rejected_loyalty_opinion
+                opinion = -50
+            }
+        }
+
+        stress_impact = {
+            compassionate = major_stress_impact_gain
+            honest = medium_stress_impact_gain
+        }
+
+        custom_tooltip = gurney_rejected_tt
+    }
+
+    option = {
+        name = gurney_halleck.001.c
+        # Refuse - Fremen don't trust outsiders
+        trigger = {
+            NOT = { has_trait = paranoid }
+            NOT = { has_trait = craven }
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = rejected_loyalty_opinion
+                opinion = -30
+            }
+        }
+
+        add_piety = 25
+
+        every_vassal = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = respected_fremen_ways_opinion
+                opinion = 10
+            }
+        }
+
+        custom_tooltip = gurney_rejected_fremen_tt
+    }
+}
+
+# Gurney tells of his time with smugglers
+gurney_halleck.002 = {
+    type = character_event
+    title = gurney_halleck.002.t
+    desc = gurney_halleck.002.desc
+    theme = friendly
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    right_portrait = {
+        character = scope:gurney
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = gurney_returned
+        any_courtier = {
+            has_trait = swordmaster
+            dynasty = dynasty:3
+        }
+        NOT = { has_character_flag = gurney_story_told }
+        current_date >= 192.3.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        add_character_flag = gurney_story_told
+        random_courtier = {
+            limit = {
+                has_trait = swordmaster
+                dynasty = dynasty:3
+            }
+            save_scope_as = gurney
+        }
+    }
+
+    option = {
+        name = gurney_halleck.002.a
+        # Learn smuggler secrets
+        add_intrigue_skill = 1
+        add_gold = 50
+
+        custom_tooltip = gurney_smuggler_contacts_tt
+    }
+
+    option = {
+        name = gurney_halleck.002.b
+        # Focus on revenge
+        add_martial_skill = 1
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = shared_vengeance_opinion
+                opinion = 15
+            }
+        }
+    }
+}
+
+# Gurney wants revenge on Harkonnens
+gurney_halleck.003 = {
+    type = character_event
+    title = gurney_halleck.003.t
+    desc = gurney_halleck.003.desc
+    theme = war
+
+    left_portrait = {
+        character = scope:gurney
+        animation = anger
+    }
+
+    trigger = {
+        has_character_flag = gurney_returned
+        any_courtier = {
+            has_trait = swordmaster
+            dynasty = dynasty:3
+        }
+        NOT = { has_character_flag = gurney_revenge_discussed }
+        current_date >= 192.6.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        add_character_flag = gurney_revenge_discussed
+        random_courtier = {
+            limit = {
+                has_trait = swordmaster
+                dynasty = dynasty:3
+            }
+            save_scope_as = gurney
+        }
+    }
+
+    option = {
+        name = gurney_halleck.003.a
+        # Promise vengeance
+        add_prestige = 50
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = promised_vengeance_opinion
+                opinion = 25
+            }
+        }
+
+        character:50 = {
+            save_scope_as = baron
+        }
+
+        add_opinion = {
+            target = scope:baron
+            modifier = sworn_enemy_opinion
+            opinion = -100
+        }
+    }
+
+    option = {
+        name = gurney_halleck.003.b
+        # Counsel patience
+        stress_impact = {
+            wrathful = medium_stress_impact_gain
+            impatient = minor_stress_impact_gain
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = counseled_patience_opinion
+                opinion = -10
+            }
+        }
+
+        add_piety = 25
+    }
+}

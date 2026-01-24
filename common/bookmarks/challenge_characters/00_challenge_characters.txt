@@ -1,6 +1,6 @@
 ﻿
 challenge_character_paul = {
-    start_date = 191.1.4
+    start_date = 191.3.1
     character = {
         name = "bookmark_dune_paul"
         dynasty = 2

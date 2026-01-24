@@ -10,7 +10,7 @@ arrakis_struggle = {
     }
 
     regions = {
-        k_arrakis
+        world_arrakis
     }
 
     involvement_prerequisite = {

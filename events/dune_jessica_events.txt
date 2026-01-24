@@ -1,0 +1,495 @@
+﻿namespace = jessica
+
+# Jessica advises on politics
+jessica.001 = {
+    type = character_event
+    title = jessica.001.t
+    desc = jessica.001.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_rational
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+        }
+        NOT = { has_character_flag = jessica_political_advice }
+    }
+
+    weight_multiplier = {
+        base = 1
+        modifier = {
+            add = 0.5
+            intrigue < 12
+        }
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_political_advice
+    }
+
+    option = {
+        name = jessica.001.a
+        # Learn from her wisdom
+        add_intrigue_skill = 1
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = heeded_advice_opinion
+                opinion = 15
+            }
+        }
+    }
+
+    option = {
+        name = jessica.001.b
+        # I must find my own path
+        add_stress = 10
+        add_prestige = 25
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = rejected_advice_opinion
+                opinion = -10
+            }
+        }
+    }
+}
+
+# Jessica teaches the Voice
+jessica.002 = {
+    type = character_event
+    title = jessica.002.t
+    desc = jessica.002.desc
+    theme = education
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_rational
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        NOT = { has_trait = the_voice }
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = the_voice
+        }
+        NOT = { has_character_flag = jessica_voice_training }
+        current_date >= 191.6.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_voice_training
+    }
+
+    option = {
+        name = jessica.002.a
+        # Train in the Voice
+        trigger_event = { id = jessica.003 days = 30 }
+
+        custom_tooltip = begin_voice_training_tt
+    }
+
+    option = {
+        name = jessica.002.b
+        # The Fremen way is enough
+        add_piety = 25
+        add_martial_skill = 1
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = rejected_bg_training_opinion
+                opinion = -15
+            }
+        }
+    }
+}
+
+# Voice training complete
+jessica.003 = {
+    type = character_event
+    title = jessica.003.t
+    desc = jessica.003.desc
+    theme = education
+
+    left_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    right_portrait = {
+        character = scope:jessica
+        animation = happiness
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.003.a
+        add_trait = the_voice
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = proud_mother_opinion
+                opinion = 20
+            }
+        }
+
+        add_prestige = 100
+
+        custom_tooltip = learned_the_voice_tt
+    }
+}
+
+# Jessica teaches Weirding Way
+jessica.004 = {
+    type = character_event
+    title = jessica.004.t
+    desc = jessica.004.desc
+    theme = martial
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        NOT = { has_trait = weirding_way }
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = weirding_way
+        }
+        NOT = { has_character_flag = jessica_weirding_training }
+        current_date >= 191.9.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_weirding_training
+    }
+
+    option = {
+        name = jessica.004.a
+        # Train in Weirding Way
+        trigger_event = { id = jessica.005 days = 60 }
+
+        custom_tooltip = begin_weirding_training_tt
+    }
+
+    option = {
+        name = jessica.004.b
+        # Focus on Fremen combat
+        add_prowess = 2
+        add_piety = 25
+    }
+}
+
+# Weirding Way training complete
+jessica.005 = {
+    type = character_event
+    title = jessica.005.t
+    desc = jessica.005.desc
+    theme = martial
+
+    left_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.005.a
+        add_trait = weirding_way
+
+        add_prestige = 150
+        add_prowess = 3
+
+        custom_tooltip = learned_weirding_way_tt
+    }
+}
+
+# Jessica becomes Reverend Mother
+jessica.010 = {
+    type = character_event
+    title = jessica.010.t
+    desc = jessica.010.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = worry
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = bene_gesserit_trained
+            NOT = { has_trait = reverend_mother }
+        }
+        NOT = { has_character_flag = jessica_reverend_mother_event }
+        current_date >= 191.3.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_reverend_mother_event
+    }
+
+    option = {
+        name = jessica.010.a
+        # Encourage her
+        trigger_event = { id = jessica.011 days = 7 }
+
+        custom_tooltip = jessica_attempts_water_of_life_tt
+    }
+
+    option = {
+        name = jessica.010.b
+        # It's too dangerous
+        stress_impact = {
+            brave = medium_stress_impact_gain
+        }
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = protective_son_opinion
+                opinion = 10
+            }
+        }
+    }
+}
+
+# Jessica survives Water of Life
+jessica.011 = {
+    type = character_event
+    title = jessica.011.t
+    desc = jessica.011.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = pain
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.011.a
+        scope:jessica = {
+            # High chance of success for Jessica
+            random_list = {
+                90 = {
+                    add_trait = reverend_mother
+                    add_trait = spice_addict
+
+                    root = {
+                        trigger_event = { id = jessica.012 days = 1 }
+                    }
+                }
+                10 = {
+                    root = {
+                        trigger_event = { id = jessica.013 days = 1 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Jessica becomes Reverend Mother - Success
+jessica.012 = {
+    type = character_event
+    title = jessica.012.t
+    desc = jessica.012.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_zealous
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.012.a
+        add_piety = 200
+        add_prestige = 100
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = shared_mystical_experience_opinion
+                opinion = 25
+            }
+        }
+
+        # Fremen respect increases
+        every_vassal = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = reverend_mother_family_opinion
+                opinion = 15
+            }
+        }
+
+        custom_tooltip = jessica_becomes_reverend_mother_tt
+    }
+}
+
+# Jessica dies in the attempt
+jessica.013 = {
+    type = character_event
+    title = jessica.013.t
+    desc = jessica.013.desc
+    theme = skull
+
+    left_portrait = {
+        character = scope:jessica
+        animation = pain
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.013.a
+        scope:jessica = {
+            death = {
+                death_reason = death_spice_agony
+            }
+        }
+
+        add_stress = 100
+        add_prestige = -50
+
+        custom_tooltip = jessica_dies_spice_agony_tt
+    }
+}
+
+# Jessica warns about prescience
+jessica.020 = {
+    type = character_event
+    title = jessica.020.t
+    desc = jessica.020.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = scope:jessica
+        animation = worry
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        has_trait = prescient
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+        }
+        NOT = { has_character_flag = jessica_prescience_warning }
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_prescience_warning
+    }
+
+    option = {
+        name = jessica.020.a
+        # Heed her warning
+        add_learning_skill = 1
+        add_stress = -20
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = heeded_advice_opinion
+                opinion = 15
+            }
+        }
+    }
+
+    option = {
+        name = jessica.020.b
+        # I see the Golden Path
+        add_prestige = 50
+        add_stress = 20
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = worried_mother_opinion
+                opinion = -5
+            }
+        }
+    }
+}
+

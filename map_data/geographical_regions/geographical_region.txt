@@ -7,6 +7,16 @@
 #########################
 #### VANILLA REGIONS ####
 #########################
+world_arrakis = {
+    duchies = {
+        d_imperial_basin
+        d_hole_in_the_rock
+        d_sietch_tabr
+        d_tuonq_basin
+        d_hagga_basin
+        d_northern_minor_erg
+    }
+}
 world_europe_south = {
     duchies = {
         d_atlantis
