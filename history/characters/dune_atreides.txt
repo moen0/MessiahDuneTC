@@ -52,7 +52,7 @@
         add_concubine = 5
     }
     191.1.3 = {
-        death = yes
+        death =  { killer = 50 }
     }
 }
 
@@ -107,8 +107,8 @@
 6 = {
     name = "Alia"
     female = yes
-    father = 5
-    mother = 3
+    father = 3
+    mother = 5
     dynasty = 2
     religion = "zensunni_faith"
     culture = "fremen_culture"
@@ -140,7 +140,7 @@
         birth = yes
     }
     191.1.5 = {
-        death = { killer =  }
+        death = { killer = 51  }
     }
 }
 
@@ -207,5 +207,62 @@
     }
     191.1.3 = {
         death = { killer = 50 }
+    }
+}
+
+# CHANI
+22 = {
+    name = "Chani"
+    female = yes
+    father = 23
+    dynasty = 11
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+
+    trait = education_martial_3
+    trait = beauty_good_2
+    trait = brave
+    trait = honest
+    trait = spice_addict
+
+    175.1.1 = {
+        birth = yes
+    }
+}
+
+# Liet
+23 = {
+    name = "Liet"
+    dynasty = 11
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+
+    trait = education_martial_3
+    trait = brave
+    trait = honest
+    trait = spice_addict
+    trait = zealous
+
+    175.1.1 = {
+        birth = yes
+    }
+}
+
+# STILGAR
+40 = {
+    name = "Stilgar"
+    dynasty = 12
+    religion = "zensunni_faith"
+    culture = "fremen_culture"
+
+    trait = education_martial_4
+    trait = brave
+    trait = just
+    trait = patient
+    trait = spice_addict
+    trait = zealous
+
+    145.1.1 = {
+        birth = yes
     }
 }

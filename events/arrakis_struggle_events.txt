@@ -1,0 +1,1301 @@
+namespace = arrakis_struggle
+
+# Struggle Begins - Leto Dies
+arrakis_struggle.001 = {
+    type = character_event
+    title = arrakis_struggle.001.t
+    desc = arrakis_struggle.001.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = grief
+    }
+
+    trigger = {
+        game_start_date = 191.1.1
+        current_date >= 191.1.4
+    }
+
+    immediate = {
+        set_global_variable = {
+            name = arrakis_struggle_active
+            value = yes
+        }
+        # Paul flees to Fremen
+        character:12 = {
+            save_scope_as = paul
+            add_character_flag = paul_atreides
+            set_variable = {
+                name = fremen_survival_start
+                value = current_date
+            }
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.001.a
+        custom_tooltip = struggle_begins_tt
+    }
+}
+
+###################################
+# OPPRESSION PHASE EVENTS (100s)
+###################################
+
+# Harkonnen Reprisal/Atrocity
+arrakis_struggle.100 = {
+    type = character_event
+    title = arrakis_struggle.100.t
+    desc = arrakis_struggle.100.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = anger
+    }
+
+    trigger = {
+        culture = culture:fremen_culture
+        is_ruler = yes
+        exists = global_var:arrakis_struggle_active
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    option = {
+        name = arrakis_struggle.100.a
+        add_prestige = -50
+        capital_county = {
+            add_county_modifier = {
+                modifier = harkonnen_atrocity_modifier
+                years = 2
+            }
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.100.b
+        add_dread = 10
+        stress_impact = {
+            compassionate = major_stress_impact_gain
+            just = medium_stress_impact_gain
+        }
+    }
+}
+
+# Sietch Discovery
+arrakis_struggle.101 = {
+    type = character_event
+    title = arrakis_struggle.101.t
+    desc = arrakis_struggle.101.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = root
+        animation = worry
+    }
+
+    trigger = {
+        culture = culture:fremen_culture
+        is_ruler = yes
+        exists = global_var:arrakis_struggle_active
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    option = {
+        name = arrakis_struggle.101.a
+        # Evacuate - lose gold, save people
+        remove_short_term_gold = 100
+        add_piety = 50
+    }
+
+    option = {
+        name = arrakis_struggle.101.b
+        # Fight - risky
+        duel = {
+            skill = martial
+            value = 12
+
+            50 = {
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = 2
+                }
+                desc = arrakis_struggle.101.b.success
+                send_interface_toast = {
+                    title = arrakis_struggle.101.b.success
+                    add_prestige = 100
+                }
+            }
+            50 = {
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = -2
+                }
+                desc = arrakis_struggle.101.b.failure
+                send_interface_toast = {
+                    title = arrakis_struggle.101.b.failure
+                    add_prestige = -100
+                    capital_county = {
+                        add_county_modifier = {
+                            modifier = sietch_destroyed_modifier
+                            years = 5
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Water Shortage
+arrakis_struggle.102 = {
+    type = character_event
+    title = arrakis_struggle.102.t
+    desc = arrakis_struggle.102.desc
+    theme = skull
+
+    left_portrait = {
+        character = root
+        animation = worry
+    }
+
+    trigger = {
+        culture = culture:fremen_culture
+        is_ruler = yes
+        exists = global_var:arrakis_struggle_active
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    option = {
+        name = arrakis_struggle.102.a
+        # Ration strictly
+        add_stress = 20
+        capital_county = {
+            add_county_modifier = {
+                modifier = water_rationing_modifier
+                years = 1
+            }
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.102.b
+        # Raid for water
+        add_prestige = 25
+        add_dread = 5
+    }
+}
+
+###################################
+# RESISTANCE PHASE EVENTS (200s)
+###################################
+
+# Fremen Ambush Success
+arrakis_struggle.200 = {
+    type = character_event
+    title = arrakis_struggle.200.t
+    desc = arrakis_struggle.200.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+
+    trigger = {
+        culture = culture:fremen_culture
+        is_ruler = yes
+        exists = global_var:arrakis_struggle_active
+    }
+
+    weight_multiplier = {
+        base = 1
+        modifier = {
+            add = 0.5
+            martial >= 12
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.200.a
+        add_gold = 150
+        add_prestige = 75
+    }
+}
+
+# Spice Blow
+arrakis_struggle.201 = {
+    type = character_event
+    title = arrakis_struggle.201.t
+    desc = arrakis_struggle.201.desc
+    theme = stewardship
+
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+
+    trigger = {
+        is_ruler = yes
+        any_held_title = {
+            tier >= tier_county
+            title_province = { geographical_region = k_arrakis }
+        }
+        exists = global_var:arrakis_struggle_active
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    option = {
+        name = arrakis_struggle.201.a
+        add_gold = 300
+        add_prestige = 50
+    }
+
+    option = {
+        name = arrakis_struggle.201.b
+        # Harvest quickly - risk sandworm
+        random_list = {
+            70 = {
+                add_gold = 500
+                add_prestige = 100
+            }
+            30 = {
+                trigger_event = { id = arrakis_struggle.202 days = 3 }
+            }
+        }
+    }
+}
+
+# Sandworm Attack
+arrakis_struggle.202 = {
+    type = character_event
+    title = arrakis_struggle.202.t
+    desc = arrakis_struggle.202.desc
+    theme = skull
+
+    left_portrait = {
+        character = root
+        animation = fear
+    }
+
+    trigger = {
+        is_ruler = yes
+        exists = global_var:arrakis_struggle_active
+    }
+
+    immediate = { }
+
+    option = {
+        name = arrakis_struggle.202.a
+        add_gold = -200
+        add_prestige = -50
+
+        if = {
+            limit = {
+                any_army = {
+                    army_size >= 100
+                }
+            }
+            random_army = {
+                limit = { army_size >= 100 }
+                damage_army = {
+                    value = 0.3
+                }
+            }
+        }
+    }
+}
+
+# Paul Joins Fremen (Story trigger)
+arrakis_struggle.210 = {
+    type = character_event
+    title = arrakis_struggle.210.t
+    desc = arrakis_struggle.210.desc
+    theme = faith
+
+    left_portrait = {
+        character = root
+        animation = personality_honorable
+    }
+
+    right_portrait = {
+        character = scope:stilgar
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        current_date >= 191.1.10
+        NOT = { has_character_flag = joined_fremen }
+    }
+
+    immediate = {
+        character:40 = {
+            save_scope_as = stilgar
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.210.a
+        add_character_flag = joined_fremen
+        add_trait = spice_addict
+        set_culture = culture:fremen_culture
+        set_faith = faith:zensunni_faith
+
+        # Start survival timer
+        create_story = {
+            type = story_fremen_survival
+        }
+
+        add_prestige = 100
+        add_piety = 50
+    }
+}
+
+###################################
+# OPEN WAR PHASE EVENTS (300s)
+###################################
+
+# Mahdi Revealed
+arrakis_struggle.300 = {
+    type = character_event
+    title = arrakis_struggle.300.t
+    desc = arrakis_struggle.300.desc
+    theme = faith
+
+    left_portrait = {
+        character = root
+        animation = personality_zealous
+    }
+
+    trigger = {
+        has_trait = kwisatz_haderach
+        exists = global_var:arrakis_struggle_active
+        NOT = { has_character_flag = mahdi_revealed }
+    }
+
+    immediate = {
+        add_character_flag = mahdi_revealed
+    }
+
+    option = {
+        name = arrakis_struggle.300.a
+        add_prestige = 500
+        add_piety = 300
+
+        every_ruler = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = mahdi_revealed_opinion
+                opinion = 50
+            }
+        }
+    }
+}
+
+# Emperor Arrives - Sardaukar Spawn
+arrakis_struggle.350 = {
+    type = character_event
+    title = arrakis_struggle.350.t
+    desc = arrakis_struggle.350.desc
+    theme = war
+
+    left_portrait = {
+        character = scope:emperor
+        animation = personality_bold
+    }
+
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+    }
+
+    immediate = {
+        character:60 = {
+            save_scope_as = emperor
+        }
+    }
+
+    option = {
+        name = arrakis_struggle.350.a
+        scope:emperor = {
+            # Spawn Sardaukar
+            spawn_army = {
+                name = "Sardaukar Legions"
+                levies = 5000
+                men_at_arms = {
+                    type = armored_footmen
+                    stacks = 20
+                }
+                men_at_arms = {
+                    type = heavy_cavalry
+                    stacks = 10
+                }
+                location = title:c_arrakeen.title_province
+                war = none
+            }
+        }
+
+        custom_tooltip = sardaukar_arrive_tt
+    }
+}
+
+###################################
+# RESOLUTION PHASE EVENTS (400-500s)
+###################################
+
+# Resolution Phase Begins
+arrakis_struggle.400 = {
+    type = character_event
+    title = arrakis_struggle.400.t
+    desc = arrakis_struggle.400.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+    }
+
+    option = {
+        name = arrakis_struggle.400.a
+        custom_tooltip = final_battle_approaches_tt
+    }
+}
+
+# Fremen Victory
+arrakis_struggle.500 = {
+    type = character_event
+    title = arrakis_struggle.500.t
+    desc = arrakis_struggle.500.desc
+    theme = faith
+
+    left_portrait = {
+        character = root
+        animation = personality_zealous
+    }
+
+    option = {
+        name = arrakis_struggle.500.a
+
+        add_prestige = 2000
+        add_piety = 1000
+
+        # Claim on Empire
+        add_unpressed_claim = title:e_imperium
+
+        every_ruler = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = liberated_arrakis_opinion
+                opinion = 100
+            }
+        }
+
+        # End struggle
+        custom_tooltip = fremen_victory_tt
+    }
+}
+
+# Harkonnen Dominance
+arrakis_struggle.550 = {
+    type = character_event
+    title = arrakis_struggle.550.t
+    desc = arrakis_struggle.550.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = personality_cruel
+    }
+
+    option = {
+        name = arrakis_struggle.550.a
+
+        add_prestige = 1500
+        add_dread = 50
+
+        # Fremen crushed
+        every_ruler = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = fremen_oppressor_opinion
+                opinion = -100
+            }
+        }
+
+        custom_tooltip = harkonnen_dominance_tt
+    }
+}
+
+namespace = gurney_halleck
+
+# Gurney Halleck Returns
+gurney_halleck.001 = {
+    type = character_event
+    title = gurney_halleck.001.t
+    desc = gurney_halleck.001.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+
+    right_portrait = {
+        character = scope:gurney
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        current_date >= 192.1.4
+        NOT = { has_character_flag = gurney_returned }
+        is_alive = yes
+    }
+
+    immediate = {
+        character:31 = {
+            save_scope_as = gurney
+            if = {
+                limit = { is_alive = no }
+                # Gurney died somehow, create new one
+            }
+        }
+        add_character_flag = gurney_returned
+    }
+
+    option = {
+        name = gurney_halleck.001.a
+        # Accept Gurney
+        scope:gurney = {
+            add_to_court = root
+            add_opinion = {
+                target = root
+                modifier = reunited_loyalty_opinion
+                opinion = 50
+            }
+        }
+
+        add_prestige = 100
+
+        custom_tooltip = gurney_joins_court_tt
+    }
+
+    option = {
+        name = gurney_halleck.001.b
+        # Refuse - too dangerous
+        trigger = {
+            OR = {
+                has_trait = paranoid
+                has_trait = craven
+            }
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = rejected_loyalty_opinion
+                opinion = -50
+            }
+        }
+
+        stress_impact = {
+            compassionate = major_stress_impact_gain
+            honest = medium_stress_impact_gain
+        }
+
+        custom_tooltip = gurney_rejected_tt
+    }
+
+    option = {
+        name = gurney_halleck.001.c
+        # Refuse - Fremen don't trust outsiders
+        trigger = {
+            NOT = { has_trait = paranoid }
+            NOT = { has_trait = craven }
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = rejected_loyalty_opinion
+                opinion = -30
+            }
+        }
+
+        add_piety = 25
+
+        every_vassal = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = respected_fremen_ways_opinion
+                opinion = 10
+            }
+        }
+
+        custom_tooltip = gurney_rejected_fremen_tt
+    }
+}
+
+# Gurney tells of his time with smugglers
+gurney_halleck.002 = {
+    type = character_event
+    title = gurney_halleck.002.t
+    desc = gurney_halleck.002.desc
+    theme = friendly
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    right_portrait = {
+        character = scope:gurney
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = gurney_returned
+        any_courtier = {
+            has_trait = swordmaster
+            dynasty = dynasty:3
+        }
+        NOT = { has_character_flag = gurney_story_told }
+        current_date >= 192.3.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        add_character_flag = gurney_story_told
+        random_courtier = {
+            limit = {
+                has_trait = swordmaster
+                dynasty = dynasty:3
+            }
+            save_scope_as = gurney
+        }
+    }
+
+    option = {
+        name = gurney_halleck.002.a
+        # Learn smuggler secrets
+        add_intrigue_skill = 1
+        add_gold = 50
+
+        custom_tooltip = gurney_smuggler_contacts_tt
+    }
+
+    option = {
+        name = gurney_halleck.002.b
+        # Focus on revenge
+        add_martial_skill = 1
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = shared_vengeance_opinion
+                opinion = 15
+            }
+        }
+    }
+}
+
+# Gurney wants revenge on Harkonnens
+gurney_halleck.003 = {
+    type = character_event
+    title = gurney_halleck.003.t
+    desc = gurney_halleck.003.desc
+    theme = war
+
+    left_portrait = {
+        character = scope:gurney
+        animation = anger
+    }
+
+    trigger = {
+        has_character_flag = gurney_returned
+        any_courtier = {
+            has_trait = swordmaster
+            dynasty = dynasty:3
+        }
+        NOT = { has_character_flag = gurney_revenge_discussed }
+        current_date >= 192.6.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        add_character_flag = gurney_revenge_discussed
+        random_courtier = {
+            limit = {
+                has_trait = swordmaster
+                dynasty = dynasty:3
+            }
+            save_scope_as = gurney
+        }
+    }
+
+    option = {
+        name = gurney_halleck.003.a
+        # Promise vengeance
+        add_prestige = 50
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = promised_vengeance_opinion
+                opinion = 25
+            }
+        }
+
+        character:50 = {
+            save_scope_as = baron
+        }
+
+        add_opinion = {
+            target = scope:baron
+            modifier = sworn_enemy_opinion
+            opinion = -100
+        }
+    }
+
+    option = {
+        name = gurney_halleck.003.b
+        # Counsel patience
+        stress_impact = {
+            wrathful = medium_stress_impact_gain
+            impatient = minor_stress_impact_gain
+        }
+
+        scope:gurney = {
+            add_opinion = {
+                target = root
+                modifier = counseled_patience_opinion
+                opinion = -10
+            }
+        }
+
+        add_piety = 25
+    }
+}
+
+namespace = jessica
+
+# Jessica advises on politics
+jessica.001 = {
+    type = character_event
+    title = jessica.001.t
+    desc = jessica.001.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_rational
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+        }
+        NOT = { has_character_flag = jessica_political_advice }
+    }
+
+    weight_multiplier = {
+        base = 1
+        modifier = {
+            add = 0.5
+            intrigue < 12
+        }
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_political_advice
+    }
+
+    option = {
+        name = jessica.001.a
+        # Learn from her wisdom
+        add_intrigue_skill = 1
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = heeded_advice_opinion
+                opinion = 15
+            }
+        }
+    }
+
+    option = {
+        name = jessica.001.b
+        # I must find my own path
+        add_stress = 10
+        add_prestige = 25
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = rejected_advice_opinion
+                opinion = -10
+            }
+        }
+    }
+}
+
+# Jessica teaches the Voice
+jessica.002 = {
+    type = character_event
+    title = jessica.002.t
+    desc = jessica.002.desc
+    theme = education
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_rational
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        NOT = { has_trait = the_voice }
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = the_voice
+        }
+        NOT = { has_character_flag = jessica_voice_training }
+        current_date >= 191.6.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_voice_training
+    }
+
+    option = {
+        name = jessica.002.a
+        # Train in the Voice
+        trigger_event = { id = jessica.003 days = 30 }
+
+        custom_tooltip = begin_voice_training_tt
+    }
+
+    option = {
+        name = jessica.002.b
+        # The Fremen way is enough
+        add_piety = 25
+        add_martial_skill = 1
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = rejected_bg_training_opinion
+                opinion = -15
+            }
+        }
+    }
+}
+
+# Voice training complete
+jessica.003 = {
+    type = character_event
+    title = jessica.003.t
+    desc = jessica.003.desc
+    theme = education
+
+    left_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    right_portrait = {
+        character = scope:jessica
+        animation = happiness
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.003.a
+        add_trait = the_voice
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = proud_mother_opinion
+                opinion = 20
+            }
+        }
+
+        add_prestige = 100
+
+        custom_tooltip = learned_the_voice_tt
+    }
+}
+
+# Jessica teaches Weirding Way
+jessica.004 = {
+    type = character_event
+    title = jessica.004.t
+    desc = jessica.004.desc
+    theme = martial
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_bold
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        NOT = { has_trait = weirding_way }
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = weirding_way
+        }
+        NOT = { has_character_flag = jessica_weirding_training }
+        current_date >= 191.9.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_weirding_training
+    }
+
+    option = {
+        name = jessica.004.a
+        # Train in Weirding Way
+        trigger_event = { id = jessica.005 days = 60 }
+
+        custom_tooltip = begin_weirding_training_tt
+    }
+
+    option = {
+        name = jessica.004.b
+        # Focus on Fremen combat
+        add_prowess = 2
+        add_piety = 25
+    }
+}
+
+# Weirding Way training complete
+jessica.005 = {
+    type = character_event
+    title = jessica.005.t
+    desc = jessica.005.desc
+    theme = martial
+
+    left_portrait = {
+        character = root
+        animation = personality_bold
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.005.a
+        add_trait = weirding_way
+
+        add_prestige = 150
+        add_prowess = 3
+
+        custom_tooltip = learned_weirding_way_tt
+    }
+}
+
+# Jessica becomes Reverend Mother
+jessica.010 = {
+    type = character_event
+    title = jessica.010.t
+    desc = jessica.010.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = worry
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        is_alive = yes
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+            has_trait = bene_gesserit_trained
+            NOT = { has_trait = reverend_mother }
+        }
+        NOT = { has_character_flag = jessica_reverend_mother_event }
+        current_date >= 191.3.1
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_reverend_mother_event
+    }
+
+    option = {
+        name = jessica.010.a
+        # Encourage her
+        trigger_event = { id = jessica.011 days = 7 }
+
+        custom_tooltip = jessica_attempts_water_of_life_tt
+    }
+
+    option = {
+        name = jessica.010.b
+        # It's too dangerous
+        stress_impact = {
+            brave = medium_stress_impact_gain
+        }
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = protective_son_opinion
+                opinion = 10
+            }
+        }
+    }
+}
+
+# Jessica survives Water of Life
+jessica.011 = {
+    type = character_event
+    title = jessica.011.t
+    desc = jessica.011.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = pain
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.011.a
+        scope:jessica = {
+            # High chance of success for Jessica
+            random_list = {
+                90 = {
+                    add_trait = reverend_mother
+                    add_trait = spice_addict
+
+                    root = {
+                        trigger_event = { id = jessica.012 days = 1 }
+                    }
+                }
+                10 = {
+                    root = {
+                        trigger_event = { id = jessica.013 days = 1 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+# Jessica becomes Reverend Mother - Success
+jessica.012 = {
+    type = character_event
+    title = jessica.012.t
+    desc = jessica.012.desc
+    theme = faith
+
+    left_portrait = {
+        character = scope:jessica
+        animation = personality_zealous
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.012.a
+        add_piety = 200
+        add_prestige = 100
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = shared_mystical_experience_opinion
+                opinion = 25
+            }
+        }
+
+        # Fremen respect increases
+        every_vassal = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = reverend_mother_family_opinion
+                opinion = 15
+            }
+        }
+
+        custom_tooltip = jessica_becomes_reverend_mother_tt
+    }
+}
+
+# Jessica dies in the attempt
+jessica.013 = {
+    type = character_event
+    title = jessica.013.t
+    desc = jessica.013.desc
+    theme = skull
+
+    left_portrait = {
+        character = scope:jessica
+        animation = pain
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+    }
+
+    option = {
+        name = jessica.013.a
+        scope:jessica = {
+            death = {
+                death_reason = death_spice_agony
+            }
+        }
+
+        add_stress = 100
+        add_prestige = -50
+
+        custom_tooltip = jessica_dies_spice_agony_tt
+    }
+}
+
+# Jessica warns about prescience
+jessica.020 = {
+    type = character_event
+    title = jessica.020.t
+    desc = jessica.020.desc
+    theme = intrigue
+
+    left_portrait = {
+        character = scope:jessica
+        animation = worry
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+        has_trait = prescient
+        mother = {
+            is_alive = yes
+            is_courtier_of = root
+        }
+        NOT = { has_character_flag = jessica_prescience_warning }
+    }
+
+    weight_multiplier = {
+        base = 1
+    }
+
+    immediate = {
+        mother = {
+            save_scope_as = jessica
+        }
+        add_character_flag = jessica_prescience_warning
+    }
+
+    option = {
+        name = jessica.020.a
+        # Heed her warning
+        add_learning_skill = 1
+        add_stress = -20
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = heeded_advice_opinion
+                opinion = 15
+            }
+        }
+    }
+
+    option = {
+        name = jessica.020.b
+        # I see the Golden Path
+        add_prestige = 50
+        add_stress = 20
+
+        scope:jessica = {
+            add_opinion = {
+                target = root
+                modifier = worried_mother_opinion
+                opinion = -5
+            }
+        }
+    }
+}
+

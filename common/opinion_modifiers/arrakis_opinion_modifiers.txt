@@ -1,0 +1,19 @@
+mahdi_revealed_opinion = {
+    opinion = 50
+    decay = { years = 100 }
+}
+
+kwisatz_haderach_opinion = {
+    opinion = 75
+    decay = { years = 100 }
+}
+
+liberated_arrakis_opinion = {
+    opinion = 100
+    decay = { years = 50 }
+}
+
+fremen_oppressor_opinion = {
+    opinion = -100
+    decay = { years = 25 }
+}

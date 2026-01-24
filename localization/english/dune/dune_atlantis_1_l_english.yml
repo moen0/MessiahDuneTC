@@ -1,8 +1,29 @@
 ﻿l_english:
 
 
- bm_1_dune:0 "Dune"
+ bm_1_dune:0 "The Arrival of the Atreides"
  bm_group_dune_desc:0 "Dune"
  bm_group_dune:0 "Dune Bookmarks"
 bookmark_dune_paul:0 "Paul Atreides"
 bookmark_dune_paul_desc:0 "Paul Atreides, the son of Duke Leto."
+l_english:
+ bm_group_dune: "Dune: Arrakis"
+
+ bm_fall_of_atreides: "The Fall of House Atreides"
+ bm_fall_of_atreides_desc: "The year is 10191. Duke Leto Atreides lies dead, betrayed by his own physician. The Harkonnens have seized Arrakis once more, and Beast Rabban rules with an iron fist.\n\nBut in the deep desert, hope survives. Paul Atreides and his mother Jessica have escaped into the sands, where the Fremen whisper of ancient prophecies. The Lisan al-Gaib has come.\n\nWill Paul fulfill his destiny as the Kwisatz Haderach and reclaim Arrakis? Or will the Harkonnens crush the Fremen rebellion forever?"
+
+ bookmark_paul_atreides: "Paul Atreides"
+ bookmark_paul_atreides_desc: "The son of Duke Leto and the Bene Gesserit Lady Jessica, Paul has escaped into the desert after his father's murder. The Fremen believe he may be the Lisan al-Gaib—the Voice from the Outer World. His journey has just begun."
+
+ bookmark_glossu_rabban: "Glossu 'Beast' Rabban"
+ bookmark_glossu_rabban_desc: "The brutish nephew of Baron Vladimir Harkonnen, Rabban has been given control of Arrakis to squeeze the planet for spice. His cruelty knows no bounds, and the Fremen hate him with burning passion. The Baron's plan requires Rabban to be hated—so that Feyd-Rautha can later appear as a savior."
+
+ bookmark_stilgar: "Stilgar"
+ bookmark_stilgar_desc: "Naib of Sietch Tabr, Stilgar is a legendary Fremen warrior and leader. He has accepted the Atreides fugitives into his tribe, sensing something special about the boy Paul. If the prophecies are true, Stilgar may be witnessing the birth of a god."
+
+ bookmark_shaddam: "Emperor Shaddam IV"
+ bookmark_shaddam_desc: "Padishah Emperor of the Known Universe, Shaddam IV rules from his throne on Kaitain. He conspired with the Harkonnens to destroy House Atreides, fearing Duke Leto's growing popularity. But reports from Arrakis trouble him—the Fremen are more numerous than anyone realized."
+
+ BOOKMARK_CHARACTER_DIFFICULTY_EASY: "Easy"
+ BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM: "Medium"
+ BOOKMARK_CHARACTER_DIFFICULTY_HARD: "Hard"

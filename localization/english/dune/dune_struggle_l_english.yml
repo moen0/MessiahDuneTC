@@ -1,0 +1,138 @@
+﻿l_english:
+ # Struggle
+ arrakis_struggle: "Arrakis Struggle"
+ arrakis_struggle_desc: "The desert planet Arrakis is consumed by conflict. The brutal Harkonnen overlords exploit the planet's spice wealth while the native Fremen fight for survival and freedom. A prophecy speaks of one who will come—the Lisan al-Gaib—to lead the Fremen to victory."
+
+ # Phases
+ arrakis_struggle_oppression: "Oppression"
+ arrakis_struggle_oppression_desc: "The Harkonnens rule Arrakis with an iron fist. Fremen are hunted, sietches raided, and the spice flows to offworld masters. The desert people bide their time, waiting for the prophesied one."
+
+ arrakis_struggle_resistance: "Resistance"
+ arrakis_struggle_resistance_desc: "Fremen raids grow bolder. Harkonnen patrols vanish in the desert. Whispers spread of a leader emerging among the sand people. The oppressors begin to fear the night."
+
+ arrakis_struggle_open_war: "Open War"
+ arrakis_struggle_open_war_desc: "The desert burns with open warfare. Fremen fedaykin strike without mercy. Sandworms answer the call of thumpers. The Emperor himself takes notice of the chaos threatening his spice supply."
+
+ arrakis_struggle_resolution: "Resolution"
+ arrakis_struggle_resolution_desc: "The final battle approaches. Either the Fremen will claim their homeworld, or the Harkonnens will crush the rebellion forever. The fate of the Known Universe hangs in the balance."
+
+ # Events
+ arrakis_struggle.001.t: "The Fall of House Atreides"
+ arrakis_struggle.001.desc: "Duke Leto Atreides is dead, betrayed by a traitor within his own household. The Harkonnens have returned to Arrakis with a vengeance. But rumors persist—the Duke's son and concubine escaped into the desert. The Fremen whisper of prophecy fulfilled..."
+ arrakis_struggle.001.a: "The struggle begins."
+
+ arrakis_struggle.100.t: "Harkonnen Reprisal"
+ arrakis_struggle.100.desc: "Harkonnen troops have descended upon a Fremen settlement in brutal retaliation for recent raids. The screams of the dying echo across the sands. This atrocity will not be forgotten."
+ arrakis_struggle.100.a: "We must endure."
+ arrakis_struggle.100.b: "We will have our vengeance."
+
+ arrakis_struggle.101.t: "Sietch Discovered"
+ arrakis_struggle.101.desc: "Harkonnen scouts have located one of our hidden sietches. They are mobilizing forces for an assault. We must act quickly—evacuate our people or stand and fight."
+ arrakis_struggle.101.a: "Evacuate immediately."
+ arrakis_struggle.101.b: "We stand and fight!"
+ arrakis_struggle.101.b.success: "Ambush Successful"
+ arrakis_struggle.101.b.failure: "Sietch Lost"
+
+ arrakis_struggle.102.t: "Water Shortage"
+ arrakis_struggle.102.desc: "Our water reserves are dangerously low. The wind traps have not produced enough, and we lost water-brothers in the last raid. Hard choices must be made."
+ arrakis_struggle.102.a: "Implement strict rationing."
+ arrakis_struggle.102.b: "Raid the Harkonnens for water."
+
+ arrakis_struggle.200.t: "Successful Ambush"
+ arrakis_struggle.200.desc: "Our fedaykin struck a Harkonnen spice caravan in the deep desert. The enemy patrol was annihilated to the last man. Their water is ours, their equipment salvaged. Shai-Hulud provides."
+ arrakis_struggle.200.a: "Their water belongs to the tribe now."
+
+ arrakis_struggle.201.t: "Spice Blow!"
+ arrakis_struggle.201.desc: "A massive spice blow has been detected nearby! The pre-spice mass has erupted, spreading melange across the sands. This is a rare opportunity for wealth—but the worms will come."
+ arrakis_struggle.201.a: "Harvest carefully."
+ arrakis_struggle.201.b: "Harvest everything quickly!"
+
+ arrakis_struggle.202.t: "Shai-Hulud Comes!"
+ arrakis_struggle.202.desc: "The sand trembles. A great maker rises from the depths, drawn by the vibrations of our harvesting. Equipment is lost, men swallowed by the desert. The price of greed."
+ arrakis_struggle.202.a: "We should have been more careful."
+
+ arrakis_struggle.210.t: "Accepted by the Fremen"
+ arrakis_struggle.210.desc: "Stilgar, Naib of Sietch Tabr, has accepted us into his tribe. We have proven ourselves in the desert, learned the ways of the sand. We are Fremen now. The prophecy of the Lisan al-Gaib echoes in every sietch."
+ arrakis_struggle.210.a: "I am Usul. I am Muad'Dib."
+
+ arrakis_struggle.300.t: "The Mahdi Revealed"
+ arrakis_struggle.300.desc: "The Fremen of a thousand sietches have seen the signs. The Lisan al-Gaib has come. The Kwisatz Haderach walks among them. The prophecy is fulfilled, and the desert rises as one people, united behind their messiah."
+ arrakis_struggle.300.a: "Lead them to victory."
+
+ arrakis_struggle.350.t: "The Emperor Arrives"
+ arrakis_struggle.350.desc: "Shaddam IV himself has come to Arrakis with his Sardaukar legions. The Emperor will not tolerate threats to the spice. His elite terror troops land on the desert planet, ready to crush all who oppose Imperial will."
+ arrakis_struggle.350.a: "Let him come."
+
+ arrakis_struggle.400.t: "The Final Battle Approaches"
+ arrakis_struggle.400.desc: "All sides have gathered their strength. The Harkonnens, the Sardaukar, the Fremen—all converge on Arrakeen. The fate of Arrakis, of the spice, of the Known Universe itself, will be decided in the coming days."
+ arrakis_struggle.400.a: "History will be written in blood."
+
+ arrakis_struggle.500.t: "Fremen Victory!"
+ arrakis_struggle.500.desc: "The Harkonnens are broken. The Sardaukar defeated. The Emperor himself kneels before the Kwisatz Haderach. Arrakis belongs to the Fremen at last. A new era dawns—but at what cost? The jihad that follows will claim billions of lives across the galaxy."
+ arrakis_struggle.500.a: "I am the Kwisatz Haderach. I am the Emperor."
+
+ arrakis_struggle.550.t: "Harkonnen Dominance"
+ arrakis_struggle.550.desc: "The Fremen rebellion is crushed. Their sietches emptied, their people scattered to the deep desert. The Harkonnens rule Arrakis absolutely, and the spice flows once more. The prophecy was false. There is no Mahdi."
+ arrakis_struggle.550.a: "Arrakis is ours. Forever."
+
+ # Kwisatz Haderach Events
+ kwisatz_haderach.001.t: "The Water of Life"
+ kwisatz_haderach.001.desc: "The time has come. The Reverend Mothers offer the Water of Life—the bile of a drowned sandworm, deadly poison to any male who drinks it. No man has ever survived. But you are not any man. You are the Kwisatz Haderach... or you are dead."
+ kwisatz_haderach.001.a: "I will drink."
+ kwisatz_haderach.001.b: "I am not ready."
+
+ kwisatz_haderach.002.t: "The Spice Agony"
+ kwisatz_haderach.002.desc: "The poison courses through your veins like liquid fire. Your mind expands beyond the limits of time and space. You see the past, the present, the infinite futures branching before you. You must convert the poison... or die."
+ kwisatz_haderach.002.a: "I must survive."
+
+ kwisatz_haderach.003.t: "The Kwisatz Haderach Awakens"
+ kwisatz_haderach.003.desc: "You have done what no man has done before. The Water of Life is converted. Your mind encompasses all that was, all that is, all that could be. You are the Kwisatz Haderach—the one who can be many places at once. The Shortening of the Way. The universe will kneel."
+ kwisatz_haderach.003.a: "I see the Golden Path."
+
+ kwisatz_haderach.004.t: "The Agony Claims You"
+ kwisatz_haderach.004.desc: "The poison is too strong. Your mind, expanded to the very limits of human consciousness, cannot convert the Water of Life. As darkness claims you, you realize the prophecy was wrong. There will be no Kwisatz Haderach. Not today."
+ kwisatz_haderach.004.a: "Darkness..."
+
+ # Decisions
+ become_kwisatz_haderach_decision: "Undergo the Spice Agony"
+ become_kwisatz_haderach_decision_desc: "The Reverend Mothers believe I may be the Kwisatz Haderach—the male Bene Gesserit who can access both male and female ancestral memories. To prove it, I must drink the Water of Life and survive what no man has survived before."
+ become_kwisatz_haderach_decision_tooltip: "Attempt to become the Kwisatz Haderach"
+
+ survived_two_years_with_fremen_tt: "Has survived two years with the Fremen"
+
+ arrakis_struggle_fremen_victory_decision: "Declare Fremen Victory"
+ arrakis_struggle_fremen_victory_decision_desc: "The Harkonnens are defeated. Arrakis is ours. It is time to declare victory and claim what is rightfully ours—the throne of the Known Universe itself."
+ arrakis_struggle_fremen_victory_decision_tooltip: "End the struggle with Fremen victory"
+
+ arrakis_struggle_harkonnen_dominance_decision: "Declare Harkonnen Dominance"
+ arrakis_struggle_harkonnen_dominance_decision_desc: "The Fremen rebellion is crushed. Their sietches are empty, their warriors dead. Arrakis belongs to House Harkonnen now and forever."
+ arrakis_struggle_harkonnen_dominance_decision_tooltip: "End the struggle with Harkonnen dominance"
+
+ harkonnen_defeated_tt: "No Harkonnen holds land on Arrakis"
+ fremen_crushed_tt: "No Fremen ruler holds land on Arrakis"
+
+ # Tooltips
+ struggle_begins_tt: "The Arrakis Struggle has begun"
+ sardaukar_arrive_tt: "The Emperor's Sardaukar legions have arrived on Arrakis"
+ final_battle_approaches_tt: "The final battle for Arrakis approaches"
+ fremen_victory_tt: "The Fremen have liberated Arrakis"
+ harkonnen_dominance_tt: "The Harkonnens have crushed the Fremen rebellion"
+ kwisatz_haderach_becomes_tt: "You have become the Kwisatz Haderach"
+
+ # Modifiers
+ harkonnen_atrocity_modifier: "Harkonnen Atrocity"
+ sietch_destroyed_modifier: "Sietch Destroyed"
+ water_rationing_modifier: "Water Rationing"
+
+ # Traits
+ kwisatz_haderach: "Kwisatz Haderach"
+ kwisatz_haderach_desc: "The Shortening of the Way. The one who can be many places at once. You have survived the spice agony and awakened powers no human has possessed before. You see all times, all places. The universe bends to your will."
+
+ prescient: "Prescient"
+ prescient_desc: "Your mind perceives the threads of time itself. You see possible futures stretching before you, branching paths of probability. This gift—or curse—shapes your every decision."
+
+ # Death
+ death_spice_agony: "died during the spice agony"
+```
+
+ ---

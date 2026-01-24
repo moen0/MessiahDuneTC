@@ -1,0 +1,129 @@
+namespace = kwisatz_haderach
+
+# Water of Life Ceremony
+kwisatz_haderach.001 = {
+    type = character_event
+    title = kwisatz_haderach.001.t
+    desc = kwisatz_haderach.001.desc
+    theme = faith
+
+    left_portrait = {
+        character = root
+        animation = personality_zealous
+    }
+
+    trigger = {
+        has_character_flag = paul_atreides
+    }
+
+    option = {
+        name = kwisatz_haderach.001.a
+        # Drink the Water of Life
+        trigger_event = { id = kwisatz_haderach.002 days = 3 }
+    }
+
+    option = {
+        name = kwisatz_haderach.001.b
+        # Refuse - not ready
+        add_stress = 50
+    }
+}
+
+# Spice Agony
+kwisatz_haderach.002 = {
+    type = character_event
+    title = kwisatz_haderach.002.t
+    desc = kwisatz_haderach.002.desc
+    theme = skull
+
+    left_portrait = {
+        character = root
+        animation = pain
+    }
+
+    option = {
+        name = kwisatz_haderach.002.a
+        # Survive - become Kwisatz Haderach
+        random_list = {
+            85 = {
+                modifier = {
+                    add = 10
+                    learning >= 15
+                }
+                modifier = {
+                    add = 5
+                    has_trait = genius
+                }
+                trigger_event = { id = kwisatz_haderach.003 days = 1 }
+            }
+            15 = {
+                modifier = {
+                    add = -10
+                    learning >= 15
+                }
+                modifier = {
+                    add = -5
+                    has_trait = genius
+                }
+                trigger_event = { id = kwisatz_haderach.004 days = 1 }
+            }
+        }
+    }
+}
+
+# Success - Become Kwisatz Haderach
+kwisatz_haderach.003 = {
+    type = character_event
+    title = kwisatz_haderach.003.t
+    desc = kwisatz_haderach.003.desc
+    theme = faith
+
+    left_portrait = {
+        character = root
+        animation = personality_zealous
+    }
+
+    option = {
+        name = kwisatz_haderach.003.a
+
+        add_trait = kwisatz_haderach
+        add_trait = prescient
+
+        add_prestige = 1000
+        add_piety = 500
+
+        add_pressed_claim = title:e_imperium
+
+        # All Fremen love you
+        every_ruler = {
+            limit = { culture = culture:fremen_culture }
+            add_opinion = {
+                target = root
+                modifier = kwisatz_haderach_opinion
+                opinion = 75
+            }
+        }
+
+        custom_tooltip = kwisatz_haderach_becomes_tt
+    }
+}
+
+# Failure - Death
+kwisatz_haderach.004 = {
+    type = character_event
+    title = kwisatz_haderach.004.t
+    desc = kwisatz_haderach.004.desc
+    theme = skull
+
+    left_portrait = {
+        character = root
+        animation = pain
+    }
+
+    option = {
+        name = kwisatz_haderach.004.a
+        death = {
+            death_reason = death_spice_agony
+        }
+    }
+}

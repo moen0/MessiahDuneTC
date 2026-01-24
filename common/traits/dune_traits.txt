@@ -164,3 +164,90 @@ bene_gesserit_trained = {
         arbitrary = -0.5
     }
 }
+
+kwisatz_haderach = {
+    index = 1010
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 4
+    intrigue = 6
+    learning = 10
+    prowess = 12
+
+    monthly_prestige = 3
+    monthly_piety = 2
+    health = 1
+    fertility = -0.25
+    attraction_opinion = 20
+    vassal_opinion = 15
+    same_faith_opinion = 30
+    dread_baseline_add = 25
+
+    desc = kwisatz_haderach_desc
+
+    icon = "gfx/interface/icons/traits/kwisatz_haderach.dds"
+
+    valid_sex = male
+
+    immortal = no
+
+    shown_in_ruler_designer = no
+
+    compatibility = {
+        brave = 1
+        ambitious = 1
+        zealous = 0.5
+    }
+}
+
+prescient = {
+    index = 1011
+
+    intrigue = 6
+    learning = 4
+    martial = 4
+
+    monthly_prestige = 1
+    hostile_scheme_resistance_add = 30
+    enemy_hostile_scheme_success_chance_add = -20
+
+    desc = prescient_desc
+
+    icon = "gfx/interface/icons/traits/prescient.dds"
+
+    valid_sex = all
+
+    compatibility = {
+        patient = 1
+        paranoid = 0.5
+    }
+}
+
+reverend_mother = {
+    index = 1012
+
+    diplomacy = 4
+    intrigue = 8
+    learning = 10
+
+    monthly_piety = 1
+    monthly_prestige = 0.5
+    health = 0.5
+    fertility = -0.5
+
+    same_trait_opinion = 30
+    clergy_opinion = 25
+
+    desc = reverend_mother_desc
+
+    icon = "gfx/interface/icons/traits/reverend_mother.dds"
+
+    valid_sex = female
+
+    compatibility = {
+        patient = 1
+        calm = 1
+        intelligent = 1
+    }
+}

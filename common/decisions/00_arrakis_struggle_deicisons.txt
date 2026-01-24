@@ -1,0 +1,137 @@
+# Kwisatz Haderach Decision
+become_kwisatz_haderach_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+    desc = become_kwisatz_haderach_decision_desc
+    selection_tooltip = become_kwisatz_haderach_decision_tooltip
+
+    ai_check_interval = 0
+
+    is_shown = {
+        has_character_flag = paul_atreides
+        NOT = { has_trait = kwisatz_haderach }
+        age >= 17
+    }
+
+    is_valid = {
+        custom_tooltip = {
+            text = survived_two_years_with_fremen_tt
+            has_character_flag = survived_with_fremen
+            any_owned_story = {
+                story_type = story_fremen_survival
+            }
+        }
+        has_trait = spice_addict
+    }
+
+    effect = {
+        trigger_event = { id = kwisatz_haderach.001 }
+    }
+
+    ai_will_do = {
+        base = 100
+    }
+}
+
+# Fremen Victory Ending
+arrakis_struggle_fremen_victory_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    desc = arrakis_struggle_fremen_victory_decision_desc
+    selection_tooltip = arrakis_struggle_fremen_victory_decision_tooltip
+
+    ai_check_interval = 36
+
+    is_shown = {
+        is_ruler = yes
+        culture = culture:fremen_culture
+        exists = global_var:arrakis_struggle_active
+        any_held_title = {
+            tier >= tier_kingdom
+            title_province = { geographical_region = k_arrakis }
+        }
+    }
+
+    is_valid = {
+        completely_controls = title:k_arrakis
+        OR = {
+            has_trait = kwisatz_haderach
+            any_liege_or_above = {
+                has_trait = kwisatz_haderach
+            }
+        }
+        custom_tooltip = {
+            text = harkonnen_defeated_tt
+            NOT = {
+                any_ruler = {
+                    dynasty = dynasty:6
+                    any_held_title = {
+                        title_province = { geographical_region = k_arrakis }
+                    }
+                }
+            }
+        }
+    }
+
+    effect = {
+        trigger_event = { id = arrakis_struggle.500 }
+        hidden_effect = {
+            set_global_variable = {
+                name = arrakis_struggle_ended
+                value = yes
+            }
+            remove_global_variable = arrakis_struggle_active
+        }
+    }
+
+    ai_will_do = {
+        base = 100
+    }
+}
+
+# Harkonnen Dominance Ending
+arrakis_struggle_harkonnen_dominance_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+    desc = arrakis_struggle_harkonnen_dominance_decision_desc
+    selection_tooltip = arrakis_struggle_harkonnen_dominance_decision_tooltip
+
+    ai_check_interval = 36
+
+    is_shown = {
+        is_ruler = yes
+        dynasty = dynasty:6
+        exists = global_var:arrakis_struggle_active
+    }
+
+    is_valid = {
+        completely_controls = title:k_arrakis
+        custom_tooltip = {
+            text = fremen_crushed_tt
+            NOT = {
+                any_ruler = {
+                    culture = culture:fremen_culture
+                    any_held_title = {
+                        tier >= tier_county
+                        title_province = { geographical_region = k_arrakis }
+                    }
+                }
+            }
+        }
+    }
+
+    effect = {
+        trigger_event = { id = arrakis_struggle.550 }
+        hidden_effect = {
+            set_global_variable = {
+                name = arrakis_struggle_ended
+                value = yes
+            }
+            remove_global_variable = arrakis_struggle_active
+        }
+    }
+
+    ai_will_do = {
+        base = 100
+    }
+}

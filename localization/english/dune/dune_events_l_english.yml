@@ -1,0 +1,80 @@
+﻿l_english:
+ # Gurney Events
+ gurney_halleck.001.t: "A Ghost from the Past"
+ gurney_halleck.001.desc: "A messenger brings startling news—Gurney Halleck lives! Your father's loyal warmaster survived the Harkonnen attack and has been hiding among the spice smugglers. He has heard that you live and wishes to rejoin your service.\n\nThe scarred warrior waits outside, baliset in hand, the same fierce loyalty burning in his eyes."
+ gurney_halleck.001.a: "Gurney! My father's shade would smile to see you."
+ gurney_halleck.001.b: "It could be a Harkonnen trap..."
+ gurney_halleck.001.c: "The Fremen may not accept an outsider."
+
+ gurney_halleck.002.t: "Tales of the Smugglers"
+ gurney_halleck.002.desc: "Over evening meal, Gurney shares stories of his time among the smugglers. He learned much of their secret routes, hidden caches, and the corrupt Harkonnen officials who look the other way for the right price.\n\n'Knowledge is a weapon, young master,' he says with a grim smile. 'And I've brought you an arsenal.'"
+ gurney_halleck.002.a: "Tell me everything about their operations."
+ gurney_halleck.002.b: "What matters now is destroying the Harkonnens."
+
+ gurney_halleck.003.t: "The Fires of Vengeance"
+ gurney_halleck.003.desc: "Gurney finds you alone, his face dark with old hatred. 'I dream of the Baron's death every night,' he says, his voice rough. 'I see Rabban's blood on my blade. Promise me, Paul—promise me we will have our vengeance for your father, for all of Caladan's sons who died on this accursed world.'"
+ gurney_halleck.003.a: "I swear it, Gurney. The Harkonnens will pay."
+ gurney_halleck.003.b: "Patience. Vengeance will come when we are ready."
+
+ gurney_joins_court_tt: "Gurney Halleck joins your court"
+ gurney_rejected_tt: "Gurney Halleck departs, rejected"
+ gurney_rejected_fremen_tt: "Gurney Halleck departs; the Fremen approve"
+ gurney_smuggler_contacts_tt: "You gain smuggler contacts and gold"
+
+ # Jessica Events
+ jessica.001.t: "A Mother's Counsel"
+ jessica.001.desc: "Lady Jessica requests a private audience. 'You are becoming a leader of men,' she says, her Bene Gesserit training evident in every measured word. 'But there is much you do not yet understand about the politics of power. Let me teach you what the Sisterhood taught me.'"
+ jessica.001.a: "Your wisdom has always guided me, Mother."
+ jessica.001.b: "I must forge my own path now."
+
+ jessica.002.t: "The Voice Within"
+ jessica.002.desc: "Jessica approaches you with a serious expression. 'It is time you learned the Voice,' she says. 'This Bene Gesserit technique allows you to command others through precise control of tone and pitch. It is a weapon more powerful than any blade—and I will not see my son go without it.'"
+ jessica.002.a: "Teach me, Mother."
+ jessica.002.b: "The Fremen way of combat is enough for me."
+
+ jessica.003.t: "The Voice Awakens"
+ jessica.003.desc: "Weeks of training have paid off. You feel the power in your throat now—the ability to modulate your voice in ways that bypass conscious resistance. Jessica smiles with pride as you successfully command a servant to stop mid-step.\n\n'Use it wisely,' she warns. 'The Voice is a tool, not a crutch.'"
+ jessica.003.a: "I understand its power... and its responsibility."
+
+ jessica.004.t: "The Weirding Way"
+ jessica.004.desc: "In the privacy of your chambers, Jessica demonstrates the Weirding Way—the Bene Gesserit martial art that makes practitioners seem to blur with impossible speed. 'Your father's swordmasters taught you well,' she says, 'but this will make you something more than human in combat.'"
+ jessica.004.a: "I would learn this deadly art."
+ jessica.004.b: "I will master Fremen combat instead."
+
+ jessica.005.t: "Speed Beyond Speed"
+ jessica.005.desc: "The prana-bindu training is complete. Your body responds to your will with supernatural precision—muscles controlled individually, movements calculated to the microsecond. In the training circle, even experienced Fremen warriors cannot track your strikes.\n\nYou have become something more than human."
+ jessica.005.a: "I am ready for whatever comes."
+
+ jessica.010.t: "The Water of Life"
+ jessica.010.desc: "The Fremen Reverend Mother is dying. The tribe needs a new one—and they look to your mother. Jessica must drink the Water of Life, the poisonous bile of a drowned sandworm, and convert it within her body. No man has ever survived this; for women, it is merely... extremely dangerous.\n\n'I must do this,' Jessica says. 'For the tribe. For you. For your unborn sister.'"
+ jessica.010.a: "May Shai-Hulud protect you, Mother."
+ jessica.010.b: "It is too dangerous. I forbid it."
+
+ jessica.011.t: "The Agony Begins"
+ jessica.011.desc: "Jessica drinks the Water of Life. Her body convulses as the poison courses through her veins. The Fremen watch in silence as she writhes, her face contorted in agony. Hours pass. You can only watch... and wait... and pray to gods you barely believe in."
+ jessica.011.a: "Mother..."
+
+ jessica.012.t: "Reverend Mother Jessica"
+ jessica.012.desc: "Jessica's eyes open—but they are not the same eyes. Behind them lies the weight of countless generations, the memories of all the Reverend Mothers who came before. She has survived. She has transcended.\n\n'I know everything now,' she whispers. 'The past lives within me. And I know what you must become, my son.'"
+ jessica.012.a: "What have you seen, Mother?"
+
+ jessica.013.t: "A Mother Lost"
+ jessica.013.desc: "Jessica's body goes still. The poison was too strong, the conversion incomplete. The Fremen keen their mourning cries as your mother's water is claimed for the tribe.\n\nShe died as she lived—serving others. But the loss carves a hollow in your soul that will never fully heal."
+ jessica.013.a: "Her water belongs to the tribe now."
+
+ jessica.020.t: "The Burden of Sight"
+ jessica.020.desc: "Jessica finds you staring into the middle distance, lost in visions of possible futures. 'The prescience is a curse as much as a gift,' she says softly. 'You will see paths you cannot take, futures that might have been. Do not lose yourself in what could be. Stay anchored in what is.'"
+ jessica.020.a: "You are wise, Mother. I will remember."
+ jessica.020.b: "I see the Golden Path. I must follow it."
+
+ begin_voice_training_tt: "Begin training in the Voice"
+ learned_the_voice_tt: "You have mastered the Voice"
+ begin_weirding_training_tt: "Begin training in the Weirding Way"
+ learned_weirding_way_tt: "You have mastered the Weirding Way"
+ jessica_attempts_water_of_life_tt: "Jessica will attempt the Water of Life"
+ jessica_becomes_reverend_mother_tt: "Jessica has become a Reverend Mother"
+ jessica_dies_spice_agony_tt: "Jessica has died from the spice agony"
+
+ # Trait
+ reverend_mother: "Reverend Mother"
+ reverend_mother_desc: "A Bene Gesserit who has survived the spice agony and gained access to Other Memory—the collective experiences of all her female ancestors. A Reverend Mother possesses wisdom spanning thousands of years and perceives truth with terrifying clarity."

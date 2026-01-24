@@ -46,3 +46,13 @@
     name = "dynn_Fenring"
     culture = imperial_culture
 }
+
+11 = {
+    name = "dynn_Kynes"
+    culture = fremen_culture
+}
+
+12 = {
+    name = "dynn_SietchTabr"
+    culture = fremen_culture
+}

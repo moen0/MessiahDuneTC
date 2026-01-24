@@ -1,0 +1,92 @@
+harkonnen_atrocity_modifier = {
+    county_opinion_add = -30
+    development_growth_factor = -0.5
+    tax_mult = -0.25
+}
+
+sietch_destroyed_modifier = {
+    county_opinion_add = -50
+    levy_mult = -0.5
+    development_growth_factor = -0.75
+}
+
+water_rationing_modifier = {
+    levy_mult = -0.2
+    tax_mult = -0.1
+    development_growth_factor = -0.25
+}
+
+reunited_loyalty_opinion = {
+    opinion = 50
+    decay = { years = 100 }
+}
+
+rejected_loyalty_opinion = {
+    opinion = -50
+    decay = { years = 10 }
+}
+
+respected_fremen_ways_opinion = {
+    opinion = 10
+    decay = { years = 5 }
+}
+
+shared_vengeance_opinion = {
+    opinion = 15
+    decay = { years = 20 }
+}
+
+promised_vengeance_opinion = {
+    opinion = 25
+    decay = { years = 50 }
+}
+
+counseled_patience_opinion = {
+    opinion = -10
+    decay = { years = 5 }
+}
+
+sworn_enemy_opinion = {
+    opinion = -100
+    decay = { years = 100 }
+}
+
+heeded_advice_opinion = {
+    opinion = 15
+    decay = { years = 5 }
+}
+
+rejected_advice_opinion = {
+    opinion = -10
+    decay = { years = 3 }
+}
+
+rejected_bg_training_opinion = {
+    opinion = -15
+    decay = { years = 5 }
+}
+
+proud_mother_opinion = {
+    opinion = 20
+    decay = { years = 50 }
+}
+
+protective_son_opinion = {
+    opinion = 10
+    decay = { years = 10 }
+}
+
+shared_mystical_experience_opinion = {
+    opinion = 25
+    decay = { years = 50 }
+}
+
+reverend_mother_family_opinion = {
+    opinion = 15
+    decay = { years = 20 }
+}
+
+worried_mother_opinion = {
+    opinion = -5
+    decay = { years = 2 }
+}

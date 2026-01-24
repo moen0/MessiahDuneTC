@@ -1,12 +1,12 @@
 ﻿challenge_character_paul = {
-    start_date = 191.1.1
+    start_date = 191.1.4
     character = {
         name = "bookmark_dune_paul"
         dynasty = 2
         dynasty_splendor_level = 3
         type = male
         birth = 176.1.1
-        title = k_arrakis
+        title = d_tuonq_basin
         government = feudal_government
         culture = fremen_culture
         religion = zensunni_faith
