@@ -1,4 +1,4 @@
-﻿# atreides
+# atreides
 2 = {
     pattern = "pattern_solid.dds"
     color1 = rgb { 0 128 0 }
