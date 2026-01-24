@@ -1,0 +1,222 @@
+###################################
+# HOUSE CORRINO
+###################################
+
+# EMPEROR ELROOD IX
+65 = {
+    name = "Elrood"
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_diplomacy_4
+    trait = paranoid
+    trait = arbitrary
+    trait = greedy
+    trait = patient
+
+    56.1.1 = {
+        birth = yes
+    }
+    156.1.1 = {
+        add_spouse = 66
+    }
+    185.1.1 = {
+        death = { killer = 60 }
+    }
+}
+
+# HABLA
+66 = {
+    name = "Habla"
+    female = yes
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_diplomacy_3
+    trait = ambitious
+    trait = beauty_good_2
+
+    75.1.1 = {
+        birth = yes
+    }
+    160.1.1 = {
+        death = yes
+    }
+}
+
+# EMPEROR SHADDAM IV
+60 = {
+    name = "Shaddam"
+    father = 65
+    mother = 66
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_diplomacy_4
+    trait = ambitious
+    trait = paranoid
+    trait = arrogant
+    trait = deceitful
+    trait = arbitrary
+    trait = calm
+
+    119.1.1 = {
+        birth = yes
+    }
+    145.1.1 = {
+        add_spouse = 67
+    }
+}
+
+# EMPRESS ANIRUL
+67 = {
+    name = "Anirul"
+    female = yes
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_intrigue_4
+    trait = beauty_good_2
+    trait = intellect_good_2
+    trait = weirding_way
+    trait = patient
+    trait = calm
+
+    125.1.1 = {
+        birth = yes
+    }
+    176.1.1 = {
+        death = yes
+    }
+}
+
+# PRINCESS IRULAN
+61 = {
+    name = "Irulan"
+    female = yes
+    father = 60
+    mother = 67
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_learning_4
+    trait = beauty_good_3
+    trait = intellect_good_2
+    trait = patient
+    trait = ambitious
+    trait = weirding_way
+    trait = bene_gesserit_trained
+
+    167.1.1 = {
+        birth = yes
+    }
+}
+
+# PRINCESS CHALICE
+62 = {
+    name = "Chalice"
+    female = yes
+    father = 60
+    mother = 67
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_diplomacy_3
+    trait = beauty_good_2
+    trait = gregarious
+    trait = arrogant
+
+    169.1.1 = {
+        birth = yes
+    }
+}
+
+# PRINCESS WENSICIA
+63 = {
+    name = "Wensicia"
+    female = yes
+    father = 60
+    mother = 67
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_intrigue_4
+    trait = beauty_good_1
+    trait = ambitious
+    trait = deceitful
+    trait = vengeful
+
+    171.1.1 = {
+        birth = yes
+    }
+}
+
+# PRINCESS RUGI
+64 = {
+    name = "Rugi"
+    female = yes
+    father = 60
+    mother = 67
+    dynasty = 8
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_learning_2
+    trait = shy
+    trait = content
+
+    174.1.1 = {
+        birth = yes
+    }
+}
+
+# COUNT HASIMIR FENRING
+70 = {
+    name = "Hasimir"
+    dynasty = 10
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_intrigue_5
+    trait = swordmaster
+    trait = intellect_good_3
+    trait = deceitful
+    trait = calm
+    trait = patient
+    trait = infertile
+
+    118.1.1 = {
+        birth = yes
+    }
+    150.1.1 = {
+        add_spouse = 71
+    }
+}
+
+# LADY MARGOT FENRING (Bene Gesserit)
+71 = {
+    name = "Margot"
+    female = yes
+    dynasty = 10
+    religion = "orange_catholic_faith"
+    culture = "imperial_culture"
+
+    trait = education_intrigue_4
+    trait = beauty_good_3
+    trait = weirding_way
+    trait = seducer
+    trait = deceitful
+    trait = patient
+    trait = bene_gesserit_trained
+
+    135.1.1 = {
+        birth = yes
+    }
+}

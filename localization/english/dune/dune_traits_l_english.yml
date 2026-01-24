@@ -13,3 +13,12 @@
 
  trait_suk_doctor: "Suk Doctor"
  suk_doctor_desc: "Graduate of the Suk School of Medicine, marked by the diamond tattoo on the forehead. Imperial conditioning makes it impossible for them to take a human life - or so it is believed."
+
+ trait_weirding_way: "Weirding Way"
+ weirding_way_desc: "Trained in the Bene Gesserit martial art known as the Weirding Way. This deadly combat style uses precise nerve and muscle control to move with superhuman speed and strike with devastating precision. Few can stand against a practitioner of this ancient art."
+
+ trait_the_voice: "The Voice"
+ the_voice_desc: "The Bene Gesserit ability to control others through precise vocal modulation. By analyzing a target and adjusting tone, pitch, and timbre, the speaker can issue commands that bypass conscious thought and compel immediate obedience."
+
+ trait_bene_gesserit_trained: "Bene Gesserit Witch"
+ bene_gesserit_trained_desc: "Educated in the ways of the Bene Gesserit Sisterhood. This training includes prana-bindu body control, enhanced observation skills, seduction techniques, and political manipulation. A Sister is never to be underestimated."

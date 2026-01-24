@@ -27,11 +27,6 @@
     culture = imperial_culture
 }
 
-6 = {
-    name = "dynn_Harkonnen"
-    culture = imperial_culture
-}
-
 7 = {
     name = "dynn_DeVries"
     culture = imperial_culture
@@ -39,5 +34,15 @@
 
 8 = {
     name = "dynn_Corrino"
+    culture = imperial_culture
+}
+
+9 = {
+    name = "dynn_Harkonnen"
+    culture = imperial_culture
+}
+
+10 = {
+    name = "dynn_Fenring"
     culture = imperial_culture
 }

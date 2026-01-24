@@ -43,7 +43,7 @@
     trait = brave
     trait = compassionate
     trait = ambitious
-    trait = diplomacy_lifestyle
+
 
     140.1.1 = {
         birth = yes
@@ -68,6 +68,7 @@
     trait = swordmaster
     trait = ambitious
     trait = weirding_way
+    trait = the_voice
 
     dna = "paul_dna"
 
@@ -89,11 +90,13 @@
     culture = "caladan_culture"
 
     trait = education_intrigue_5
-    trait = beautiful
-    trait = intelligent
+    trait = beauty_good_2
+    trait = intellect_good_2
     trait = weirding_way
     trait = spice_addict
     trait = compassionate
+    trait = bene_gesserit_trained
+    trait = the_voice
 
     154.1.1 = {
         birth = yes
@@ -106,7 +109,7 @@
     female = yes
     father = 5
     mother = 3
-    dynasty = 1
+    dynasty = 2
     religion = "zensunni_faith"
     culture = "fremen_culture"
 
@@ -122,7 +125,7 @@
 # DUNCAN IDAHO
 30 = {
     name = "Duncan"
-    dynasty = 2
+    dynasty = 3
     religion = "orange_catholic_faith"
     culture = "caladan_culture"
 
@@ -144,7 +147,7 @@
 # GURNEY HALLECK
 31 = {
     name = "Gurney"
-    dynasty = 2
+    dynasty = 4
     religion = "orange_catholic_faith"
     culture = "caladan_culture"
 
@@ -165,7 +168,7 @@
 # THUFIR HAWAT
 32 = {
     name = "Thufir"
-    dynasty = 4
+    dynasty = 5
     religion = "orange_catholic_faith"
     culture = "caladan_culture"
 
@@ -187,7 +190,7 @@
 # DR. WELLINGTON YUEH
 33 = {
     name = "Wellington"
-    dynasty = 5
+    dynasty = 6
     religion = "orange_catholic_faith"
     culture = "imperial_culture"
 

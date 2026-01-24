@@ -88,3 +88,79 @@ suk_doctor = {
         honest = 1
     }
 }
+weirding_way = {
+    index = 1005
+
+    martial = 4
+    prowess = 15
+    intrigue = 2
+
+    attraction_opinion = 5
+    same_trait_opinion = 25
+
+    desc = weirding_way_desc
+
+    icon = "gfx/interface/icons/traits/weirding_way.dds"
+
+    valid_sex = all
+
+    compatibility = {
+        patient = 1
+        calm = 1
+        brave = 0.5
+        craven = -1
+    }
+}
+
+the_voice = {
+    index = 1006
+
+    diplomacy = 6
+    intrigue = 8
+    martial = 2
+
+    attraction_opinion = -10
+    same_trait_opinion = 30
+    hostile_scheme_power_add = 25
+    personal_scheme_power_add = 25
+    dread_baseline_add = 15
+
+    desc = the_voice_desc
+
+    icon = "gfx/interface/icons/traits/the_voice.dds"
+
+    valid_sex = all
+
+    compatibility = {
+        ambitious = 1
+        commanding = 1
+        shy = -1
+    }
+}
+
+bene_gesserit_trained = {
+    index = 1007
+
+    diplomacy = 2
+    intrigue = 4
+    learning = 2
+    prowess = 4
+
+    fertility = 0.1
+    health = 0.25
+    attraction_opinion = 10
+    same_trait_opinion = 20
+
+    desc = bene_gesserit_trained_desc
+
+    icon = "gfx/interface/icons/traits/bene_gesserit_trained.dds"
+
+    valid_sex = female
+
+    compatibility = {
+        patient = 1
+        calm = 1
+        intelligent = 1
+        arbitrary = -0.5
+    }
+}

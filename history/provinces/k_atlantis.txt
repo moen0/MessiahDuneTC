@@ -145,3 +145,128 @@
     holding = none
 }
 
+32 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+33 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+34 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+35 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+36 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+37 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+38 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+39 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+40 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+41 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+42 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+43 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+44 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+45 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+46 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+47 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+48 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+49 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+50 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+51 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+52 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+53 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+54 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+55 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+56 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
