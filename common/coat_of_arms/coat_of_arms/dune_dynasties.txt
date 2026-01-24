@@ -1,4 +1,4 @@
-﻿atreides_coa = {
+﻿d_atreides = {
     pattern = "pattern_solid.dds"
     color1 = { 0 100 0 }  # Green background
 

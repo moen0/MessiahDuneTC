@@ -5,6 +5,9 @@
 2 = {
     name = "dynn_Atreides"
     culture = "imperial_culture"
+    coat_of_arms = {
+        template = d_atreides
+    }
 }
 
 3 = {

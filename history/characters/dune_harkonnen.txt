@@ -82,6 +82,8 @@
     trait = strong
     trait = stubborn
 
+    dna = rabban_dna
+
     153.1.1 = {
         birth = yes
     }
@@ -105,6 +107,8 @@
     trait = sadistic
     trait = swordmaster
     trait = brave
+
+    dna = feyd_dna
 
     176.1.1 = {
         birth = yes
