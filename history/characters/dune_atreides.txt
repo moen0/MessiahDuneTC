@@ -43,6 +43,7 @@
     trait = compassionate
     trait = ambitious
 
+    dna = leto_dna
 
     140.1.1 = {
         birth = yes
@@ -97,6 +98,8 @@
     trait = compassionate
     trait = bene_gesserit_trained
     trait = the_voice
+
+    dna = jessica_dna
 
     154.1.1 = {
         birth = yes

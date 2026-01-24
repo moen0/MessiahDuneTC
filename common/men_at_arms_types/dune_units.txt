@@ -1,0 +1,60 @@
+﻿fedaykin = {
+    type = skirmishers  # or light_cavalry, heavy_infantry, etc.
+
+    damage = 25
+    toughness = 20
+    pursuit = 30
+    screen = 25
+
+    terrain_bonus = {
+        desert = { damage = 15 toughness = 10 }
+        desert_mountains = { damage = 10 toughness = 5 }
+        drylands = { damage = 5 }
+    }
+
+    counters = {
+        heavy_infantry = 1
+        archers = 0.5
+    }
+
+    buy_cost = { gold = 150 }
+    low_maintenance_cost = { gold = 1.0 }
+    high_maintenance_cost = { gold = 5.0 }
+
+    stack = 100
+
+    can_recruit = {
+        culture = { has_cultural_pillar = pillar_fremen }  # or specific culture check
+    }
+
+    icon = fedaykin  # reference to gfx file
+}
+
+sardukar = {
+    type = heavy_infantry  # or light_cavalry, heavy_infantry, etc.
+
+    damage = 20
+    toughness = 19
+    pursuit = 27
+    screen = 25
+
+    terrain_bonus = {
+        drylands = { damage = 5 }
+    }
+
+    counters = {
+        l_infantry_infantry = 1
+    }
+
+    buy_cost = { gold = 500 }
+    low_maintenance_cost = { gold = 1.0 }
+    high_maintenance_cost = { gold = 5.0 }
+
+    stack = 300
+
+    can_recruit = {
+        culture = { has_cultural_pillar = pillar_fremen }
+    }
+
+    icon = sardukar
+}

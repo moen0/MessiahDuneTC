@@ -1,0 +1,9 @@
+atreides_hawk = {
+    type = colored_emblem
+    texture = "gfx/coat_of_arms/colored_emblems/ce_atreides_hawk.dds"
+}
+
+sandworm = {
+    type = colored_emblem
+    texture = "gfx/coat_of_arms/colored_emblems/ce_sandworm.dds"
+}
