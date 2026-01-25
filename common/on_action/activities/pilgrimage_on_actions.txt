@@ -234,7 +234,7 @@ hajj_arrival_events = {
 				option = pilgrimage_type_hajj
 			}
 		}
-		involved_activity.activity_location.county = title:c_atlantis
+		involved_activity.activity_location.county = title:c_arrakeen
 	}
 	random_events = {
 		100 = hajj.3001
@@ -247,10 +247,10 @@ christian_arrival_events = {
 		religion = religion:christianity_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Rome
-				county = title:c_atlantis # Jerusalem
-				county = title:c_atlantis # Constantinople
-				county = title:c_atlantis # Alexandria
+				county = title:c_arrakeen # Rome
+				county = title:c_arrakeen # Jerusalem
+				county = title:c_arrakeen # Constantinople
+				county = title:c_arrakeen # Alexandria
 			}
 		}
 	}
@@ -269,8 +269,8 @@ jewish_arrival_events = {
 		religion = religion:judaism_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Mt. Sinai
-				county = title:c_atlantis # Jerusalem
+				county = title:c_arrakeen # Mt. Sinai
+				county = title:c_arrakeen # Jerusalem
 			}
 		}
 	}
@@ -287,9 +287,9 @@ muslim_arrival_events = {
 		religion = religion:islam_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Medina
-				county = title:c_atlantis # Mt. Sinai
-				county = title:c_atlantis # Jerusalem
+				county = title:c_arrakeen # Medina
+				county = title:c_arrakeen # Mt. Sinai
+				county = title:c_arrakeen # Jerusalem
 			}
 		}
 	}
@@ -308,13 +308,13 @@ hindu_arrival_events = {
 		religion = religion:hinduism_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Varanasi
-				county = title:c_atlantis # Ayodhya
-				county = title:c_atlantis # Mathura
-				county = title:c_atlantis # Haridwar
-				county = title:c_atlantis # Kanchipuram
-				county = title:c_atlantis # Ujjayini
-				county = title:c_atlantis # Dwarka
+				county = title:c_arrakeen # Varanasi
+				county = title:c_arrakeen # Ayodhya
+				county = title:c_arrakeen # Mathura
+				county = title:c_arrakeen # Haridwar
+				county = title:c_arrakeen # Kanchipuram
+				county = title:c_arrakeen # Ujjayini
+				county = title:c_arrakeen # Dwarka
 			}
 		}
 	}
@@ -336,9 +336,9 @@ buddhist_arrival_events = {
 		religion = religion:buddhism_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Bodh Gaya
-				county = title:c_atlantis # Kusinagara
-				county = title:c_atlantis # Sarnath
+				county = title:c_arrakeen # Bodh Gaya
+				county = title:c_arrakeen # Kusinagara
+				county = title:c_arrakeen # Sarnath
 			}
 		}
 	}
@@ -356,7 +356,7 @@ jain_arrival_events = {
 		religion = religion:jainism_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Shikharj
+				county = title:c_arrakeen # Shikharj
 			}
 		}
 	}
@@ -372,7 +372,7 @@ zoroastrian_arrival_events = {
 		religion = religion:zoroastrianism_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Ushi-darena
+				county = title:c_arrakeen # Ushi-darena
 			}
 		}
 	}
@@ -388,7 +388,7 @@ norse_arrival_events = {
 		religion = religion:germanic_religion
 		involved_activity.activity_location = {
 			OR = {
-				county = title:c_atlantis # Paderborn
+				county = title:c_arrakeen # Paderborn
 			}
 		}
 	}

@@ -7,7 +7,7 @@
 			NOT = { exists = global_var:hchar_karunakara }
 		}
 		set_global_variable = { name = hchar_karunakara value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -53,7 +53,7 @@
 			NOT = { exists = global_var:hchar_sekkilhar }
 		}
 		set_global_variable = { name = hchar_sekkilhar value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -102,7 +102,7 @@
 			NOT = { exists = global_var:hchar_omar_khayyam }
 		}
 		set_global_variable = { name = hchar_omar_khayyam value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -159,7 +159,7 @@
 			NOT = { exists = global_var:hchar_bhaskaracharya }
 		}
 		set_global_variable = { name = hchar_bhaskaracharya value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -207,7 +207,7 @@
 			NOT = { exists = global_var:hchar_joseph_rabban }
 		}
 		set_global_variable = { name = hchar_joseph_rabban value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -251,7 +251,7 @@
 			NOT = { exists = global_var:hchar_atisha }
 		}
 		set_global_variable = { name = hchar_atisha value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 50
@@ -307,7 +307,7 @@
 			NOT = { exists = global_var:hchar_hemachandra }
 		}
 		set_global_variable = { name = hchar_hemachandra value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -364,7 +364,7 @@
 			NOT = { exists = global_var:hchar_kshemendra }
 		}
 		set_global_variable = { name = hchar_kshemendra value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 47
@@ -411,7 +411,7 @@
 			NOT = { exists = global_var:hchar_akka_mahadevi }
 		}
 		set_global_variable = { name = hchar_akka_mahadevi value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -458,7 +458,7 @@
 			NOT = { exists = global_var:hchar_namdev }
 		}
 		set_global_variable = { name = hchar_namdev value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -512,7 +512,7 @@
 			NOT = { exists = global_var:hchar_madhvacharya }
 		}
 		set_global_variable = { name = hchar_madhvacharya value = yes }
-		title:b_atlantis = { #Udupi
+		title:b_arrakeen = { #Udupi
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -560,7 +560,7 @@
 			NOT = { exists = global_var:hchar_vidyapati }
 		}
 		set_global_variable = { name = hchar_vidyapati value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -609,7 +609,7 @@
 			NOT = { exists = global_var:hchar_abhinavagupta }
 		}
 		set_global_variable = { name = hchar_abhinavagupta value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 30
@@ -664,7 +664,7 @@
 			NOT = { exists = global_var:hchar_basava }
 		}
 		set_global_variable = { name = hchar_basava value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 26
@@ -709,7 +709,7 @@
 			NOT = { exists = global_var:hchar_hildegard }
 		}
 		set_global_variable = { name = hchar_hildegard value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 23
@@ -762,7 +762,7 @@
 			NOT = { exists = global_var:hchar_thomas_aquinas }
 		}
 		set_global_variable = { name = hchar_thomas_aquinas value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = ep3_thomas_aquinas_age_value # This is just a scripted value that takes the current year and subtracts 1225 from it, so if Tommy spawns in 1245 then his age will be calculated as 1245-1225, or 20.
@@ -809,7 +809,7 @@
 			NOT = { exists = global_var:hchar_dante_alighieri }
 		}
 		set_global_variable = { name = hchar_dante_alighieri value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -851,7 +851,7 @@
 			NOT = { exists = global_var:hchar_thomas_becket }
 		}
 		set_global_variable = { name = hchar_thomas_becket value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 30
@@ -895,7 +895,7 @@
 			NOT = { exists = global_var:hchar_maimonides }
 		}
 		set_global_variable = { name = hchar_maimonides value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -946,7 +946,7 @@
 			NOT = { exists = global_var:hchar_chretien_de_troyes }
 		}
 		set_global_variable = { name = hchar_chretien_de_troyes value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -985,7 +985,7 @@
 			NOT = { exists = global_var:hchar_egil_skallagrimrsson }
 		}
 		set_global_variable = { name = hchar_egil_skallagrimrsson value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1028,7 +1028,7 @@
 			NOT = { exists = global_var:hchar_gunnlaug_ormstunga }
 		}
 		set_global_variable = { name = hchar_gunnlaug_ormstunga value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1069,7 +1069,7 @@
 			NOT = { exists = global_var:hchar_torbjorg_the_seeress }
 		}
 		set_global_variable = { name = hchar_torbjorg_the_seeress value = yes }
-		title:b_atlantis= {
+		title:b_arrakeen= {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1117,7 +1117,7 @@
 			NOT = { exists = global_var:hchar_erik_rode }
 		}
 		set_global_variable = { name = hchar_erik_rode value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 22
@@ -1177,7 +1177,7 @@
 			NOT = { exists = global_var:hchar_alhazen }
 		}
 		set_global_variable = { name = hchar_alhazen value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1219,7 +1219,7 @@
 			NOT = { exists = global_var:hchar_ibn_battuta }
 		}
 		set_global_variable = { name = hchar_ibn_battuta value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 18
@@ -1279,7 +1279,7 @@
 			NOT = { exists = global_var:hchar_william_of_ockham }
 		}
 		set_global_variable = { name = hchar_william_of_ockham value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1322,7 +1322,7 @@
 			NOT = { exists = global_var:hchar_geoffrey_chaucer }
 		}
 		set_global_variable = { name = hchar_geoffrey_chaucer value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1366,7 +1366,7 @@
 			NOT = { exists = global_var:hchar_roger_bacon }
 		}
 		set_global_variable = { name = hchar_roger_bacon value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1410,7 +1410,7 @@
 			NOT = { exists = global_var:hchar_aaron_of_lincoln }
 		}
 		set_global_variable = { name = hchar_aaron_of_lincoln value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1449,7 +1449,7 @@
 			NOT = { exists = global_var:hchar_john_wycliffe }
 		}
 		set_global_variable = { name = hchar_john_wycliffe value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1496,7 +1496,7 @@
 			NOT = { exists = global_var:hchar_heloise_and_abelard }
 		}
 		set_global_variable = { name = hchar_heloise_and_abelard value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 31
@@ -1540,7 +1540,7 @@
 			}
 			if = { limit = { has_variable = peter_abelard } } # Error suppression
 		}
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1588,7 +1588,7 @@
 			NOT = { exists = global_var:hchar_petrarch }
 		}
 		set_global_variable = { name = hchar_petrarch value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1631,7 +1631,7 @@
 			NOT = { exists = global_var:hchar_giotto_di_bondone }
 		}
 		set_global_variable = { name = hchar_giotto_di_bondone value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1672,7 +1672,7 @@
 			NOT = { exists = global_var:hchar_fibonacci }
 		}
 		set_global_variable = { name = hchar_fibonacci value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1714,7 +1714,7 @@
 			NOT = { exists = global_var:hchar_giovanni_boccaccio }
 		}
 		set_global_variable = { name = hchar_giovanni_boccaccio value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1756,7 +1756,7 @@
 			NOT = { exists = global_var:hchar_christine_pizan }
 		}
 		set_global_variable = { name = hchar_christine_pizan value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1766,7 +1766,7 @@
 				random_traits = no
 				location = scope:birth_location.title_province
 				faith = scope:birth_location.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_diplomacy_3
 				trait = brave
 				trait = diligent
@@ -1797,7 +1797,7 @@
 			NOT = { exists = global_var:hchar_snorri_sturluson }
 		}
 		set_global_variable = { name = hchar_snorri_sturluson value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1838,7 +1838,7 @@
 			NOT = { exists = global_var:hchar_hrotsvitha }
 		}
 		set_global_variable = { name = hchar_hrotsvitha value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1878,7 +1878,7 @@
 			NOT = { exists = global_var:hchar_ramanuja }
 		}
 		set_global_variable = { name = hchar_ramanuja value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1920,7 +1920,7 @@
 			NOT = { exists = global_var:hchar_arnaldus_de_villa_nova }
 		}
 		set_global_variable = { name = hchar_arnaldus_de_villa_nova value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -1929,8 +1929,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_learning_4
 				trait = cynical
 				trait = diligent
@@ -1966,7 +1966,7 @@
 			NOT = { exists = global_var:hchar_ibn_khaldun }
 		}
 		set_global_variable = { name = hchar_ibn_khaldun value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2009,7 +2009,7 @@
 			NOT = { exists = global_var:hchar_rumi }
 		}
 		set_global_variable = { name = hchar_rumi value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2018,8 +2018,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_learning_4
 				trait = compassionate
 				trait = diligent
@@ -2059,7 +2059,7 @@
 			NOT = { exists = global_var:hchar_avicenna }
 		}
 		set_global_variable = { name = hchar_avicenna value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2103,7 +2103,7 @@
 			NOT = { exists = global_var:hchar_averroes }
 		}
 		set_global_variable = { name = hchar_averroes value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2147,7 +2147,7 @@
 			NOT = { exists = global_var:hchar_al_biruni }
 		}
 		set_global_variable = { name = hchar_al_biruni value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2189,7 +2189,7 @@
 			NOT = { exists = global_var:hchar_rashi }
 		}
 		set_global_variable = { name = hchar_rashi value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 26
@@ -2233,7 +2233,7 @@
 			NOT = { exists = global_var:hchar_yehuda_halevi }
 		}
 		set_global_variable = { name = hchar_yehuda_halevi value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2275,7 +2275,7 @@
 			NOT = { exists = global_var:hchar_shaprut }
 		}
 		set_global_variable = { name = hchar_shaprut value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2317,7 +2317,7 @@
 			NOT = { exists = global_var:hchar_gersonides }
 		}
 		set_global_variable = { name = hchar_gersonides value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2360,7 +2360,7 @@
 			NOT = { exists = global_var:hchar_ezra }
 		}
 		set_global_variable = { name = hchar_ezra value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2405,7 +2405,7 @@
 			NOT = { exists = global_var:hchar_gabriol }
 		}
 		set_global_variable = { name = hchar_gabriol value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2450,7 +2450,7 @@
 			NOT = { exists = global_var:hchar_nachmanides}
 		}
 		set_global_variable = { name = hchar_nachmanides value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2493,7 +2493,7 @@
 			NOT = { exists = global_var:hchar_crescas }
 		}
 		set_global_variable = { name = hchar_crescas value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2534,7 +2534,7 @@
 			NOT = { exists = global_var:hchar_saadia }
 		}
 		set_global_variable = { name = hchar_saadia value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2575,7 +2575,7 @@
 			NOT = { exists = global_var:hchar_awkal }
 		}
 		set_global_variable = { name = hchar_awkal value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2617,7 +2617,7 @@
 			NOT = { exists = global_var:hchar_benjamin_of_tudela }
 		}
 		set_global_variable = { name = hchar_benjamin_of_tudela value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2660,7 +2660,7 @@
 			NOT = { exists = global_var:hchar_marco_polo }
 		}
 		set_global_variable = { name = hchar_marco_polo value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 22
@@ -2720,7 +2720,7 @@
 			NOT = { exists = global_var:hchar_bridget_of_sweden }
 		}
 		set_global_variable = { name = hchar_bridget_of_sweden value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2773,7 +2773,7 @@
 			NOT = { exists = global_var:hchar_meister_eckhart }
 		}
 		set_global_variable = { name = hchar_meister_eckhart value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2824,7 +2824,7 @@
 			NOT = { exists = global_var:hchar_jangar }
 		}
 		set_global_variable = { name = hchar_jangar value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2870,7 +2870,7 @@
 			NOT = { exists = global_var:hchar_zawisza }
 		}
 		set_global_variable = { name = hchar_zawisza value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2913,7 +2913,7 @@
 			NOT = { exists = global_var:hchar_theophanes_the_greek }
 		}
 		set_global_variable = { name = hchar_theophanes_the_greek value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -2922,8 +2922,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_learning_2
 				trait = patient
 				trait = diligent
@@ -2954,7 +2954,7 @@
 			NOT = { exists = global_var:hchar_nicetas_choniates }
 		}
 		set_global_variable = { name = hchar_nicetas_choniates value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3001,7 +3001,7 @@
 				game_start_date >= 1066.1.1
 				game_start_date < 1178.10.1
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = birth_location
 				create_character = {
 					age = 49
@@ -3042,7 +3042,7 @@
 			}
 		}
 		else = {
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = birth_location
 				create_character = {
 					age = 20
@@ -3088,7 +3088,7 @@
 			NOT = { exists = global_var:hchar_john_tzetzes }
 		}
 		set_global_variable = { name = hchar_john_tzetzes value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3129,7 +3129,7 @@
 			NOT = { exists = global_var:hchar_theophylact_of_ohrid }
 		}
 		set_global_variable = { name = hchar_theophylact_of_ohrid value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3172,7 +3172,7 @@
 			NOT = { exists = global_var:hchar_eustathius_of_thessalonica }
 		}
 		set_global_variable = { name = hchar_eustathius_of_thessalonica value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3215,7 +3215,7 @@
 			NOT = { exists = global_var:hchar_nicephorus_blemmydes }
 		}
 		set_global_variable = { name = hchar_nicephorus_blemmydes value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3257,7 +3257,7 @@
 			NOT = { exists = global_var:hchar_georgius_pachymeres }
 		}
 		set_global_variable = { name = hchar_georgius_pachymeres value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3298,7 +3298,7 @@
 			NOT = { exists = global_var:hchar_manuel_moschopoulos }
 		}
 		set_global_variable = { name = hchar_manuel_moschopoulos value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3339,7 +3339,7 @@
 			NOT = { exists = global_var:hchar_theodore_metochites }
 		}
 		set_global_variable = { name = hchar_theodore_metochites value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3379,7 +3379,7 @@
 			NOT = { exists = global_var:hchar_michael_choniates }
 		}
 		set_global_variable = { name = hchar_michael_choniates value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3419,7 +3419,7 @@
 			NOT = { exists = global_var:hchar_joseph_tarchaneiotes }
 		}
 		set_global_variable = { name = hchar_joseph_tarchaneiotes value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3462,7 +3462,7 @@
 			NOT = { exists = global_var:hchar_gemistus_pletho }
 		}
 		set_global_variable = { name = hchar_gemistus_pletho value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3505,7 +3505,7 @@
 			NOT = { exists = global_var:hchar_arethas_of_caesarea }
 		}
 		set_global_variable = { name = hchar_arethas_of_caesarea value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3546,7 +3546,7 @@
 			NOT = { exists = global_var:hchar_basil_lekapenos }
 		}
 		set_global_variable = { name = hchar_basil_lekapenos value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3589,7 +3589,7 @@
 			NOT = { exists = global_var:hchar_john_the_orphanotrophos }
 		}
 		set_global_variable = { name = hchar_john_the_orphanotrophos value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3634,7 +3634,7 @@
 			NOT = { exists = global_var:hchar_samonas }
 		}
 		set_global_variable = { name = hchar_samonas value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3643,8 +3643,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_intrigue_5
 				trait = gregarious
 				trait = ambitious
@@ -3675,7 +3675,7 @@
 			NOT = { exists = global_var:hchar_peter_the_eunuch }
 		}
 		set_global_variable = { name = hchar_peter_the_eunuch value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3684,8 +3684,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_diplomacy_4
 				trait = zealous
 				trait = patient
@@ -3717,7 +3717,7 @@
 			NOT = { exists = global_var:hchar_constantine_the_paphlagonian }
 		}
 		set_global_variable = { name = hchar_constantine_the_paphlagonian value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 40
@@ -3759,7 +3759,7 @@
 			NOT = { exists = global_var:hchar_peter_the_stratopedarches }
 		}
 		set_global_variable = { name = hchar_peter_the_stratopedarches value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3804,7 +3804,7 @@
 			NOT = { exists = global_var:hchar_basilios_bessarion }
 		}
 		set_global_variable = { name = hchar_basilios_bessarion value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3847,7 +3847,7 @@
 			NOT = { exists = global_var:hchar_demetrios_kydones }
 		}
 		set_global_variable = { name = hchar_demetrios_kydones value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3888,7 +3888,7 @@
 			NOT = { exists = global_var:hchar_manuel_holobolos }
 		}
 		set_global_variable = { name = hchar_manuel_holobolos value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3929,7 +3929,7 @@
 			NOT = { exists = global_var:hchar_john_axuch }
 		}
 		set_global_variable = { name = hchar_john_axuch value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -3938,8 +3938,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_martial_5
 				trait = brave
 				trait = trusting
@@ -3974,7 +3974,7 @@
 			NOT = { exists = global_var:hchar_mkhitar_gosh }
 		}
 		set_global_variable = { name = hchar_mkhitar_gosh value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4016,7 +4016,7 @@
 			NOT = { exists = global_var:hchar_shota_rustaveli }
 		}
 		set_global_variable = { name = hchar_shota_rustaveli value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4056,7 +4056,7 @@
 			NOT = { exists = global_var:hchar_grigor_tatevatsi }
 		}
 		set_global_variable = { name = hchar_grigor_tatevatsi value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4096,7 +4096,7 @@
 			NOT = { exists = global_var:hchar_sargis_pitsak }
 		}
 		set_global_variable = { name = hchar_sargis_pitsak value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4135,7 +4135,7 @@
 			NOT = { exists = global_var:hchar_medici }
 		}
 		set_global_variable = { name = hchar_medici value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 16
@@ -4177,7 +4177,7 @@
 			NOT = { exists = global_var:hchar_borgia }
 		}
 		set_global_variable = { name = hchar_borgia value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 16
@@ -4218,7 +4218,7 @@
 			NOT = { exists = global_var:hchar_william_wallace }
 		}
 		set_global_variable = { name = hchar_william_wallace value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4260,7 +4260,7 @@
 			NOT = { exists = global_var:hchar_la_hire }
 		}
 		set_global_variable = { name = hchar_la_hire value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 16
@@ -4304,7 +4304,7 @@
 			NOT = { exists = global_var:hchar_bar_sauma }
 		}
 		set_global_variable = { name = hchar_bar_sauma value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4358,7 +4358,7 @@
 			NOT = { exists = global_var:hchar_hodja }
 		}
 		set_global_variable = { name = hchar_hodja value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4406,7 +4406,7 @@
 			NOT = { exists = global_var:hchar_widukind_of_corvey }
 		}
 		set_global_variable = { name = hchar_widukind_of_corvey value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4455,7 +4455,7 @@
 			NOT = { exists = global_var:hchar_roger_de_flor }
 		}
 		set_global_variable = { name = hchar_roger_de_flor value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 24
@@ -4464,8 +4464,8 @@
 				gender_female_chance = 0
 				random_traits = no
 				location = scope:birth_location.title_province
-				faith = title:b_atlantis.title_province.faith
-				culture = title:b_atlantis.title_province.culture
+				faith = title:b_arrakeen.title_province.faith
+				culture = title:b_arrakeen.title_province.culture
 				trait = education_martial_5
 				trait = greedy
 				trait = ambitious
@@ -4498,7 +4498,7 @@
 			NOT = { exists = global_var:hchar_regino_of_prum }
 		}
 		set_global_variable = { name = hchar_regino_of_prum value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20
@@ -4540,7 +4540,7 @@
 			NOT = { exists = global_var:hchar_geoffrey_of_monmouth }
 		}
 		set_global_variable = { name = hchar_geoffrey_of_monmouth value = yes }
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			save_scope_as = birth_location
 			create_character = {
 				age = 20

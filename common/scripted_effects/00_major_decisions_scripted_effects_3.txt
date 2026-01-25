@@ -62,7 +62,7 @@ establish_bactrian_supremacy_effect = {
 	resolve_title_and_vassal_change = scope:title_change
 	set_primary_title_to = title:e_bactria
 
-	title:c_atlantis = {
+	title:c_arrakeen = {
 		add_county_modifier = {
 			modifier = bactria_royal_tolls_modifier
 		}
@@ -686,7 +686,7 @@ retake_eastern_provinces_decision_effect = {
 recreate_ere_decision_effect = {
 	if = {
 		limit = {
-			title:c_atlantis.holder = {
+			title:c_arrakeen.holder = {
 				NOT = {
 					this = root
 				}
@@ -697,7 +697,7 @@ recreate_ere_decision_effect = {
 			save_scope_as = change
 			add_claim_on_loss = yes
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			change_title_holder = {
 				holder = root
 				change = scope:change
@@ -743,11 +743,11 @@ recreate_ere_decision_effect = {
 		limit = {
 			NOT = {
 				capital_county = {
-					this = title:c_atlantis
+					this = title:c_arrakeen
 				}
 			}
 		}
-		set_realm_capital = title:c_atlantis
+		set_realm_capital = title:c_arrakeen
 	}
 	# Get free triumph
 	custom_tooltip = {

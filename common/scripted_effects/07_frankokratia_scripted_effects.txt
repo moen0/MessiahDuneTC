@@ -672,7 +672,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		limit = {
 			any_realm_county = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -682,7 +682,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		random_realm_county = {
 			limit = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -700,7 +700,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		limit = {
 			any_realm_county = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -710,7 +710,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		random_realm_county = {
 			limit = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -728,7 +728,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		limit = {
 			any_realm_county = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -738,7 +738,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		random_realm_county = {
 			limit = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -756,7 +756,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		limit = {
 			any_realm_county = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -766,7 +766,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		random_realm_county = {
 			limit = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -784,7 +784,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		limit = {
 			any_realm_county = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -794,7 +794,7 @@ ep3_frankokratia_save_financier_sate_lands_effect = {
 		random_realm_county = {
 			limit = {
 				NOT = { is_in_list = financier_sate_titles }
-				this = title:c_atlantis
+				this = title:c_arrakeen
 				holder = {
 					is_ai = yes
 					NOT = { is_at_war_with = title:e_byzantium.holder }
@@ -1469,10 +1469,10 @@ ep3_frankokratia_designate_latin_empire_effect = {
 		limit = {
 			title:e_byzantium.holder = {
 				any_realm_county = {
-					this = title:c_atlantis
+					this = title:c_arrakeen
 				}
 			}
-			title:c_atlantis.holder = {
+			title:c_arrakeen.holder = {
 				is_ai = yes
 				OR = {
 					this = title:e_byzantium.holder
@@ -1482,8 +1482,8 @@ ep3_frankokratia_designate_latin_empire_effect = {
 				}
 			}
 		}
-		title:c_atlantis = { save_scope_as = latin_capital }
-		title:b_atlantis = {
+		title:c_arrakeen = { save_scope_as = latin_capital }
+		title:b_arrakeen = {
 			save_scope_as = latin_capital_barony
 		}
 		#Try to save thessalonika as the most natural capital kingdom
@@ -2503,15 +2503,15 @@ ep3_frankokratia_clear_old_lands_change_capital_effect = {
 		if = {
 			limit = {
 				any_realm_county = {
-					this = title:c_atlantis
+					this = title:c_arrakeen
 				}
 				capital_county = {
 					NOT = {
-						this = title:c_atlantis
+						this = title:c_arrakeen
 					}
 				}
 			}
-			set_realm_capital = title:c_atlantis
+			set_realm_capital = title:c_arrakeen
 		}
 	}
 }
@@ -2530,7 +2530,7 @@ ep3_frankokratia_distribute_lands_to_crusaders_effect = {
 					this = scope:financier
 					NOT = { this = scope:latin_emperor }
 				}
-				this = title:c_atlantis
+				this = title:c_arrakeen
 			}
 			tier = tier_county
 			NOT = {

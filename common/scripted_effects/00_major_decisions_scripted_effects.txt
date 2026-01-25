@@ -15,9 +15,9 @@
 	#Create Roman Empire, shift dejure/history/laws, destroy e_byzantium.
 
 	if = {
-		limit = { capital_county = { this = title:c_atlantis } }
+		limit = { capital_county = { this = title:c_arrakeen } }
 		title:e_roman_empire = { 
-			set_capital_county = title:c_atlantis
+			set_capital_county = title:c_arrakeen
 		}
 	}
 
@@ -85,21 +85,21 @@
 	}
 	if = { #Automatically move capital to Constantinople, unless it's been set to Rome.
 		limit = {
-			NOT = { capital_county = { this = title:c_atlantis } }
-			NOT = { capital_county = { this = title:c_atlantis } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
 			culture = { has_cultural_pillar = heritage_byzantine }
 		}
 		hidden_effect = {
 			if = { #Usurp if not held personally.
 				limit = {
-					NOT = { this = title:c_atlantis.holder }
+					NOT = { this = title:c_arrakeen.holder }
 				}
 				create_title_and_vassal_change = {
 					type = returned
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					change_title_holder = {
 						holder = root
 						change = scope:change
@@ -108,26 +108,26 @@
 				resolve_title_and_vassal_change = scope:change
 			}
 		}
-		root = { set_realm_capital = title:c_atlantis }
+		root = { set_realm_capital = title:c_arrakeen }
 	}
 	else_if = {
 		limit = {
-			NOT = { capital_county = { this = title:c_atlantis } }
-			NOT = { capital_county = { this = title:c_atlantis } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
 			NOT = { culture = { has_cultural_pillar = heritage_byzantine } }
 			exists = title:e_roman_empire.holder
 		}
 		hidden_effect = {
 			if = { #Usurp if not held personally.
 				limit = {
-					NOT = { this = title:c_atlantis.holder }
+					NOT = { this = title:c_arrakeen.holder }
 				}
 				create_title_and_vassal_change = {
 					type = returned
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					change_title_holder = {
 						holder = root
 						change = scope:change
@@ -136,7 +136,7 @@
 				resolve_title_and_vassal_change = scope:change
 			}
 		}
-		root = { set_realm_capital = title:c_atlantis }
+		root = { set_realm_capital = title:c_arrakeen }
 	}
 	hidden_effect = {
 		add_character_flag = flag_restorer_of_rome #used for Eulogy.
@@ -216,20 +216,20 @@ create_roman_empire_holy_scripted_effect = {
 
 	if = { #Automatically move capital to Rome.
 		limit = {
-			NOT = { capital_county = { this = title:c_atlantis } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
 			exists = title:e_roman_empire.holder
 		}
 		hidden_effect = {
 			if = { #Usurp if not held personally.
 				limit = {
-					NOT = { title:c_atlantis.holder = { this = root } }
+					NOT = { title:c_arrakeen.holder = { this = root } }
 				}
 				create_title_and_vassal_change = {
 					type = returned
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					change_title_holder = {
 						holder = root
 						change = scope:change
@@ -238,7 +238,7 @@ create_roman_empire_holy_scripted_effect = {
 				resolve_title_and_vassal_change = scope:change
 			}
 		}
-		title:e_roman_empire.holder = { set_realm_capital = title:c_atlantis }
+		title:e_roman_empire.holder = { set_realm_capital = title:c_arrakeen }
 	}
 	hidden_effect = {
 		create_story = restoring_roman_provinces_story
@@ -308,20 +308,20 @@ create_roman_empire_italy_scripted_effect = {
 	}
 	if = { #Automatically move capital to Rome.
 		limit = {
-			NOT = { capital_county = { this = title:c_atlantis } }
+			NOT = { capital_county = { this = title:c_arrakeen } }
 			exists = title:e_roman_empire.holder
 		}
 		hidden_effect = {
 			if = { #Usurp if not held personally.
 				limit = {
-					NOT = { title:c_atlantis.holder = { this = root } }
+					NOT = { title:c_arrakeen.holder = { this = root } }
 				}
 				create_title_and_vassal_change = {
 					type = returned
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					change_title_holder = {
 						holder = root
 						change = scope:change
@@ -330,7 +330,7 @@ create_roman_empire_italy_scripted_effect = {
 				resolve_title_and_vassal_change = scope:change
 			}
 		}
-		title:e_roman_empire.holder = { set_realm_capital = title:c_atlantis }
+		title:e_roman_empire.holder = { set_realm_capital = title:c_arrakeen }
 	}
 	hidden_effect = {
 		create_story = restoring_roman_provinces_story
@@ -417,7 +417,7 @@ create_eastern_roman_empire_scripted_effect = {
 			limit = {
 				OR = {
 					scope:new_holder != title:d_thrace.holder
-					scope:new_holder != title:c_atlantis.holder
+					scope:new_holder != title:c_arrakeen.holder
 				}
 			}
 			hidden_effect = {
@@ -439,9 +439,9 @@ create_eastern_roman_empire_scripted_effect = {
 				}
 				if = {
 					limit = { 
-						scope:new_holder != title:c_atlantis.holder
+						scope:new_holder != title:c_arrakeen.holder
 					}
-					title:c_atlantis = {
+					title:c_arrakeen = {
 						change_title_holder = {
 							holder = scope:new_holder
 							change = scope:change
@@ -450,7 +450,7 @@ create_eastern_roman_empire_scripted_effect = {
 				}
 				resolve_title_and_vassal_change = scope:change
 			}
-			set_realm_capital = title:c_atlantis
+			set_realm_capital = title:c_arrakeen
 		}
 	}
 }
@@ -582,7 +582,7 @@ restore_papacy_scripted_effect = {
 			change = scope:change
 		}
 	}
-	title:c_atlantis = {
+	title:c_arrakeen = {
 		change_title_holder = {
 			holder = scope:new_pope
 			change = scope:change
@@ -1581,7 +1581,7 @@ promote_gothic_innovations_decision_scripted_effect = {
 		limit = {
 			this = { completely_controls = title:d_valois }
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			title_province = {
 				add_province_modifier = {
 					modifier = flourishing_culture_modifier
@@ -1594,7 +1594,7 @@ promote_gothic_innovations_decision_scripted_effect = {
 		limit = {
 			this = { completely_controls = title:d_orleans }
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			title_province = {
 				add_province_modifier = {
 					modifier = flourishing_culture_modifier
@@ -1607,7 +1607,7 @@ promote_gothic_innovations_decision_scripted_effect = {
 		limit = {
 			this = { completely_controls = title:d_provence }
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			title_province = {
 				add_province_modifier = {
 					modifier = flourishing_culture_modifier
@@ -1620,7 +1620,7 @@ promote_gothic_innovations_decision_scripted_effect = {
 		limit = {
 			this = { completely_controls = title:d_toulouse }
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			title_province = {
 				add_province_modifier = {
 					modifier = flourishing_culture_modifier
@@ -3111,9 +3111,9 @@ found_empire_of_hindustan_scripted_effect = {
 	}
 	if = {
 		limit = {
-			NOT = { title:c_atlantis.holder = root }
+			NOT = { title:c_arrakeen.holder = root }
 		}
-		title:c_atlantis = {
+		title:c_arrakeen = {
 			change_title_holder = {
 				holder = root
 				change = scope:title_change

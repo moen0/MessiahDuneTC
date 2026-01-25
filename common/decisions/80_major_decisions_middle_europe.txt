@@ -30,8 +30,8 @@ form_switzerland_kingdom_decision = {
 		any_sub_realm_county = {
 			OR = {
 				title_province = { geographical_region = custom_core_switzerland }
-				this = title:c_atlantis
-				this = title:c_atlantis
+				this = title:c_arrakeen
+				this = title:c_arrakeen
 			}
 		}
 	}
@@ -401,13 +401,13 @@ empower_sicilian_parliament_decision = {
 		OR = {
 			AND = {
 				completely_controls = title:d_sicily # The Island
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					title_province = { has_special_building = no }
 				}
 			}
 			AND = {
 				completely_controls = title:d_capua # The Boot
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					title_province = { has_special_building = no }
 				}
 			}
@@ -431,14 +431,14 @@ empower_sicilian_parliament_decision = {
 		show_as_tooltip = {
 			if = { #Only for tooltip, player gets to choose in the event when owning both.
 				limit = { completely_controls = title:d_sicily }
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					sicilian_parliament_building_scripted_effect = yes
 				}
 			}
 			else_if = {
 				limit = { completely_controls = title:d_capua }
 				custom_tooltip = middle_europe_decisions.0010.tt_napoli_warning
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					sicilian_parliament_building_scripted_effect = yes
 				}
 			}

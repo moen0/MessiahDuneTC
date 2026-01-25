@@ -22,7 +22,7 @@ on_ruler_designer_finished = {
 		# If your capital on game start is Mecca, you get the Hajjaj trait (since you can't Hajj to your capital)
 		if = {
 			limit = {
-				this = title:b_atlantis.county.holder
+				this = title:b_arrakeen.county.holder
 				faith = { has_doctrine_parameter = mandatory_hajj }
 				NOT = { has_trait = hajjaj }
 			}

@@ -433,7 +433,7 @@ admin_confirmation_decision = {
 				top_liege ?= {
 					OR = {
 						culture = { has_cultural_pillar = heritage_byzantine }
-						capital_barony ?= title:b_atlantis
+						capital_barony ?= title:b_arrakeen
 						primary_title ?= title:e_byzantium
 						primary_title ?= title:e_roman_empire
 					}
@@ -871,9 +871,9 @@ convert_to_administrative_decision = {
 					religion = religion:islam_religion
 					has_title = title:k_rum
 					OR = {
-						has_title = title:c_atlantis
+						has_title = title:c_arrakeen
 						any_sub_realm_title = {
-							this = title:c_atlantis
+							this = title:c_arrakeen
 						}
 					}
 				}

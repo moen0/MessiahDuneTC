@@ -19,7 +19,7 @@ secure_high_kingdom_north_sea_scripted_effect = {
 			if = {
 				limit = { primary_title = title:k_norway }
 				title:e_north_sea = {
-					set_capital_county = title:c_atlantis.title_capital_county
+					set_capital_county = title:c_arrakeen.title_capital_county
 				}
 			}
 		}
@@ -274,7 +274,7 @@ elevate_mann_and_the_isles_scripted_effect = {
 	}
 	resolve_title_and_vassal_change = scope:title_change
 	# Buff the Isle of Mann.
-	title:c_atlantis = {
+	title:c_arrakeen = {
 		# Give it some extra building slots
 		title_province = { 
 			add_province_modifier = elevate_mann_and_the_isles_modifier
@@ -285,21 +285,21 @@ elevate_mann_and_the_isles_scripted_effect = {
 	# Make it your capital if it wasn't already.
 	if = {
 		limit = {
-			NOT = { capital_county = title:c_atlantis }
+			NOT = { capital_county = title:c_arrakeen }
 		}
-		set_realm_capital = title:c_atlantis
+		set_realm_capital = title:c_arrakeen
 	}
 	# And convert it to your culture if it wasn't some flavour of North Germanic.
 	if = {
 		limit = {
 			NOR = {
-				title:c_atlantis.culture = {
+				title:c_arrakeen.culture = {
 					has_cultural_pillar = heritage_north_germanic
 				}
-				title:c_atlantis.culture = culture:norman
+				title:c_arrakeen.culture = culture:norman
 			}
 		}
-		title:c_atlantis = { set_county_culture = scope:founder.culture }
+		title:c_arrakeen = { set_county_culture = scope:founder.culture }
 	}
 	# Have a huge, terrifying event army.
 	spawn_army = {
@@ -324,11 +324,11 @@ elevate_mann_and_the_isles_scripted_effect = {
 			type = bondi
 			stacks = 5
 		}
-		location = title:c_atlantis.title_province
+		location = title:c_arrakeen.title_province
 		name = fp1_mann_event_troops
 	}
 	# Mann gets a huge modernising boost.
-	title:c_atlantis = {
+	title:c_arrakeen = {
 		add_county_modifier = {
 			modifier = fp1_mann_pirate_capital_modifier
 			years = 100
@@ -438,7 +438,7 @@ forge_the_jomsvikings_scripted_effect = {
 	}
 	# Make the local settlement Jomsberg.
 	## Rename it.
-	scope:leased_barony = { set_title_name = b_atlantis }
+	scope:leased_barony = { set_title_name = b_arrakeen }
 	## Give it some buildings.
 	hidden_effect = {
 		scope:leased_barony.title_province = {

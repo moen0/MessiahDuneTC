@@ -1,7 +1,7 @@
 # e_atlantis
 #  k_atlantis
 #   d_atlantis 
-#    c_atlantis
+#    c_arrakeen
 
 1 = {
     culture = atlantean
@@ -17,7 +17,7 @@
 	holding = none
 }
 
-#    c_atlantis_b
+#    c_arrakeen_b
 
 4 = {
 	culture = atlantean
@@ -35,7 +35,7 @@
 	holding = castle_holding
 }
 
-#    c_atlantis_c
+#    c_arrakeen_c
 
 7 = {
 	culture = atlantean

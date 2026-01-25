@@ -1807,15 +1807,15 @@ south_asia.0050 = {
 		name = south_asia.0050.a
 		trigger = {
 			NOT = {
-				capital_county = title:c_atlantis
+				capital_county = title:c_arrakeen
 			}
 		}
-		title:b_atlantis = {
+		title:b_arrakeen = {
 			set_title_name = c_delhi
 		}
-		set_realm_capital = title:c_atlantis
+		set_realm_capital = title:c_arrakeen
 		title:e_hindustan = {
-			set_capital_county = title:c_atlantis
+			set_capital_county = title:c_arrakeen
 		}
 		ai_chance = {
 			base = 100
@@ -1826,13 +1826,13 @@ south_asia.0050 = {
 		name = south_asia.0050.b
 		trigger = {
 			NOT = {
-				capital_county = title:c_atlantis
+				capital_county = title:c_arrakeen
 			}
-			title:c_atlantis.holder = root
+			title:c_arrakeen.holder = root
 		}
-		set_realm_capital = title:c_atlantis
+		set_realm_capital = title:c_arrakeen
 		title:e_hindustan = {
-			set_capital_county = title:c_atlantis
+			set_capital_county = title:c_arrakeen
 		}
 		ai_chance = {
 			base = 0
@@ -1853,8 +1853,8 @@ south_asia.0050 = {
 			base = 0
 			modifier = {
 				NOR = {
-					has_title = title:c_atlantis
-					has_title = title:c_atlantis
+					has_title = title:c_arrakeen
+					has_title = title:c_arrakeen
 				}
 				add = 100
 			}

@@ -126,7 +126,7 @@
 
 	## Invalidation
 	on_invalidated = {
-		title:b_atlantis = { save_scope_as = target }
+		title:b_arrakeen = { save_scope_as = target }
 		scheme_owner = {
 			save_scope_as = owner
 			send_interface_toast = {

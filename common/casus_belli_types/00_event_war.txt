@@ -250,9 +250,9 @@ norman_conquest_cb = {
 			if = {
 				limit = {
 					is_ai = yes
-					has_title = title:c_atlantis
+					has_title = title:c_arrakeen
 				}
-				set_realm_capital = title:c_atlantis
+				set_realm_capital = title:c_arrakeen
 			}
 		}
 
@@ -798,13 +798,13 @@ norwegian_invasion_cb = {
 			}
 			#And give him Maine & Sable too.
 			if = {
-				limit = { title:c_atlantis.holder.liege = scope:attacker }
+				limit = { title:c_arrakeen.holder.liege = scope:attacker }
 				create_title_and_vassal_change = {
 					type = revoked
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis.holder = {
+				title:c_arrakeen.holder = {
 					change_liege = {
 						liege = scope:free_william
 						change = scope:change
@@ -814,15 +814,15 @@ norwegian_invasion_cb = {
 			}
 			if = {
 				limit = {
-					NOT = { title:c_atlantis.holder = title:c_atlantis.holder }
-					title:c_atlantis.holder.liege = scope:attacker
+					NOT = { title:c_arrakeen.holder = title:c_arrakeen.holder }
+					title:c_arrakeen.holder.liege = scope:attacker
 				}
 				create_title_and_vassal_change = {
 					type = revoked
 					save_scope_as = change
 					add_claim_on_loss = no
 				}
-				title:c_atlantis.holder = {
+				title:c_arrakeen.holder = {
 					change_liege = {
 						liege = scope:free_william
 						change = scope:change
