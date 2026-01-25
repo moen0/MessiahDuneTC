@@ -17,64 +17,87 @@ world_arrakis = {
         d_northern_minor_erg
     }
 }
-world_europe_south = {
+
+world_caladan = {
     duchies = {
-        d_atlantis
+        d_caladan_castle
     }
 }
-world_europe = {
-    regions = {
-        world_europe_south
+
+world_giedi_prime = {
+    duchies = {
+        d_giedi_barony
     }
 }
+
+# Removed all Atlantis and Europe references since those are deleted
+
 material_wood_walnut = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
+
 material_wood_maple = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
+
 material_woods_dogwood = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
+
 material_woods_hazel = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
+
 material_cloth_linen = {
     regions = {
-        world_europe_south
+        world_caladan
+        world_arrakis
     }
 }
+
 material_hsb_deer_antler = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
+
 material_hsb_boar_tusk = {
     regions = {
-        world_europe_south
+        world_caladan
     }
 }
-sea_south_atlantic = {
+
+# Updated space provinces - now 1 instead of 13
+sea_space = {
     provinces = {
-        10 11 12 13
+        1
     }
 }
-sea_atlantic_ocean = {
-    regions = {
-        sea_south_atlantic
-    }
-}
+
 hunt_animal_deer_region = {
     regions = {
-        world_europe
+        world_caladan
+    }
+}
+
+# Arrakis-specific materials
+material_spice = {
+    regions = {
+        world_arrakis
+    }
+}
+
+material_stillsuit = {
+    regions = {
+        world_arrakis
     }
 }
 
@@ -89,7 +112,9 @@ world_europe_west = { }
 world_europe_north = { }
 world_europe_south_east = { }
 world_europe_south_italy = { }
+world_europe_south = { }
 world_europe_east = { }
+world_europe = { }
 world_asia_minor = { }
 world_middle_east_jerusalem = { }
 world_middle_east_arabia = { }
@@ -418,6 +443,8 @@ sea_bay_of_bengal = { }
 sea_inland_steppe_seas = { }
 sea_caspian_sea = { }
 sea_aral_sea = { }
+sea_south_atlantic = { }
+sea_atlantic_ocean = { }
 hunt_animal_antelope_region = { }
 hunt_animal_gazelle_region = { }
 hunt_animal_boar_region = { }
@@ -461,16 +488,25 @@ river_valley_nomad_area = { }
 #### GRAPHICAL REGIONS ####
 ###########################
 
+# Caladan - Western European style
 graphical_western = {
     graphical = yes
     color = { 255 0 0 }
-    provinces = { 1 2 3 4 5 6 7 8 9 10 11 12 13 }
+    provinces = { 57 }
 }
 
+# Arrakis - MENA/Desert style
 graphical_mena = {
     graphical = yes
     color = { 255 255 0 }
-    provinces = { 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 }
+    provinces = {  14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 }  # NEW - was 14-56
+}
+
+## /steppe style
+graphical_steppe = {
+    graphical = yes
+    color = { 0 255 255 }
+    provinces = { 1 2 3 4 5 6 7 8 9 58 }
 }
 
 graphical_india = {
@@ -481,11 +517,6 @@ graphical_india = {
 graphical_mediterranean = {
     graphical = yes
     color = { 0 0 255 }
-}
-
-graphical_steppe = {
-    graphical = yes
-    color = { 0 255 255 }
 }
 
 graphical_siberia = {

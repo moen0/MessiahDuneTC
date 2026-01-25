@@ -116,3 +116,93 @@
  b_serir_wastes: "Serir Wastes"
  b_tanezrouft: "Tanezrouft"
  b_spice_depot: "Spice Depot"
+
+ # GIEDI PRIME
+ k_giedi_prime:0 "Giedi Prime"
+ k_giedi_prime_adj:0 "Giedi"
+
+ d_barony_giedi:0 "Barony"
+ d_barony_giedi_adj:0 "Barony"
+
+ c_barony:0 "Harkonnen Capital"
+ c_barony_adj:0 "Capital"
+
+ b_barony:0 "Barony Keep"
+ b_barony_adj:0 "Barony"
+
+ b_barony_castle:0 "Fortress Barony"
+ b_barony_castle_adj:0 "Barony"
+
+ c_harko:0 "Harko"
+ c_harko_adj:0 "Harko"
+
+ b_harko:0 "Harko Stronghold"
+ b_harko_adj:0 "Harko"
+
+ c_giedi_secundus:0 "Giedi Secundus"
+ c_giedi_secundus_adj:0 "Secundus"
+
+ b_giedi_secundus:0 "Secundus District"
+ b_giedi_secundus_adj:0 "Secundus"
+
+ c_giedi_tertius:0 "Giedi Tertius"
+ c_giedi_tertius_adj:0 "Tertius"
+
+ b_giedi_tertius:0 "Tertius Quarter"
+ b_giedi_tertius_adj:0 "Tertius"
+
+ c_giedi_quartus:0 "Giedi Quartus"
+ c_giedi_quartus_adj:0 "Quartus"
+
+ b_giedi_quartus:0 "Quartus Zone"
+ b_giedi_quartus_adj:0 "Quartus"
+
+ d_harkonnen_industrial:0 "Industrial District"
+ d_harkonnen_industrial_adj:0 "Industrial"
+
+ c_industrial_complex:0 "Industrial Complex"
+ c_industrial_complex_adj:0 "Industrial"
+
+ b_industrial_complex:0 "Factory District"
+ b_industrial_complex_adj:0 "Industrial"
+
+ c_slave_pits:0 "Slave Pits"
+ c_slave_pits_adj:0 "Slave"
+
+ b_slave_pits:0 "Labor Camps"
+ b_slave_pits_adj:0 "Slave"
+
+ c_refineries:0 "Refineries"
+ c_refineries_adj:0 "Refinery"
+
+ b_refineries:0 "Processing Plants"
+ b_refineries_adj:0 "Refinery"
+
+ c_fortress_harkonnen:0 "Fortress Harkonnen"
+ c_fortress_harkonnen_adj:0 "Fortress"
+
+ b_fortress_harkonnen:0 "Harkonnen Citadel"
+ b_fortress_harkonnen_adj:0 "Fortress"
+
+ # KAITAIN (Note: Your code has errors - I'll localize what you intended)
+ k_kaitain:0 "Kaitain"
+ k_kaitain_adj:0 "Kaitaini"
+
+ d_imperial_district:0 "Imperial District"
+ d_imperial_district_adj:0 "Imperial"
+
+ c_imperial_city:0 "Imperial City"
+ c_imperial_city_adj:0 "Imperial"
+
+ # CALADAN
+ k_caladan:0 "Caladan"
+ k_caladan_adj:0 "Caladani"
+
+ d_castle_caladan:0 "Castle Caladan"
+ d_castle_caladan_adj:0 "Caladan"
+
+ c_caladan:0 "Caladan"
+ c_caladan_adj:0 "Caladani"
+
+ b_caladan:0 "Castle Caladan"
+ b_caladan_adj:0 "Caladan"

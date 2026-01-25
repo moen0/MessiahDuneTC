@@ -1,0 +1,99 @@
+k_giedi_prime = {
+    color = { 255 69 76 }
+    capital = c_barony
+
+    d_barony_giedi = {
+        color = { 200 50 60 }
+        capital = c_barony
+
+        c_barony = {
+            color = { 220 60 70 }
+
+            b_barony = {
+                province = 58
+                color = { 220 60 70 }
+            }
+            b_barony_castle = {
+                province = 1
+                color = { 220 60 70 }
+            }
+        }
+
+        c_harko = {
+            color = { 180 40 50 }
+
+            b_harko = {
+                province = 2
+                color = { 180 40 50 }
+            }
+        }
+
+        c_giedi_secundus = {
+            color = { 190 45 55 }
+
+            b_giedi_secundus = {
+                province = 3
+                color = { 190 45 55 }
+            }
+        }
+
+        c_giedi_tertius = {
+            color = { 170 35 45 }
+
+            b_giedi_tertius = {
+                province = 4
+                color = { 170 35 45 }
+            }
+        }
+
+        c_giedi_quartus = {
+            color = { 160 30 40 }
+
+            b_giedi_quartus = {
+                province = 5
+                color = { 160 30 40 }
+            }
+        }
+    }
+
+    d_harkonnen_industrial = {
+        color = { 150 40 80 }
+        capital = c_industrial_complex
+
+        c_industrial_complex = {
+            color = { 140 35 75 }
+
+            b_industrial_complex = {
+                province = 6
+                color = { 140 35 75 }
+            }
+        }
+
+        c_slave_pits = {
+            color = { 130 30 70 }
+
+            b_slave_pits = {
+                province = 7
+                color = { 130 30 70 }
+            }
+        }
+
+        c_refineries = {
+            color = { 120 25 65 }
+
+            b_refineries = {
+                province = 8
+                color = { 120 25 65 }
+            }
+        }
+
+        c_fortress_harkonnen = {
+            color = { 110 20 60 }
+
+            b_fortress_harkonnen = {
+                province = 9
+                color = { 110 20 60 }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿k_caladan = {
+    color = { 266 180 55 }
+    capital = c_arrakeen
+
+    d_castle_caladan = {
+        color = { 220 190 150 }
+        capital = c_caladan
+
+        c_caladan = {
+            color = { 255 200 100 }
+
+            b_caladan = {
+                province = 57
+                color = { 255 200 100 }
+            }
+        }
+    }
+}

@@ -12,3 +12,52 @@
         Tabr Naib
     }
 }
+
+## harkonnen giedi prime
+
+name_list_harkonnen = {
+    # Male names
+    male_names = {
+        Vladimir Glossu Feyd-Rautha Rabban Piter Iakin Umman
+        Dmitri Lankiveil Abulurd Harkonnen Geir Marotin
+        Copec Kryubi Czigo Burzmali Yanich Trooper
+    }
+
+    # Female names
+    female_names = {
+        Emmi Jessica Marie Margot Wanna Darwi Chalice
+        Irulan Alia Chani Harah Jamis Shaina Reversa
+    }
+
+    dynasty_names = {
+         Rabban Glossu Lankiveil
+    }
+}
+name_list_imperial = {
+    # Male names - Imperial nobility
+    male_names = {
+        Shaddam Elrood Hassik Fenring Corrino Burseg
+        Zum Bashar Caid Sardaukar Aramsham Bhotani
+        Burseg Cando Chaliv Farad Garon Hrm Ibar
+        Josef Kolona Levtim Menemtahe Otheym Platov
+        Rondo Sentre Vitt Willowes Zoal Harq
+        Bashar Caid Levenbrech Burseg Naib Sardau
+        Arrakis Caladan Kaitain Salusa Giedi Carthage
+    }
+
+    # Female names - Imperial nobility
+    female_names = {
+        Irulan Wensicia Anirul Habla Chalice Reversa
+        Arkie Bene Corinne Dortujla Emmi Falyar
+        Galena Hadi Ixian Jalice Karisa Ludila
+        Margot Nalgan Ostara Poritrin Quillan Rayna
+        Shaina Tessia Ursula Varana Wanda Yera
+        Ziarenka Arlett Bronwyn Cala Darits Elara
+    }
+
+    # Dynasty names
+    dynasty_names = {
+        Corrino "al-Corrino" Sardaukar Fenring Burseg
+        Aramsham Platov Kolona Sentre Willowes
+        Chaliv Garon Menemtahe Bashar Vitt
+    }
