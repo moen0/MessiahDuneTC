@@ -146,7 +146,7 @@ scrape_the_barrel_decision = {
 				top_liege ?= {
 					OR = {
 						culture = { has_cultural_pillar = heritage_byzantine }
-						capital_barony ?= title:b_atlantis
+						capital_barony ?= title:b_arrakeen
 						primary_title ?= title:e_byzantium
 						primary_title ?= title:e_roman_empire
 					}

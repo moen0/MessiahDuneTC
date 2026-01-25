@@ -2620,15 +2620,15 @@ pilgrimage_destination = {
 			OR = {
 				AND = {
 					exists = scope:activity
-					scope:activity.activity_location.county = title:c_atlantis
+					scope:activity.activity_location.county = title:c_arrakeen
 				}
 				AND = {
 					exists = scope:activity
-					scope:activity.activity_location.county = title:c_atlantis
+					scope:activity.activity_location.county = title:c_arrakeen
 				}
 				AND = {
 					exists = scope:activity
-					scope:activity.activity_location.county = title:c_atlantis
+					scope:activity.activity_location.county = title:c_arrakeen
 				}
 			}
 
@@ -2811,7 +2811,7 @@ byzantine = {
 		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_domain" #TODO_EP3: is there a sound effect coming?
 	}
 	background = {
-		trigger = { location = title:b_atlantis }
+		trigger = { location = title:b_arrakeen }
 		reference = ep3_constantinople
 	}
 	background = {

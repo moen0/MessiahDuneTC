@@ -166,7 +166,7 @@ hasan_sabbah.1010 = {
 				}
 				modifier = {
 					factor = 10
-					scope:location.county = title:c_atlantis
+					scope:location.county = title:c_arrakeen
 				}
 				min = 10
 				send_interface_toast = {
@@ -559,11 +559,11 @@ hasan_sabbah.1030 = {
 		add_piety = medium_piety_gain
 		if = {
 			limit = { is_ai = yes }
-			domicile = { move_domicile = title:b_atlantis.title_province }
+			domicile = { move_domicile = title:b_arrakeen.title_province }
 		}
 		else = {
 			start_travel_plan = {
-				destination = title:b_atlantis.title_province
+				destination = title:b_arrakeen.title_province
 				players_use_planner = yes
 				return_trip = no
 				travel_with_domicile = yes
@@ -843,7 +843,7 @@ hasan_sabbah.1050 = {
 		hidden_effect = {
 			scope:new_title = {
 				set_de_jure_liege_title = root.location.empire
-				set_coa = title:b_atlantis
+				set_coa = title:b_arrakeen
 				set_color_from_title = scope:hasan_home
 				set_capital_county = scope:hasan_home
 			}

@@ -19,7 +19,7 @@ is_on_a_hajj_trigger = {
 			option = pilgrimage_type_hajj
 		}
 	}
-	involved_activity.activity_location.barony = title:b_atlantis
+	involved_activity.activity_location.barony = title:b_arrakeen
 	#No more Hajj events if you're on your way home :colbert:
 	exists = capital_province
 	NOT = { 

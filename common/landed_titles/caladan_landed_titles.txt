@@ -1,6 +1,6 @@
 ﻿k_caladan = {
     color = { 266 180 55 }
-    capital = c_arrakeen
+    capital = c_caladan
 
     d_castle_caladan = {
         color = { 220 190 150 }

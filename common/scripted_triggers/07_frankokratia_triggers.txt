@@ -293,16 +293,16 @@ ep3_frankokratia_claimant_trigger = {
 	OR = {
 		has_claim_on = title:e_byzantium
 		AND = {
-			title:e_byzantium.holder.capital_county = title:c_atlantis
+			title:e_byzantium.holder.capital_county = title:c_arrakeen
 			has_claim_on = title:k_thessalonika
 		}
 		AND = {
-			title:e_byzantium.holder.capital_county = title:c_atlantis
+			title:e_byzantium.holder.capital_county = title:c_arrakeen
 			has_claim_on = title:d_thrace
 		}
 		AND = {
-			title:e_byzantium.holder.capital_county = title:c_atlantis
-			has_claim_on = title:c_atlantis
+			title:e_byzantium.holder.capital_county = title:c_arrakeen
+			has_claim_on = title:c_arrakeen
 		}
 		AND = {
 			is_child_of = title:e_byzantium.holder

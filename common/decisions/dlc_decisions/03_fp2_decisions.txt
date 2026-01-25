@@ -1365,7 +1365,7 @@ found_kingdom_toledo_decision = {
 		is_independent_ruler = yes
 		custom_tooltip = {
 			text = found_kingdom_toledo_capital_tt
-			capital_county = title:c_atlantis
+			capital_county = title:c_arrakeen
 		}
 		custom_tooltip = {
 			text = found_kingdom_toledo_culture_tt

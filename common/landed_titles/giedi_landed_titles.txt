@@ -1,4 +1,4 @@
-k_giedi_prime = {
+﻿k_giedi_prime = {
     color = { 255 69 76 }
     capital = c_barony
 

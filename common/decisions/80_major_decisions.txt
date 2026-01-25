@@ -1492,30 +1492,30 @@ found_university_decision = {
 		highest_held_title_tier >= tier_duchy
 		any_sub_realm_barony = {
 			OR = { #A place where universities historically existed early
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis			
-				this = title:b_atlantis			
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
 			}
 			title_province = {
 				NOR = {
@@ -1535,313 +1535,313 @@ found_university_decision = {
 		OR = {
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}	
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}	
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}	
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}	
 			trigger_if = {
 				limit = {
-					any_sub_realm_barony = { this = title:b_atlantis }
-					title:b_atlantis.title_province = { NOT = { exists = var:university } }
+					any_sub_realm_barony = { this = title:b_arrakeen }
+					title:b_arrakeen.title_province = { NOT = { exists = var:university } }
 				}
 				AND = {
-					title:b_atlantis.county = { development_level >= 30 }
+					title:b_arrakeen.county = { development_level >= 30 }
 					custom_description = {
 						text = no_special_building_slot
-						title:b_atlantis.title_province = { has_special_building_slot = no }
+						title:b_arrakeen.title_province = { has_special_building_slot = no }
 					}
 				}
 			}				

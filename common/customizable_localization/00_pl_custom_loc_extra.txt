@@ -562,7 +562,7 @@ TitleAdjBase = {
 					this = title:e_arabia
 					this = title:e_bengal
 					this = title:e_deccan
-					this = title:c_atlantis
+					this = title:c_arrakeen
 
 					#nobles
 
@@ -850,20 +850,20 @@ TitleZZe = {
 	text = {
 		trigger = {
 			OR = {
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				# this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				# this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
-				this = title:b_atlantis
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				# this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				# this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
+				this = title:b_arrakeen
 
 			}
 		}
@@ -896,8 +896,8 @@ TitleIsPlural = {
 				this = title:k_italy
 				this = title:e_italy
 				this = title:d_jomsvikings
-				this = title:c_atlantis
-				# this = title:c_atlantis
+				this = title:c_arrakeen
+				# this = title:c_arrakeen
 				# this = title:d_arabs
 				# this = title:d_kajaneborg
 				# this = title:d_khazars
@@ -907,7 +907,7 @@ TitleIsPlural = {
 				# this = title:d_veps
 				# this = title:d_votes
 				this = title:k_pechenegs
-				this = title:c_atlantis
+				this = title:c_arrakeen
 			}
 		}
 		localization_key = pt_true

@@ -1500,7 +1500,7 @@ mpo_find_suitable_merchant_effect = {
 	random_list = {
 		1 = { #Merv
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1510,15 +1510,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Nishapur
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1528,15 +1528,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Khotan
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1546,15 +1546,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Wroclaw
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1564,15 +1564,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Krakow
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1582,15 +1582,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Novgorod
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1600,15 +1600,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis  = {
+			title:b_arrakeen  = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Kyiv
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1618,15 +1618,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Baghdad
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1636,15 +1636,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Pisa
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1654,15 +1654,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Venice
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1672,15 +1672,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Cairo
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1690,15 +1690,15 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Genua
 			trigger = {
-				title:c_atlantis = {
+				title:c_arrakeen = {
 					development_level >= 30
 					NOT = {
 						holder.top_liege = {
@@ -1708,18 +1708,18 @@ mpo_find_suitable_merchant_effect = {
 				}
 			}
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}
 		1 = { #Constantinople
 			#something has to be in constantinople
 			modifier = {
-				add = title:c_atlantis.development_level
+				add = title:c_arrakeen.development_level
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				save_scope_as = merchant_origin
 			}
 		}

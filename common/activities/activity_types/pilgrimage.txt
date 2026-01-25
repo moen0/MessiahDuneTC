@@ -55,7 +55,7 @@
 		trigger_if = {
 			limit = { 
 				faith = { has_doctrine_parameter = mandatory_hajj }
-				capital_province.barony ?= title:b_atlantis
+				capital_province.barony ?= title:b_arrakeen
 			}
 			custom_tooltip = {
 				text = activity_pilgrimage.is_location_valid.capital_is_mecca
@@ -214,7 +214,7 @@
 			}
 			custom_tooltip = {
 				text = activity_pilgrimage.is_location_valid.hajj_mecca
-				barony = title:b_atlantis
+				barony = title:b_arrakeen
 			}
 		}
 		#You only get to visit any particular holy site once every 5 years
@@ -301,71 +301,71 @@
 					AND = {
 						scope:host = { religion = religion:christianity_religion }
 						OR = {
-							county = title:c_atlantis # Rome
-							county = title:c_atlantis # Jerusalem
-							county = title:c_atlantis # Constantinople
-							county = title:c_atlantis # Alexandria
+							county = title:c_arrakeen # Rome
+							county = title:c_arrakeen # Jerusalem
+							county = title:c_arrakeen # Constantinople
+							county = title:c_arrakeen # Alexandria
 						}
 					}
 					#Christianity
 					AND = {
 						scope:host = { religion = religion:judaism_religion }
 						OR = {
-							county = title:c_atlantis # Mt. Sinai
-							county = title:c_atlantis # Jerusalem
+							county = title:c_arrakeen # Mt. Sinai
+							county = title:c_arrakeen # Jerusalem
 						}
 					}
 					#Islam
 					AND = {
 						scope:host = { religion = religion:islam_religion }
 						OR = {
-							county = title:c_atlantis # Mecca
-							county = title:c_atlantis # Medina
-							county = title:c_atlantis # Mt. Sinai
-							county = title:c_atlantis # Jerusalem
+							county = title:c_arrakeen # Mecca
+							county = title:c_arrakeen # Medina
+							county = title:c_arrakeen # Mt. Sinai
+							county = title:c_arrakeen # Jerusalem
 						}
 					}
 					#Hinduism
 					AND = {
 						scope:host = { religion = religion:hinduism_religion }
 						OR = {
-							county = title:c_atlantis # Varanasi
-							county = title:c_atlantis # Ayodhya
-							county = title:c_atlantis # Mathura
-							county = title:c_atlantis # Haridwar
-							county = title:c_atlantis # Kanchipuram
-							county = title:c_atlantis # Ujjayini
-							county = title:c_atlantis # Dwarka
+							county = title:c_arrakeen # Varanasi
+							county = title:c_arrakeen # Ayodhya
+							county = title:c_arrakeen # Mathura
+							county = title:c_arrakeen # Haridwar
+							county = title:c_arrakeen # Kanchipuram
+							county = title:c_arrakeen # Ujjayini
+							county = title:c_arrakeen # Dwarka
 						}
 					}
 					#Buddhism
 					AND = {
 						scope:host = { religion = religion:buddhism_religion }
 						OR = {
-							county = title:c_atlantis # Bodh Gaya
-							county = title:c_atlantis # Kusinagara
-							county = title:c_atlantis # Sarnath
+							county = title:c_arrakeen # Bodh Gaya
+							county = title:c_arrakeen # Kusinagara
+							county = title:c_arrakeen # Sarnath
 						}
 					}
 					#Jainism
 					AND = {
 						scope:host = { religion = religion:jainism_religion }
 						OR = {
-							county = title:c_atlantis # Shikharj
+							county = title:c_arrakeen # Shikharj
 						}
 					}
 					#Zoroastrian
 					AND = {
 						scope:host = { religion = religion:zoroastrianism_religion }
 						OR = {
-							county = title:c_atlantis # Ushi-darena
+							county = title:c_arrakeen # Ushi-darena
 						}
 					}
 					#Norse
 					AND = {
 						scope:host = { religion = religion:germanic_religion }
 						OR = {
-							county = title:c_atlantis # Paderborn
+							county = title:c_arrakeen # Paderborn
 						}
 					}
 				}
@@ -1174,7 +1174,7 @@
 					trigger_if = {
 						limit = {
 							exists = capital_province
-							NOT = { capital_province.barony = title:b_atlantis }
+							NOT = { capital_province.barony = title:b_arrakeen }
 						}
 						custom_tooltip = {
 							text = activity_pilgrimage.is_valid.hajjed_recently
@@ -1195,7 +1195,7 @@
 						text = activity_pilgrimage.is_location_valid.capital_is_mecca
 						NAND = {
 							exists = capital_province
-							capital_province.barony = title:b_atlantis
+							capital_province.barony = title:b_arrakeen
 						}
 					}
 				}
@@ -1838,7 +1838,7 @@
 									option = pilgrimage_type_hajj
 								}
 							}
-							scope:activity.activity_location.county = title:c_atlantis
+							scope:activity.activity_location.county = title:c_arrakeen
 						}
 						if = {
 							limit = {
@@ -1981,7 +1981,7 @@
 							option = pilgrimage_type_hajj
 						}
 					}
-					scope:activity.activity_location.county = title:c_atlantis
+					scope:activity.activity_location.county = title:c_arrakeen
 				}
 				add_activity_log_entry = {
 					key = hajj_departed_log
@@ -2142,7 +2142,7 @@
 						option = pilgrimage_type_hajj
 					}
 				}
-				scope:activity.activity_location.county = title:c_atlantis
+				scope:activity.activity_location.county = title:c_arrakeen
 			}
 			#For the follow-up reflective event when back home, triggered through travel_plan_completion on_action
 			set_variable = {
@@ -2594,7 +2594,7 @@
 	#Unique holy sites
 	background = {
 		trigger = {
-			activity_location.county = title:c_atlantis
+			activity_location.county = title:c_arrakeen
 		}
 		texture = "gfx/interface/illustrations/event_scenes/ep2_holysite_mecca.dds"
 		environment = "environment_mecca"
@@ -2602,7 +2602,7 @@
 	}
 	background = {
 		trigger = {
-			activity_location.county = title:c_atlantis
+			activity_location.county = title:c_arrakeen
 		}
 		texture = "gfx/interface/illustrations/event_scenes/ep2_holysite_jerusalem.dds"
 		environment = "environment_jerusalem"
@@ -2610,7 +2610,7 @@
 	}
 	background = {
 		trigger = {
-			activity_location.county = title:c_atlantis
+			activity_location.county = title:c_arrakeen
 		}
 		texture = "gfx/interface/illustrations/event_scenes/ep3_hagia_sophia.dds"
 		environment = "environment_ep3_hagia_sophia"

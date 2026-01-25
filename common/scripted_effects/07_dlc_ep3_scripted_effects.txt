@@ -7797,7 +7797,7 @@ ep3_greek_fire_crit_fail_effect = {
 		}
 	}
 	#You lose the greek fire fleet modifier
-	title:c_atlantis = {
+	title:c_arrakeen = {
 		remove_county_modifier = defensive_fire_dromons_modifier
 	}
 }
@@ -12386,16 +12386,16 @@ ep3_camp_party_visit_holding_skills_boost = {
 
 #Setting up the Fens as a pseudo-custom region
 ep3_the_fens_list_effect = {
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
-	province:1 = { add_to_list = the_fens } #b_atlantis
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
+	province:1 = { add_to_list = the_fens } #b_arrakeen
 }
 
 #Used for setting up the Harrying of the North widget for events

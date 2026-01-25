@@ -14,7 +14,7 @@ PilgrimageName = {
 							option = pilgrimage_type_hajj
 						}
 					}
-					involved_activity.activity_location.barony = title:b_atlantis
+					involved_activity.activity_location.barony = title:b_arrakeen
 				}
 				var:has_completed_pilgrimage ?= flag:hajj
 			}

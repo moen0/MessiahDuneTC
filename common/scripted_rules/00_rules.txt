@@ -1300,8 +1300,8 @@ can_raze_own_holding = {
 			limit = {
 				religion = religion:islam_religion
 			}
-			scope:province.county != title:c_atlantis
-			scope:province.county != title:c_atlantis
+			scope:province.county != title:c_arrakeen
+			scope:province.county != title:c_arrakeen
 			trigger_if = {
 				limit = {
 					culture = {

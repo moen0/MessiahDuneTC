@@ -1,4 +1,4 @@
-harkonnen_atrocity_modifier = {
+﻿harkonnen_atrocity_modifier = {
     county_opinion_add = -30
     development_growth_factor = -0.5
     tax_mult = -0.25

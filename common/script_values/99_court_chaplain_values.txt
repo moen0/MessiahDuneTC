@@ -845,7 +845,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:councillor.faith = {
 				controls_holy_site = jerusalem
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 		}
@@ -859,7 +859,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:councillor.faith = {
 				controls_holy_site = kerala
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 		}
@@ -874,7 +874,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:councillor.faith = {
 				controls_holy_site = iona
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 			scope:county.title_province = {
@@ -892,7 +892,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:county.faith = {
 				controls_holy_site = wadi_el_milk
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 		}
@@ -906,7 +906,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:councillor.faith = {
 				controls_holy_site = cordoba
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 		}
@@ -921,7 +921,7 @@ court_chaplain_conversion_contextual_bonuses = {
 			scope:county.faith = {
 				controls_holy_site = visoki
 			}
-			title:b_atlantis = {
+			title:b_arrakeen = {
 				is_holy_site_of = scope:councillor.faith
 			}
 		}

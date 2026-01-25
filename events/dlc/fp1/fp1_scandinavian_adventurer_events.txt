@@ -212,7 +212,7 @@ scripted_effect scandinavian_adventurer_start_war_effect = {
 		else = {
 			set_variable = {
 				name = random_location
-				value = title:b_atlantis.title_province
+				value = title:b_arrakeen.title_province
 				days = 365
 			}
 		}

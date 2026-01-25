@@ -1393,10 +1393,10 @@ roman_restoration.0199 = {
 			}
 		}
 		OR = {
-			scope:title = title:c_atlantis
-			scope:title = title:c_atlantis
-			scope:title = title:c_atlantis
-			scope:title = title:c_atlantis
+			scope:title = title:c_arrakeen
+			scope:title = title:c_arrakeen
+			scope:title = title:c_arrakeen
+			scope:title = title:c_arrakeen
 		}
 	}
 
@@ -1446,8 +1446,8 @@ roman_restoration.0104 = {
 		}
 		NOT = { has_character_flag = flag_orthodox_patriarchate_cooldown }
 		roman_restoration_0104_is_valid_roman_empire_trigger = yes
-		scope:title = title:c_atlantis
-		#title:c_atlantis.holder.faith = root.faith #Not under an infidel vassal.
+		scope:title = title:c_arrakeen
+		#title:c_arrakeen.holder.faith = root.faith #Not under an infidel vassal.
 	}
 
 	immediate = {
@@ -1490,8 +1490,8 @@ roman_restoration.0105 = {
 		}
 		NOT = { has_character_flag = flag_orthodox_patriarchate_cooldown }
 		roman_restoration_0104_is_valid_roman_empire_trigger = yes
-		scope:title = title:c_atlantis
-		#title:c_atlantis.holder.faith = root.faith #Not under an infidel vassal.
+		scope:title = title:c_arrakeen
+		#title:c_arrakeen.holder.faith = root.faith #Not under an infidel vassal.
 	}
 
 	immediate = {
@@ -1534,8 +1534,8 @@ roman_restoration.0106 = {
 		}
 		NOT = { has_character_flag = flag_orthodox_patriarchate_cooldown }
 		roman_restoration_0104_is_valid_roman_empire_trigger = yes
-		scope:title = title:c_atlantis
-		#title:c_atlantis.holder.faith = root.faith #Not under an infidel vassal.
+		scope:title = title:c_arrakeen
+		#title:c_arrakeen.holder.faith = root.faith #Not under an infidel vassal.
 	}
 
 	immediate = {
@@ -1578,8 +1578,8 @@ roman_restoration.0107 = {
 		}
 		NOT = { has_character_flag = flag_orthodox_patriarchate_cooldown }
 		roman_restoration_0104_is_valid_roman_empire_trigger = yes
-		scope:title = title:c_atlantis
-		#title:c_atlantis.holder.faith = root.faith #Not under an infidel vassal.
+		scope:title = title:c_arrakeen
+		#title:c_arrakeen.holder.faith = root.faith #Not under an infidel vassal.
 	}
 
 	immediate = {
@@ -3009,7 +3009,7 @@ roman_restoration.1200 = {
 		}
 		scope:county = {
 			# Constantinople only
-			this = title:c_atlantis
+			this = title:c_arrakeen
 			previous_holder = {
 				NOR = {
 					root.primary_title.previous_holder ?= this
@@ -3045,14 +3045,14 @@ roman_restoration.1200 = {
 	option = {
 		name = roman_restoration.1200.a
 		trigger = {
-			NOT = { capital_county = title:c_atlantis }
+			NOT = { capital_county = title:c_arrakeen }
 		}
 		if = {
 			limit = { government_allows = administrative }
 			change_influence = medium_influence_gain
 		}
 		add_legitimacy = minor_legitimacy_gain
-		set_realm_capital = title:c_atlantis
+		set_realm_capital = title:c_arrakeen
 	}
 
 	option = {
