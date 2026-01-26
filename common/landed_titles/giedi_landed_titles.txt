@@ -2,7 +2,7 @@
     color = { 255 69 76 }
     capital = c_barony
 
-    d_barony_giedi = {
+    d_giedi_barony = {
         color = { 200 50 60 }
         capital = c_barony
 

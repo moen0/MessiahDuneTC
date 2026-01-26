@@ -1,4 +1,4 @@
-## Dune traits
+﻿##Dune traits
 
 swordmaster = {
     index = 1000
@@ -6,10 +6,12 @@ swordmaster = {
     martial = 8
     prowess = 12
 
-    attraction_opinion = 10
-    same_trait_opinion = 15
+    opposite_opinion = 10
+    same_opinion = 15
 
     desc = swordmaster_desc
+
+    icon = "gfx/interface/icons/traits/education_martial_5.dds"
 
     valid_sex = all
 
@@ -19,7 +21,6 @@ swordmaster = {
         craven = -1
     }
 }
-
 
 mentat = {
     index = 1002
@@ -32,9 +33,11 @@ mentat = {
 
     monthly_prestige = 0.5
 
-    same_trait_opinion = 20
+    same_opinion = 20
 
     desc = mentat_desc
+
+    icon = "gfx/interface/icons/traits/education_learning_5.dds"
 
     valid_sex = all
 
@@ -51,12 +54,14 @@ spice_addict = {
     learning = 2
     intrigue = 2
 
-    health = -0.5
+    health = +1.5
     fertility = -0.15
 
-    same_trait_opinion = 10
+    same_opinion = 10
 
     desc = spice_addict_desc
+
+    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
 
     valid_sex = all
 
@@ -74,11 +79,11 @@ suk_doctor = {
 
     health = 1
 
-    court_physician_aptitude = 50
-
-    same_trait_opinion = 15
+    same_opinion = 15
 
     desc = suk_doctor_desc
+
+    icon = "gfx/interface/icons/traits/lifestyle_physician_3.dds"
 
     valid_sex = all
 
@@ -88,6 +93,7 @@ suk_doctor = {
         honest = 1
     }
 }
+
 weirding_way = {
     index = 1005
 
@@ -95,12 +101,12 @@ weirding_way = {
     prowess = 15
     intrigue = 2
 
-    attraction_opinion = 5
-    same_trait_opinion = 25
+    opposite_opinion = 5
+    same_opinion = 25
 
     desc = weirding_way_desc
 
-    icon = "gfx/interface/icons/traits/weirding_way.dds"
+    icon = "gfx/interface/icons/traits/education_martial_5.dds"
 
     valid_sex = all
 
@@ -119,21 +125,19 @@ the_voice = {
     intrigue = 8
     martial = 2
 
-    attraction_opinion = -10
-    same_trait_opinion = 30
-    hostile_scheme_power_add = 25
-    personal_scheme_power_add = 25
+    opposite_opinion = -10
+    same_opinion = 30
     dread_baseline_add = 15
 
     desc = the_voice_desc
 
-    icon = "gfx/interface/icons/traits/the_voice.dds"
+    icon = "gfx/interface/icons/traits/education_intrigue_5.dds"
 
     valid_sex = all
 
     compatibility = {
         ambitious = 1
-        commanding = 1
+        gregarious = 1
         shy = -1
     }
 }
@@ -148,12 +152,12 @@ bene_gesserit_trained = {
 
     fertility = 0.1
     health = 0.25
-    attraction_opinion = 10
-    same_trait_opinion = 20
+    opposite_opinion = 10
+    same_opinion = 20
 
     desc = bene_gesserit_trained_desc
 
-    icon = "gfx/interface/icons/traits/bene_gesserit_trained.dds"
+    icon = "gfx/interface/icons/traits/education_intrigue_5.dds"
 
     valid_sex = female
 
@@ -179,14 +183,14 @@ kwisatz_haderach = {
     monthly_piety = 2
     health = 1
     fertility = -0.25
-    attraction_opinion = 20
+    opposite_opinion = 20
     vassal_opinion = 15
     same_faith_opinion = 30
     dread_baseline_add = 25
 
     desc = kwisatz_haderach_desc
 
-    icon = "gfx/interface/icons/traits/kwisatz_haderach.dds"
+    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
 
     valid_sex = male
 
@@ -209,12 +213,10 @@ prescient = {
     martial = 4
 
     monthly_prestige = 1
-    hostile_scheme_resistance_add = 30
-    enemy_hostile_scheme_success_chance_add = -20
 
     desc = prescient_desc
 
-    icon = "gfx/interface/icons/traits/prescient.dds"
+    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
 
     valid_sex = all
 
@@ -236,12 +238,12 @@ reverend_mother = {
     health = 0.5
     fertility = -0.5
 
-    same_trait_opinion = 30
-    clergy_opinion = 25
+    same_opinion = 30
+    same_faith_opinion = 25
 
     desc = reverend_mother_desc
 
-    icon = "gfx/interface/icons/traits/reverend_mother.dds"
+    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
 
     valid_sex = female
 

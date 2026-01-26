@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="siege"
 	render_pass=Map
 	clamp_to_water_level=no
@@ -331,8 +331,8 @@ game_object_locator={
 		}
 		{
 			id=59
-			position={ 3944.000000 0.000000 2948.000000 }
-			rotation={ -0.000000 -0.000025 -0.000000 1.000000 }
+			position={ 3929.109131 0.000000 2933.839600 }
+			rotation={ -0.000000 0.804317 -0.000000 -0.594200 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{

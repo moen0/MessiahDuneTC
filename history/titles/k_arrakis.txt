@@ -330,3 +330,29 @@ b_caladan = {
         holder = 70
     }
 }
+k_kaitan = {
+    191.3.1 = {
+        holder = 60
+    }
+}
+d_imperial_district = {
+    191.3.1 = {
+        holder = 60
+    } }
+c_imperial_city = {
+        191.3.1 = {
+            holder = 60
+        }
+}
+b_imperial_palace = {
+    191.3.1 = {
+        holder = 60
+            }
+        }
+b_imperial_city = {
+    191.3.1 = {
+        holder = 60
+    }
+}
+
+

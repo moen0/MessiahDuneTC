@@ -172,8 +172,6 @@
 
  b_fortress_harkonnen:0 "Harkonnen Citadel"
  b_fortress_harkonnen_adj:0 "Fortress"
-
- # KAITAIN (Note: Your code has errors - I'll localize what you intended)
  k_kaitain:0 "Kaitain"
  k_kaitain_adj:0 "Kaitaini"
 
@@ -227,7 +225,6 @@
  c_zawiya_al_qamar: "Zawiya Al Qamar"
  c_zawiya_al_qamar_adj: "Zawiya"
  b_bayt_al_matar: "Bayt Al Matar"
- b_burj_al_najm: "Burj Al Najm"
  c_wadi_al_alia: "Wadi Al Alia"
  c_wadi_al_alia_adj: "Wadi"
  b_wikala_al_zalam: "Wikala Al Zalam"
@@ -562,7 +559,6 @@
  c_umm_al_qadim: "Umm Al Qadim"
  c_umm_al_qadim_adj: "Umm"
  b_hammam_al_wusta: "Hammam Al Wusta"
- b_qasr_al_rimal: "Qasr Al Rimal"
  b_khanqah_al_ahmar: "Khanqah Al Ahmar"
  c_jabal_al_matar: "Jabal Al Matar"
  c_jabal_al_matar_adj: "Jabal"

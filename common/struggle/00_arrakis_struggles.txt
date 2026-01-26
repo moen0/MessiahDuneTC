@@ -1,0 +1,104 @@
+﻿arrakis_struggle = {
+    cultures = {
+        fremen_culture
+        imperial_culture
+    }
+
+    faiths = {
+        zensunni_faith
+        orange_catholic_faith
+    }
+
+    regions = {
+        world_arrakis
+    }
+
+    involvement_prerequisite_percentage = 0.8
+
+    on_start = {
+        trigger_event = {
+            id = arrakis_struggle.001
+            days = 1
+        }
+    }
+
+    start_phase = arrakis_struggle_oppression
+
+    phase_list = {
+        arrakis_struggle_oppression = {
+            future_phases = {
+                arrakis_struggle_resistance = {
+                    default = yes
+                }
+            }
+
+            background = "gfx/interface/illustrations/struggle_backgrounds/struggle_iberia_hostility.dds"
+
+            duration = { years = 1 }
+
+            ending_decisions = { }
+
+            all_county_modifier = {
+                county_opinion_add = -20
+                development_growth_factor = -0.25
+            }
+        }
+
+        arrakis_struggle_resistance = {
+            future_phases = {
+                arrakis_struggle_open_war = {
+                    default = yes
+                }
+            }
+
+            background = "gfx/interface/illustrations/struggle_backgrounds/struggle_iberia_hostility.dds"
+
+            duration = { years = 1 }
+
+            ending_decisions = { }
+
+            all_county_modifier = {
+                county_opinion_add = -30
+                development_growth_factor = -0.5
+                tax_mult = -0.25
+            }
+        }
+
+        arrakis_struggle_open_war = {
+            future_phases = {
+                arrakis_struggle_resolution = {
+                    default = yes
+                }
+            }
+
+            background = "gfx/interface/illustrations/struggle_backgrounds/struggle_iberia_hostility.dds"
+
+            duration = { years = 1 }
+
+            ending_decisions = { }
+
+            all_county_modifier = {
+                county_opinion_add = -40
+                development_growth_factor = -0.75
+                tax_mult = -0.5
+            }
+        }
+
+        arrakis_struggle_resolution = {
+            future_phases = { }
+
+            background = "gfx/interface/illustrations/struggle_backgrounds/struggle_iberia_conciliation.dds"
+
+            duration = { years = 100 }
+
+            ending_decisions = {
+                arrakis_struggle_fremen_victory_decision
+                arrakis_struggle_harkonnen_dominance_decision
+            }
+
+            all_county_modifier = {
+                county_opinion_add = -20
+            }
+        }
+    }
+}
