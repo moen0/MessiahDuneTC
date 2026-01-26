@@ -1,0 +1,2584 @@
+﻿# e_atlantis
+#  k_atlantis
+#   d_atlantis
+#    c_arrakeen
+
+1 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+
+2 = {
+	holding = none
+}
+
+3 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+
+#    c_arrakeen_b
+
+4 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+
+5 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+
+6 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+
+#    c_arrakeen_c
+
+7 = {
+    culture = harkonnen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+
+8 = {
+	holding = none
+}
+
+9 = {
+	holding = none
+}
+
+## arrakis
+
+
+14 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+15 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+16 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+17 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+18 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+19 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+20 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+21 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+22 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+23 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+24 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+25 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+26 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+27 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+28 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+29 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+30 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+31 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+
+32 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+33 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+34 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+35 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+36 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+37 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+38 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+39 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+40 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+41 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+42 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+43 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+44 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+45 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+46 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+47 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+48 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+49 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+50 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+51 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+52 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+53 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+54 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+55 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = none
+}
+56 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = castle_holding
+}
+57 = {
+    culture = caladan_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+58 = {
+    culture = harkonnen_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+59 = {
+    culture = imperial_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+60 = {
+    culture = imperial_culture
+    religion = orange_catholic_faith
+    holding = castle_holding
+}
+# Province 61
+61 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 62
+62 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 63
+63 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 64
+64 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 65
+65 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 66
+66 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 67
+67 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 68
+68 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 69
+69 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 70
+70 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 71
+71 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 72
+72 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 73
+73 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 74
+74 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 75
+75 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 76
+76 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 77
+77 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 78
+78 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 79
+79 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 80
+80 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 81
+81 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 82
+82 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 83
+83 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 84
+84 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 85
+85 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 86
+86 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 87
+87 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 88
+88 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 89
+89 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 90
+90 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 91
+91 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 92
+92 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 93
+93 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 94
+94 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 95
+95 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 96
+96 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 97
+97 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 98
+98 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 99
+99 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 100
+100 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 101
+101 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 102
+102 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 103
+103 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 104
+104 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 105
+105 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 106
+106 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 107
+107 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 108
+108 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 109
+109 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 110
+110 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 111
+111 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 112
+112 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 113
+113 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 114
+114 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 115
+115 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 116
+116 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 117
+117 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 118
+118 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 119
+119 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 120
+120 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 121
+121 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 122
+122 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 123
+123 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 124
+124 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 125
+125 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 126
+126 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 127
+127 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 128
+128 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 129
+129 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 130
+130 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 131
+131 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 132
+132 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 133
+133 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 134
+134 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 135
+135 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 136
+136 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 137
+137 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 138
+138 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 139
+139 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 140
+140 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 141
+141 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 142
+142 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 143
+143 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 144
+144 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 145
+145 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 146
+146 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 147
+147 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 148
+148 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 149
+149 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 150
+150 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 151
+151 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 152
+152 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 153
+153 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 154
+154 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 155
+155 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 156
+156 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 157
+157 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 158
+158 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 159
+159 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 160
+160 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 161
+161 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 162
+162 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 163
+163 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 164
+164 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 165
+165 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 166
+166 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 167
+167 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 168
+168 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 169
+169 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 170
+170 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 171
+171 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 172
+172 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 173
+173 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 174
+174 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 175
+175 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 176
+176 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 177
+177 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 178
+178 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 179
+179 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 180
+180 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 181
+181 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 182
+182 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 183
+183 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 184
+184 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 185
+185 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 186
+186 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 187
+187 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 188
+188 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 189
+189 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 190
+190 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 191
+191 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 192
+192 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 193
+193 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 194
+194 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 195
+195 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 196
+196 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 197
+197 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 198
+198 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 199
+199 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 200
+200 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 201
+201 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 202
+202 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 203
+203 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 204
+204 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 205
+205 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 206
+206 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 207
+207 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 208
+208 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 209
+209 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 210
+210 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 211
+211 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 212
+212 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 213
+213 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 214
+214 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 215
+215 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 216
+216 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 217
+217 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 218
+218 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 219
+219 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 220
+220 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 221
+221 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 222
+222 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 223
+223 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 224
+224 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 225
+225 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 226
+226 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 227
+227 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 228
+228 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 229
+229 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 230
+230 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 231
+231 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 232
+232 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 233
+233 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 234
+234 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 235
+235 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 236
+236 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 237
+237 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 238
+238 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 239
+239 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 240
+240 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 241
+241 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 242
+242 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 243
+243 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 244
+244 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 245
+245 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 246
+246 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 247
+247 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 248
+248 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 249
+249 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 250
+250 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 251
+251 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 252
+252 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 253
+253 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 254
+254 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 255
+255 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 256
+256 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 257
+257 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 258
+258 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 259
+259 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 260
+260 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 261
+261 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 262
+262 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 263
+263 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 264
+264 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 265
+265 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 266
+266 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 267
+267 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 268
+268 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 269
+269 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 270
+270 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 271
+271 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 272
+272 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 273
+273 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 274
+274 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 275
+275 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 276
+276 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 277
+277 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 278
+278 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 279
+279 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 280
+280 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 281
+281 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 282
+282 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 283
+283 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 284
+284 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 285
+285 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 286
+286 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 287
+287 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 288
+288 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 289
+289 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 290
+290 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 291
+291 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 292
+292 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 293
+293 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 294
+294 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 295
+295 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 296
+296 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 297
+297 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 298
+298 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 299
+299 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 300
+300 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 301
+301 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 302
+302 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 303
+303 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 304
+304 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 305
+305 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 306
+306 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 307
+307 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 308
+308 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 309
+309 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 310
+310 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 311
+311 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 312
+312 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 313
+313 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 314
+314 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 315
+315 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 316
+316 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 317
+317 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 318
+318 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 319
+319 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 320
+320 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 321
+321 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 322
+322 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 323
+323 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 324
+324 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 325
+325 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 326
+326 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 327
+327 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 328
+328 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 329
+329 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 330
+330 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 331
+331 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 332
+332 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 333
+333 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 334
+334 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 335
+335 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 336
+336 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 337
+337 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 338
+338 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 339
+339 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 340
+340 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 341
+341 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 342
+342 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 343
+343 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 344
+344 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 345
+345 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 346
+346 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 347
+347 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 348
+348 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 349
+349 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 350
+350 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 351
+351 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 352
+352 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 353
+353 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 354
+354 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 355
+355 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 356
+356 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 357
+357 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 358
+358 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 359
+359 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 360
+360 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 361
+361 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 362
+362 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 363
+363 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 364
+364 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 365
+365 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 366
+366 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 367
+367 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 368
+368 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 369
+369 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 370
+370 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 371
+371 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 372
+372 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 373
+373 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 374
+374 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 375
+375 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 376
+376 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 377
+377 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 378
+378 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 379
+379 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 380
+380 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 381
+381 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 382
+382 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 383
+383 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 384
+384 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 385
+385 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 386
+386 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}
+
+# Province 387
+387 = {
+    culture = fremen_culture
+    religion = zensunni_faith
+    holding = tribal_holding
+}

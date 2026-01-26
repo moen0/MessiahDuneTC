@@ -54,7 +54,6 @@
     dynasty = 9
     religion = "orange_catholic_faith"
     culture = "imperial_culture"
-
     trait = education_martial_3
     trait = callous
     trait = ambitious

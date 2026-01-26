@@ -1,22 +1,33 @@
-﻿d_atreides = {
+# atreides
+2 = {
     pattern = "pattern_solid.dds"
-    color1 = { 0 100 0 }  # Green background
+    color1 = rgb { 0 128 0 }
+    color2 = rgb { 0 0 0 }
 
-    colored_emblem = {
+    textured_emblem = {  # Changed from colored_emblem
         texture = "ce_ahawk.dds"
-        color1 = { 255 0 0 }  # red hawk
-        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+        instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
     }
 }
-
-harkonnen_coa = {
+## harkonnen
+9 = {
     pattern = "pattern_solid.dds"
-    color1 = { 0 0 0 }  # Black background
+    color1 = rgb { 20 20 20 }      # Near black
+    color2 = rgb { 139 0 0 }       # Dark red    # Black
 
-    colored_emblem = {
+    textured_emblem = {  # Changed from colored_emblem
         texture = "ce_hgriffin.dds"
-        color1 = { 0 0 139 }  # Blue griffin
-        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+        instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
     }
 }
+# corrino
+8 = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 255 255 255 }   # White
+    color2 = rgb { 255 215 0 }     # Gold border
 
+    textured_emblem = {
+        texture = "ce_clion.dds"
+        instance = { position = { 0.5 0.5 } scale = { 0.7 0.7 } }
+    }
+}

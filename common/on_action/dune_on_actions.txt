@@ -1,0 +1,44 @@
+﻿on_monthly_ruler_pulse = {
+    random_events = {
+        chance_to_happen = 95
+
+        100 = arrakis_struggle.100
+        100 = arrakis_struggle.101
+        100 = arrakis_struggle.102
+        100 = arrakis_struggle.200
+        100 = arrakis_struggle.201
+    }
+}
+
+on_yearly_ruler_pulse = {
+    random_events = {
+        chance_to_happen = 90
+
+        100 = arrakis_struggle.201
+        100 = arrakis_struggle.202
+        100 = gurney_halleck.001
+        100 = jessica.001
+        100 = jessica.002
+        100 = jessica.010
+    }
+}
+
+on_game_start_after_lobby = {
+    effect = {
+        set_global_variable = {
+            name = arrakis_struggle_active
+            value = yes
+        }
+
+        character:4 = {
+            add_character_flag = paul_atreides
+        }
+
+        every_player = {
+            trigger_event = {
+                id = arrakis_struggle.001
+                days = 3
+            }
+        }
+    }
+}

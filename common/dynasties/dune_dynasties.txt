@@ -5,9 +5,8 @@
 2 = {
     name = "dynn_Atreides"
     culture = "imperial_culture"
-    coat_of_arms = {
-        template = d_atreides
-    }
+
+    prestige = 5000
 }
 
 3 = {
@@ -38,11 +37,15 @@
 8 = {
     name = "dynn_Corrino"
     culture = imperial_culture
+
+    prestige = 10000
 }
 
 9 = {
     name = "dynn_Harkonnen"
     culture = imperial_culture
+
+    prestige = 4500
 }
 
 10 = {

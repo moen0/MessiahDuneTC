@@ -1,6 +1,6 @@
-﻿# Kwisatz Haderach Decision
-become_kwisatz_haderach_decision = {
+﻿become_kwisatz_haderach_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+    major = yes
 
     desc = become_kwisatz_haderach_decision_desc
     selection_tooltip = become_kwisatz_haderach_decision_tooltip
@@ -10,22 +10,18 @@ become_kwisatz_haderach_decision = {
     is_shown = {
         has_character_flag = paul_atreides
         NOT = { has_trait = kwisatz_haderach }
-        age >= 17
     }
 
     is_valid = {
-        custom_tooltip = {
-            text = survived_two_years_with_fremen_tt
-            has_character_flag = survived_with_fremen
-            any_owned_story = {
-                story_type = story_fremen_survival
-            }
-        }
+        age >= 17
         has_trait = spice_addict
     }
 
     effect = {
-        trigger_event = { id = kwisatz_haderach.001 }
+        add_trait = kwisatz_haderach
+        add_trait = prescient
+        add_prestige = 1000
+        add_piety = 500
     }
 
     ai_will_do = {
@@ -33,9 +29,9 @@ become_kwisatz_haderach_decision = {
     }
 }
 
-# Fremen Victory Ending
 arrakis_struggle_fremen_victory_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    major = yes
 
     desc = arrakis_struggle_fremen_victory_decision_desc
     selection_tooltip = arrakis_struggle_fremen_victory_decision_tooltip
@@ -45,43 +41,17 @@ arrakis_struggle_fremen_victory_decision = {
     is_shown = {
         is_ruler = yes
         culture = culture:fremen_culture
-        exists = global_var:arrakis_struggle_active
-        any_held_title = {
-            tier >= tier_kingdom
-            title_province = { geographical_region = k_arrakis }
-        }
     }
 
     is_valid = {
+        has_trait = kwisatz_haderach
         completely_controls = title:k_arrakis
-        OR = {
-            has_trait = kwisatz_haderach
-            any_liege_or_above = {
-                has_trait = kwisatz_haderach
-            }
-        }
-        custom_tooltip = {
-            text = harkonnen_defeated_tt
-            NOT = {
-                any_ruler = {
-                    dynasty = dynasty:6
-                    any_held_title = {
-                        title_province = { geographical_region = k_arrakis }
-                    }
-                }
-            }
-        }
     }
 
     effect = {
-        trigger_event = { id = arrakis_struggle.500 }
-        hidden_effect = {
-            set_global_variable = {
-                name = arrakis_struggle_ended
-                value = yes
-            }
-            remove_global_variable = arrakis_struggle_active
-        }
+        add_prestige = 2000
+        add_piety = 1000
+        add_unpressed_claim = title:e_imperium
     }
 
     ai_will_do = {
@@ -89,9 +59,9 @@ arrakis_struggle_fremen_victory_decision = {
     }
 }
 
-# Harkonnen Dominance Ending
 arrakis_struggle_harkonnen_dominance_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    major = yes
 
     desc = arrakis_struggle_harkonnen_dominance_decision_desc
     selection_tooltip = arrakis_struggle_harkonnen_dominance_decision_tooltip
@@ -100,35 +70,16 @@ arrakis_struggle_harkonnen_dominance_decision = {
 
     is_shown = {
         is_ruler = yes
-        dynasty = dynasty:6
-        exists = global_var:arrakis_struggle_active
+        dynasty = dynasty:9
     }
 
     is_valid = {
         completely_controls = title:k_arrakis
-        custom_tooltip = {
-            text = fremen_crushed_tt
-            NOT = {
-                any_ruler = {
-                    culture = culture:fremen_culture
-                    any_held_title = {
-                        tier >= tier_county
-                        title_province = { geographical_region = k_arrakis }
-                    }
-                }
-            }
-        }
     }
 
     effect = {
-        trigger_event = { id = arrakis_struggle.550 }
-        hidden_effect = {
-            set_global_variable = {
-                name = arrakis_struggle_ended
-                value = yes
-            }
-            remove_global_variable = arrakis_struggle_active
-        }
+        add_prestige = 1500
+        add_dread = 50
     }
 
     ai_will_do = {

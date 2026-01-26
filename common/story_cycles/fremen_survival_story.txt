@@ -1,4 +1,4 @@
-story_fremen_survival = {
+﻿story_fremen_survival = {
     on_setup = {
         story_owner = {
             set_variable = {
@@ -26,6 +26,3 @@ story_fremen_survival = {
             }
         }
     }
-
-    on_end = { }
-}

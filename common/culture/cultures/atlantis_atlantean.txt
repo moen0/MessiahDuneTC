@@ -1,27 +1,4 @@
-﻿atlantean = {
-	color = greek
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_atlantean
-	language = language_greek
-	martial_custom = martial_custom_male_only
-	head_determination = head_determination_domain
-	traditions = {
-		tradition_formation_fighting
-	}
-    head_determination = head_determination_domain
-	name_list = name_list_greek
-	
-	coa_gfx = { byzantine_group_coa_gfx }
-	building_gfx = { byzantine_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-	ethnicities = {
-		10 = mediterranean_byzantine
-	}
-}
-
+﻿
 imperial_culture = {
     color = { 0.8 0.7 0.3 }
 
@@ -83,5 +60,33 @@ caladan_culture = {
     head_determination = head_determination_domain
     ethnicities = {
         10 = mediterranean
+    }
+}
+
+harkonnen_culture = {
+    color = { 0.2 0.1 0.3 }  # Dark blue/purple
+
+    ethos = ethos_bellicose
+    heritage = heritage_latin  # Or create custom heritage_industrial
+    language = language_greek  # Ancient, formal language
+    martial_custom = martial_custom_male_only
+
+    traditions = {
+        tradition_spartan  # Brutal military training
+        tradition_culture_blending  # Diverse empire
+    }
+
+    name_list = name_list_harkonnen
+
+    head_determination = head_determination_domain
+
+    coa_gfx = { western_coa_gfx }
+    building_gfx = { western_building_gfx }
+    clothing_gfx = { western_clothing_gfx }
+    unit_gfx = { western_unit_gfx }
+
+    ethnicities = {
+        10 = mediterranean
+        5 = caucasian_northern_blond
     }
 }
