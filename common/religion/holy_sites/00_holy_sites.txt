@@ -1083,7 +1083,7 @@ nok_kundi = {
 }
 
 adur_farnbag = {
-	county = c_arrakeen 
+	county = c_arrakeen
 	barony = b_arrakeen
 
 	character_modifier = {
@@ -1146,7 +1146,7 @@ mount_damavand = { #A mountain in ancient Iranian legend, where the hero Faridun
 
 badd = { #Site of Babak Khorammdin Fort, and the khurramite last stand 
 	county = c_arrakeen
-	barony = b_arrakeen 
+	barony = b_arrakeen
 
 	character_modifier = {
 		name = holy_site_badd_effect_name
@@ -1167,7 +1167,7 @@ ctesiphon = { #Important site for Mazdakism
 }
 
 ani = { #Great temple site in Zoroastrian Armenia 
-	county = c_arrakeen 
+	county = c_arrakeen
 	barony = b_arrakeen
 
 	character_modifier = {
@@ -1178,7 +1178,7 @@ ani = { #Great temple site in Zoroastrian Armenia
 
 mizdahqan = { #Zoroastrian centre in Khwarezmia, large necropolis  
 	county = c_arrakeen
-	barony = b_arrakeen 
+	barony = b_arrakeen
 
 	character_modifier = {
 		name = holy_site_mizdahqan_effect_name
@@ -1187,7 +1187,7 @@ mizdahqan = { #Zoroastrian centre in Khwarezmia, large necropolis
 }
 
 dunhuang = { #Sogdian Zoroastrian and early Buddhist centre on the Silk Road in China
-	county = c_arrakeen 
+	county = c_arrakeen
 
 	character_modifier = {
 		name = holy_site_dunhuang_effect_name
