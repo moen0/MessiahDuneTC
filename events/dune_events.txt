@@ -1,0 +1,669 @@
+namespace = dune_spice
+
+# Initial Spice Consumption - Gateway Event
+# Triggered by court decision
+dune_spice.0001 = {
+    type = character_event
+    title = dune_spice.0001.t
+    desc = dune_spice.0001.desc
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    trigger = {
+        NOT = { has_trait = spice_addict }
+        age >= 16
+    }
+
+    immediate = {
+        random_list = {
+            70 = { # Mild reaction
+                set_variable = {
+                    name = spice_exposure
+                    value = 1
+                }
+            }
+            25 = { # Intense reaction
+                set_variable = {
+                    name = spice_exposure
+                    value = 2
+                }
+            }
+            5 = { # Overwhelming reaction
+                set_variable = {
+                    name = spice_exposure
+                    value = 3
+                }
+            }
+        }
+    }
+
+    option = { # Accept the change
+        name = dune_spice.0001.a
+
+        trigger_event = {
+            id = dune_spice.0002
+            days = { 30 60 }
+        }
+
+        add_character_modifier = {
+            modifier = first_spice_experience
+            days = 90
+        }
+    }
+
+    option = { # Resist the sensation
+        name = dune_spice.0001.b
+
+        trigger_event = {
+            id = dune_spice.0002
+            days = { 60 90 }
+        }
+
+        stress_impact = {
+            base = minor_stress_impact_gain
+        }
+    }
+}
+
+# Developing Addiction
+dune_spice.0002 = {
+    type = character_event
+    title = dune_spice.0002.t
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { var:spice_exposure >= 3 }
+                desc = dune_spice.0002.desc_intense
+            }
+            triggered_desc = {
+                trigger = { var:spice_exposure >= 2 }
+                desc = dune_spice.0002.desc_moderate
+            }
+            desc = dune_spice.0002.desc_mild
+        }
+    }
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = worry
+    }
+
+    trigger = {
+        NOT = { has_trait = spice_addict }
+    }
+
+    immediate = {
+        if = {
+            limit = { var:spice_exposure >= 3 }
+            random = {
+                chance = 80
+                set_variable = {
+                    name = becomes_addicted
+                    value = yes
+                }
+            }
+        }
+        else_if = {
+            limit = { var:spice_exposure >= 2 }
+            random = {
+                chance = 50
+                set_variable = {
+                    name = becomes_addicted
+                    value = yes
+                }
+            }
+        }
+        else = {
+            random = {
+                chance = 25
+                set_variable = {
+                    name = becomes_addicted
+                    value = yes
+                }
+            }
+        }
+    }
+
+    option = { # Embrace addiction
+        name = dune_spice.0002.a
+
+        trigger = {
+            exists = var:becomes_addicted
+        }
+
+        add_trait = spice_addict
+
+        if = {
+            limit = { has_trait = bene_gesserit_trained }
+            trigger_event = {
+                id = dune_spice.1001
+                days = { 180 365 }
+            }
+        }
+        else = {
+            trigger_event = {
+                id = dune_spice.0010
+                days = { 90 180 }
+            }
+        }
+    }
+
+    option = { # Resist but still become addicted
+        name = dune_spice.0002.b
+
+        trigger = {
+            exists = var:becomes_addicted
+        }
+
+        add_trait = spice_addict
+        stress_impact = {
+            base = medium_stress_impact_gain
+        }
+
+        if = {
+            limit = { has_trait = bene_gesserit_trained }
+            trigger_event = {
+                id = dune_spice.1001
+                days = { 180 365 }
+            }
+        }
+    }
+
+    option = { # Manage to avoid addiction (for now)
+        name = dune_spice.0002.c
+
+        trigger = {
+            NOT = { exists = var:becomes_addicted }
+        }
+
+        add_character_modifier = {
+            modifier = spice_resistant
+            years = 5
+        }
+    }
+}
+
+# PRESCIENCE PATH - Bene Gesserit + Spice = Awakening
+# First Glimpse
+dune_spice.1001 = {
+    type = character_event
+    title = dune_spice.1001.t
+    desc = dune_spice.1001.desc
+    theme = mystic
+
+    left_portrait = {
+        character = root
+        animation = shock
+    }
+
+    trigger = {
+        has_trait = bene_gesserit_trained
+        has_trait = spice_addict
+        NOT = { has_trait = prescient }
+        NOT = { has_trait = kwisatz_haderach }
+    }
+
+    immediate = {
+        set_variable = {
+            name = prescience_awakening
+            value = 1
+        }
+    }
+
+    option = { # Explore the vision
+        name = dune_spice.1001.a
+
+        add_character_modifier = {
+            modifier = prescient_dreams
+            years = 2
+        }
+
+        trigger_event = {
+            id = dune_spice.1002
+            days = { 180 365 }
+        }
+
+        stress_impact = {
+            base = minor_stress_impact_gain
+        }
+    }
+
+    option = { # Suppress it with Bene Gesserit training
+        name = dune_spice.1001.b
+
+        add_piety = 50
+
+        trigger_event = {
+            id = dune_spice.1002
+            days = { 365 730 }
+        }
+    }
+}
+
+# Prescience Intensifies
+dune_spice.1002 = {
+    type = character_event
+    title = dune_spice.1002.t
+    desc = dune_spice.1002.desc
+    theme = mystic
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    trigger = {
+        has_trait = bene_gesserit_trained
+        has_trait = spice_addict
+        NOT = { has_trait = prescient }
+        exists = var:prescience_awakening
+    }
+
+    immediate = {
+        change_variable = {
+            name = prescience_awakening
+            add = 1
+        }
+    }
+
+    option = { # The visions are becoming clearer
+        name = dune_spice.1002.a
+
+        if = {
+            limit = { var:prescience_awakening >= 3 }
+            random = {
+                chance = 60
+                trigger_event = dune_spice.1003
+            }
+        }
+        else = {
+            trigger_event = {
+                id = dune_spice.1002
+                days = { 365 730 }
+            }
+        }
+
+        add_character_modifier = {
+            modifier = deepening_visions
+            years = 1
+        }
+    }
+
+    option = { # This is dangerous, stop consuming spice
+        name = dune_spice.1002.b
+
+        trigger_event = dune_spice.0020
+
+        stress_impact = {
+            base = major_stress_impact_gain
+        }
+    }
+}
+
+# Prescience Awakens
+dune_spice.1003 = {
+    type = character_event
+    title = dune_spice.1003.t
+    desc = dune_spice.1003.desc
+    theme = mystic
+
+    left_portrait = {
+        character = root
+        animation = ecstasy
+    }
+
+    right_portrait = {
+        character = root
+        animation = personality_rational
+        camera = camera_event_right
+    }
+
+    trigger = {
+        has_trait = bene_gesserit_trained
+        has_trait = spice_addict
+        NOT = { has_trait = prescient }
+        var:prescience_awakening >= 3
+    }
+
+    immediate = {
+        remove_variable = prescience_awakening
+    }
+
+    option = { # I can see the paths ahead
+        name = dune_spice.1003.a
+
+        add_trait = prescient
+        add_prestige = 500
+        add_piety = 200
+
+        every_vassal = {
+            limit = { NOT = { has_trait = prescient } }
+            add_opinion = {
+                target = root
+                modifier = awe_opinion
+                opinion = 20
+            }
+        }
+
+        stress_impact = {
+            base = major_stress_impact_loss
+        }
+    }
+}
+
+# FLAVOR EVENTS - Spice Visions
+dune_spice.0010 = {
+    type = character_event
+    title = dune_spice.0010.t
+    desc = dune_spice.0010.desc
+    theme = mystic
+
+    left_portrait = root
+
+    trigger = {
+        has_trait = spice_addict
+    }
+
+    weight_multiplier = {
+        base = 1
+        modifier = {
+            has_trait = bene_gesserit_trained
+            add = 2
+        }
+    }
+
+    option = { # Enhanced awareness
+        name = dune_spice.0010.a
+
+        add_character_modifier = {
+            modifier = spice_clarity
+            days = 30
+        }
+    }
+
+    option = { # Disturbing visions
+        name = dune_spice.0010.b
+
+        stress_impact = {
+            base = minor_stress_impact_gain
+        }
+
+        add_character_modifier = {
+            modifier = spice_nightmares
+            days = 30
+        }
+    }
+}
+
+# Spice Eyes - Blue-within-Blue
+dune_spice.0011 = {
+    type = character_event
+    title = dune_spice.0011.t
+    desc = dune_spice.0011.desc
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = shock
+    }
+
+    trigger = {
+        has_trait = spice_addict
+        NOT = { has_character_modifier = eyes_of_ibad }
+    }
+
+    option = { # The eyes of the desert
+        name = dune_spice.0011.a
+
+        add_character_modifier = {
+            modifier = eyes_of_ibad
+        }
+
+        add_dread = 10
+    }
+}
+
+# Life Extension - Spice Longevity
+dune_spice.0012 = {
+    type = character_event
+    title = dune_spice.0012.t
+    desc = dune_spice.0012.desc
+    theme = health
+
+    left_portrait = root
+
+    trigger = {
+        has_trait = spice_addict
+        age >= 50
+        NOT = { has_character_modifier = spice_longevity }
+    }
+
+    option = { # The spice extends life
+        name = dune_spice.0012.a
+
+        add_character_modifier = {
+            modifier = spice_longevity
+        }
+    }
+}
+
+# Spice Shortage - Withdrawal
+dune_spice.0020 = {
+    type = character_event
+    title = dune_spice.0020.t
+    desc = dune_spice.0020.desc
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = stress
+    }
+
+    trigger = {
+        has_trait = spice_addict
+    }
+
+    option = { # Suffer through withdrawal
+        name = dune_spice.0020.a
+
+        add_character_modifier = {
+            modifier = spice_withdrawal
+            days = 90
+        }
+
+        stress_impact = {
+            base = massive_stress_impact_gain
+        }
+
+        random = {
+            chance = 30
+            remove_trait = spice_addict
+        }
+    }
+
+    option = { # Desperate measures to find more
+        name = dune_spice.0020.b
+
+        add_tyranny = minor_tyranny_gain
+        add_gold = -200
+
+        random = {
+            chance = 60
+            remove_character_modifier = spice_withdrawal
+        }
+    }
+}
+
+# Spice Overdose
+dune_spice.0021 = {
+    type = character_event
+    title = dune_spice.0021.t
+    desc = dune_spice.0021.desc
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = pain
+    }
+
+    trigger = {
+        has_trait = spice_addict
+    }
+
+    option = { # Survive but damaged
+        name = dune_spice.0021.a
+
+        add_character_modifier = {
+            modifier = spice_damage
+            years = 5
+        }
+
+        stress_impact = {
+            base = major_stress_impact_gain
+        }
+    }
+
+    option = { # The dose was nearly fatal
+        name = dune_spice.0021.b
+
+        trigger = {
+            NOT = { has_trait = suk_doctor }
+        }
+
+        random = {
+            chance = 30
+            death = {
+                death_reason = death_accident
+            }
+        }
+    }
+}
+
+# Prescient Vision - Strategic Advantage
+dune_spice.2001 = {
+    type = character_event
+    title = dune_spice.2001.t
+    desc = dune_spice.2001.desc
+    theme = mystic
+
+    left_portrait = root
+
+    trigger = {
+        has_trait = prescient
+        is_at_war = yes
+    }
+
+    option = { # I see the path to victory
+        name = dune_spice.2001.a
+
+        add_character_modifier = {
+            modifier = prescient_strategy
+            days = 180
+        }
+
+        add_prestige = 100
+    }
+}
+
+# Prescient Vision - Assassination Prevention
+dune_spice.2002 = {
+    type = character_event
+    title = dune_spice.2002.t
+    desc = dune_spice.2002.desc
+    theme = mystic
+
+    left_portrait = root
+
+    right_portrait = {
+        character = scope:plotter
+        animation = shame
+    }
+
+    trigger = {
+        has_trait = prescient
+        any_targeting_scheme = {
+            scheme_type = murder
+        }
+    }
+
+    immediate = {
+        random_targeting_scheme = {
+            limit = { scheme_type = murder }
+            save_scope_as = murder_scheme
+            scheme_owner = { save_scope_as = plotter }
+        }
+    }
+
+    option = { # Confront them publicly
+        name = dune_spice.2002.a
+
+        scope:murder_scheme = {
+            end_scheme = yes
+        }
+
+        add_dread = 20
+
+        reverse_add_opinion = {
+            target = scope:plotter
+            modifier = hate_opinion
+            opinion = -50
+        }
+    }
+
+    option = { # Use this knowledge subtly
+        name = dune_spice.2002.b
+
+        scope:murder_scheme = {
+            add_scheme_modifier = {
+                modifier = scheme_discovered
+            }
+        }
+
+        add_intrigue_lifestyle_xp = 100
+    }
+}
+
+# Prescient Burden - The Weight of Future Knowledge
+dune_spice.2003 = {
+    type = character_event
+    title = dune_spice.2003.t
+    desc = dune_spice.2003.desc
+    theme = mental_break
+
+    left_portrait = {
+        character = root
+        animation = worry
+    }
+
+    trigger = {
+        has_trait = prescient
+    }
+
+    option = { # The price of seeing
+        name = dune_spice.2003.a
+
+        stress_impact = {
+            base = medium_stress_impact_gain
+        }
+
+        add_character_modifier = {
+            modifier = prescient_burden
+            days = 180
+        }
+    }
+
+    option = { # I must embrace it
+        name = dune_spice.2003.b
+
+        add_piety = 50
+
+        stress_impact = {
+            base = minor_stress_impact_loss
+        }
+    }
+}

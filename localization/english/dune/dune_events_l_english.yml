@@ -78,3 +78,118 @@
  # Trait
  reverend_mother: "Reverend Mother"
  reverend_mother_desc: "A Bene Gesserit who has survived the spice agony and gained access to Other Memory—the collective experiences of all her female ancestors. A Reverend Mother possesses wisdom spanning thousands of years and perceives truth with terrifying clarity."
+
+# spice related events
+ # Initial Consumption
+ dune_spice.0001.t:0 "The Spice Melange"
+ dune_spice.0001.desc:0 "The cinnamon scent of melange fills my senses as I consume the precious substance. My eyes begin to tingle, and I feel... different. Time seems to slow as colors intensify beyond anything I've experienced. The spice is awakening something within me."
+ dune_spice.0001.a:0 "Let it flow through me"
+ dune_spice.0001.b:0 "I must control this sensation"
+
+ # Developing Addiction
+ dune_spice.0002.t:0 "The Spice Must Flow"
+ dune_spice.0002.desc_intense:0 "I cannot stop thinking about the spice. Every moment without it feels incomplete, hollow. My body craves its warmth, my mind yearns for its clarity. The spice has become part of me."
+ dune_spice.0002.desc_moderate:0 "The memory of the spice's effects haunts me. I find myself seeking it out, craving that heightened awareness. It's becoming difficult to imagine life without it."
+ dune_spice.0002.desc_mild:0 "The spice calls to me, a subtle whisper in the back of my mind. While I can still function without it, I notice its absence more each day."
+ dune_spice.0002.a:0 "The spice is life itself"
+ dune_spice.0002.b:0 "I didn't want this, but I need it now"
+ dune_spice.0002.c:0 "I will resist its pull"
+
+ # Prescience Awakening - First Glimpse
+ dune_spice.1001.t:0 "Shadows of Tomorrow"
+ dune_spice.1001.desc:0 "The spice combined with my Bene Gesserit training has unlocked something unprecedented. In my meditation, I glimpse fragments of what might be—shadows of possible futures dancing at the edge of consciousness. This is not memory, nor imagination. I am seeing time itself."
+ dune_spice.1001.a:0 "I must understand these visions"
+ dune_spice.1001.b:0 "I will discipline this ability"
+
+ # Prescience Intensifies
+ dune_spice.1002.t:0 "The Golden Path"
+ dune_spice.1002.desc:0 "The visions grow stronger with each passing day. I see branching paths of causality, decision points that ripple through time. Some futures are clear, others murky and uncertain. My Bene Gesserit training struggles to contain what the spice has awakened."
+ dune_spice.1002.a:0 "I will master this gift"
+ dune_spice.1002.b:0 "This is too dangerous—I must stop"
+
+ # Prescience Fully Awakens
+ dune_spice.1003.t:0 "The Oracle Awakens"
+ dune_spice.1003.desc:0 "Time unravels before me. Past, present, and future blend into a tapestry of infinite possibilities. I see the threads of causality stretching across years, across generations. The spice and my training have unlocked true prescience. I am no longer simply living in time—I am witnessing it."
+ dune_spice.1003.a:0 "I see all the paths ahead"
+
+ # Spice Visions Flavor
+ dune_spice.0010.t:0 "The Spice Trance"
+ dune_spice.0010.desc:0 "The spice opens my mind to new dimensions of thought. Reality takes on greater depth and meaning."
+ dune_spice.0010.a:0 "Such clarity!"
+ dune_spice.0010.b:0 "These visions disturb me"
+
+ # Blue Eyes
+ dune_spice.0011.t:0 "Eyes of Ibad"
+ dune_spice.0011.desc:0 "My eyes have changed. The whites have turned a deep blue, and within that blue, another deeper blue—the eyes of the spice addict, the mark of Arrakis itself. There is no hiding what I have become."
+ dune_spice.0011.a:0 "The eyes of the desert"
+
+ # Life Extension
+ dune_spice.0012.t:0 "The Spice Extends Life"
+ dune_spice.0012.desc:0 "I notice the years weighing less heavily upon me. The spice preserves, sustains, extends. Those who consume it regularly can live far beyond the normal human span."
+ dune_spice.0012.a:0 "The spice gives longevity"
+
+ # Withdrawal
+ dune_spice.0020.t:0 "Spice Withdrawal"
+ dune_spice.0020.desc:0 "The spice has run out. My body rebels against its absence—pain, weakness, confusion. Every moment is agony. I must have more."
+ dune_spice.0020.a:0 "I will endure this suffering"
+ dune_spice.0020.b:0 "Find me spice, at any cost!"
+
+ # Overdose
+ dune_spice.0021.t:0 "Too Much Spice"
+ dune_spice.0021.desc:0 "The dose was too high. My senses overload, my mind fractures under the weight of too much awareness. The spice can kill as easily as it can enlighten."
+ dune_spice.0021.a:0 "I will survive this"
+ dune_spice.0021.b:0 "The prescience is overwhelming..."
+
+ # Prescient Vision - War
+ dune_spice.2001.t:0 "The Path to Victory"
+ dune_spice.2001.desc:0 "In my prescient trance, I see the threads of the coming battle. I know where the enemy will strike, how they will move. Victory is not certain, but I can see the paths that lead to it."
+ dune_spice.2001.a:0 "I see the way forward"
+
+ # Prescient Vision - Assassination
+ dune_spice.2002.t:0 "A Plot Foreseen"
+ dune_spice.2002.desc:0 "The future reveals a dark thread—[plotter.GetFirstName] plots my death. I have seen the moment of the blade, the cup of poison, the betrayal. But I have seen it before it happens."
+ dune_spice.2002.a:0 "Expose them before all"
+ dune_spice.2002.b:0 "Let them think they still have the advantage"
+
+ # Prescient Burden
+ dune_spice.2003.t:0 "The Weight of Knowing"
+ dune_spice.2003.desc:0 "To see the future is to bear an unbearable burden. I witness tragedies before they occur, deaths that cannot be prevented. The gift of prescience is also a curse—I must live with the knowledge of what is to come."
+ dune_spice.2003.a:0 "This knowledge haunts me"
+ dune_spice.2003.b:0 "I accept this burden"
+
+ # Modifiers
+ first_spice_experience:0 "First Spice Experience"
+ first_spice_experience_desc:0 "This character has recently consumed spice melange for the first time and is experiencing its heightened effects."
+
+ spice_resistant:0 "Spice Resistant"
+ spice_resistant_desc:0 "This character has managed to resist becoming addicted to spice melange."
+
+ prescient_dreams:0 "Prescient Dreams"
+ prescient_dreams_desc:0 "This character is beginning to experience visions of possible futures."
+
+ deepening_visions:0 "Deepening Visions"
+ deepening_visions_desc:0 "The prescient visions are growing stronger and more frequent."
+
+ spice_clarity:0 "Spice Clarity"
+ spice_clarity_desc:0 "The spice has granted this character enhanced mental clarity and awareness."
+
+ spice_nightmares:0 "Spice Nightmares"
+ spice_nightmares_desc:0 "The spice has brought disturbing visions and nightmares."
+
+ eyes_of_ibad:0 "Eyes of Ibad"
+ eyes_of_ibad_desc:0 "This character's eyes have turned the deep blue-within-blue of the spice addict."
+
+ spice_longevity:0 "Spice Longevity"
+ spice_longevity_desc:0 "Regular spice consumption is extending this character's lifespan significantly."
+
+ spice_withdrawal:0 "Spice Withdrawal"
+ spice_withdrawal_desc:0 "This character is suffering the agonizing effects of spice withdrawal."
+
+ spice_damage:0 "Spice Damage"
+ spice_damage_desc:0 "Excessive spice consumption has damaged this character's body."
+
+ prescient_strategy:0 "Prescient Strategy"
+ prescient_strategy_desc:0 "This character's prescience grants them insight into the coming battle."
+
+ prescient_burden:0 "Burden of Prescience"
+ prescient_burden_desc:0 "The weight of seeing the future takes its toll on this character's mind."

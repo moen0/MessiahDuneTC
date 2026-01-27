@@ -2577,8 +2577,4 @@
 }
 
 # Province 387
-387 = {
-    culture = fremen_culture
-    religion = zensunni_faith
-    holding = tribal_holding
-}
+

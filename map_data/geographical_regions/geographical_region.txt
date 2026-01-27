@@ -4,53 +4,39 @@
 # World Regions
 ###########################################################################
 
-#########################
-#### VANILLA REGIONS ####
-#########################
+
 world_arrakis = {
     duchies = {
+        d_arrakeen_heights
+        d_carthag_plains
         d_imperial_basin
-        d_hole_in_the_rock
         d_sietch_tabr
-        d_tuonq_basin
+        d_funeral_plains
         d_hagga_basin
-        d_northern_minor_erg
-        d_rub_al_khali
-        d_erg_al_sharqi
-        d_hamada_al_kubra
-        d_sahra_al_mawt
-        d_wadi_al_qamar
-        d_jabal_al_ahmar
-        d_nafud_al_kabir
-        d_sietch_al_jadid
-        d_tanezrouft
-        d_serir_al_aswad
-        d_sabkha_al_kubra
-        d_qasr_al_rimal
-        d_tassili_al_gharbi
-        d_hawd_al_janubi
-        d_gara_al_shamali
-        d_burj_al_samt
-        d_dar_al_hikma
-        d_bab_al_shams
-        d_khor_al_matar
-        d_tell_al_najm
-        d_ahaggar_al_wusta
-        d_tibesti_al_alia
-        d_sif_al_kabir
-        d_reg_al_abyad
-        d_fesh_al_gharbi
-        d_qattara_al_safla
-        d_siwa_al_sharqi
-        d_kharga_al_jadid
-        d_dakhla_al_qadim
-        d_farafra_al_shamali
+        d_northern_erg
+        d_sihaya_ridge
+        d_minor_erg
+        d_false_wall
+        d_false_wall_south
+        d_broken_land
+        d_polar_sink1
+        d_wind_pass
+        d_great_flat
+        d_tsimpo
+        d_pasty_mesa
+        d_rimwall
+        d_red_chasm
+        d_cielago_depression
+        d_sietches
+        d_sihaya_dunes
+        d_plastic_basin
+        d_blue_chasm
     }
 }
 
 world_caladan = {
     duchies = {
-        d_caladan_castle
+        d_castle_caladan
     }
 }
 

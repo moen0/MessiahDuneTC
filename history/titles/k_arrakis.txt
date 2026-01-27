@@ -1,358 +1,325 @@
-# IMPERIUM
 e_imperium = {
     1.1.1 = {
-        holder = 60
-        government = feudal_government
+        holder = 60  # Shaddam IV
     }
 }
 
-# ARRAKIS
+###################################
+# ARRAKIS TITLE HISTORY
+###################################
+
 k_arrakis = {
-    # Harkonnen rule before Atreides
+    # Harkonnen rule
     1.1.1 = {
-        holder = 50
+        holder = 50  # Baron Vladimir
     }
     # Atreides take control
     190.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
-    # Leto dies, Rabban takes over for Harkonnens
+    # Leto dies, Harkonnens retake
     191.3.1 = {
-        holder = 51
+        holder = 51  # Baron Vladimir
     }
 }
 
+# ARRAKEEN HEIGHTS DUCHY
+d_arrakeen_heights = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+# CARTHAG PLAINS DUCHY
+d_carthag_plains = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+# IMPERIAL BASIN DUCHY (held by whoever controls Arrakeen)
 d_imperial_basin = {
     1.1.1 = {
-        holder = 50
+        holder = 50  # Baron Vladimir
     }
     190.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 51
+        holder = 51  # Glossu Rabban
     }
 }
 
-d_hole_in_the_rock = {
-    191.3.1 = {
-        holder = 40
-    }
-}
-
+# SIETCH TABR DUCHY
 d_sietch_tabr = {
-    191.3.1 = {
-        holder = 40
-    }
-}
-
-d_tuonq_basin = {
-    191.3.1 = {
-        holder = 4
-    }
-}
-
-d_hagga_basin = {
-    191.3.1 = {
-        holder = 40
-    }
-}
-
-d_northern_minor_erg = {
     1.1.1 = {
         holder = 40
     }
+    190.1.1 = {
+        holder = 40
+    }
+    191.3.1 = {
+        holder = 40
+    }
 }
 
-# ARRAKIS COUNTIES
+
+
+
+# ARRAKEEN COUNTY (capital)
 c_arrakeen = {
     1.1.1 = {
-        holder = 50
+        holder = 50  # Baron Vladimir
     }
     190.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 51
+        holder = 51  # Glossu Rabban
     }
 }
 
+# WADI KABIR COUNTY
+c_wadi_kabir = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 51  # Baron Vladimir
+    }
+}
+
+# KHOR ABYAD COUNTY
+c_khor_abyad = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 51  # Baron Vladimir
+    }
+}
+
+# TELL JADID COUNTY
+c_tell_jadid = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 51  # Baron Vladimir
+    }
+}
+
+# SOUTHERN BASIN COUNTY
+c_southern_basin = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
+    191.3.1 = {
+        holder = 51  # Glossu Rabban
+    }
+}
+
+# CARTHAG COUNTY
 c_carthag = {
     1.1.1 = {
-        holder = 50
+        holder = 50  # Baron Vladimir
     }
     190.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 51
+        holder = 51  # Glossu Rabban
     }
 }
 
-c_irqcrossing = {
+# AIN GHARBI COUNTY
+c_ain_gharbi = {
     1.1.1 = {
-        holder = 50
+        holder = 50  # Baron Vladimir
     }
     190.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 51
+        holder = 51  # Baron Vladimir
     }
 }
 
-c_sietch_tabr = {
+# DAR JANUBI COUNTY
+c_dar_janubi = {
     1.1.1 = {
-        holder = 60
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 40
+        holder = 51  # Baron Vladimir
     }
 }
 
-c_chouhada_pass = {
+# JABAL SAGHIR COUNTY
+c_jabal_saghir = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+    190.1.1 = {
+        holder = 3  # Leto Atreides
+    }
     191.3.1 = {
-        holder = 40
+        holder = 51  # Baron Vladimir
     }
 }
 
-c_hole_in_the_rock = {
-    191.3.1 = {
-        holder = 4
-    }
-}
+###################################
+# CALADAN TITLE HISTORY
+###################################
 
-c_tuonq_basin = {
-    191.3.1 = {
-        holder = 4
-    }
-}
-
-c_bab_al_rih = {
-    1.1.1 = {
-        holder = 40
-    }
-}
-
-c_hagga_basin = {
-    1.1.1 = {
-        holder = 40
-    }
-}
-
-c_habbanya_ridge = {
-    1.1.1 = {
-        holder = 40
-    }
-}
-
-c_arsunt = {
-    1.1.1 = {
-        holder = 40
-    }
-}
-
-c_dar_al_hikma = {
-    1.1.1 = {
-        holder = 40
-    }
-}
-
-
-# GIEDI PRIME - All held by Vladimir Harkonnen (ID: 50)
-
-k_giedi_prime = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-# DUCHY 1: Barony Giedi
-d_barony_giedi = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_barony = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_barony = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_barony_castle = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-    c_harko = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_harko = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_giedi_secundus = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_giedi_secundus = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_giedi_tertius = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_giedi_tertius = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_giedi_quartus = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_giedi_quartus = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-# DUCHY 2: Harkonnen Industrial
-d_harkonnen_industrial = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_industrial_complex = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_industrial_complex = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_slave_pits = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_slave_pits = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_refineries = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_refineries = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-c_fortress_harkonnen = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-b_fortress_harkonnen = {
-    1.1.1 = {
-        holder = 50
-    }
-}
-
-# CALADAN - Province 45
 k_caladan = {
     1.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 70
+        holder = 70  # Hasimir Fenring
     }
 }
 
 d_castle_caladan = {
     1.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 70
+        holder = 70  # Hasimir Fenring
     }
 }
 
 c_caladan = {
     1.1.1 = {
-        holder = 3
+        holder = 3  # Leto Atreides
     }
     191.3.1 = {
-        holder = 70
+        holder = 70  # Hasimir Fenring
     }
 }
 
-b_caladan = {
+###################################
+# GIEDI PRIME TITLE HISTORY
+###################################
+
+k_giedi_prime = {
     1.1.1 = {
-        holder = 3
-    }
-    191.3.1 = {
-        holder = 70
+        holder = 50  # Baron Vladimir
     }
 }
+
+d_giedi_barony = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+d_harkonnen_industrial = {
+    1.1.1 = {
+        holder = 53  # Piter de Vries
+    }
+}
+
+c_barony = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+c_harko = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+c_giedi_secundus = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+c_giedi_tertius = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+c_giedi_quartus = {
+    1.1.1 = {
+        holder = 50  # Baron Vladimir
+    }
+}
+
+c_industrial_complex = {
+    1.1.1 = {
+        holder = 53  # Piter de Vries
+    }
+}
+
+c_slave_pits = {
+    1.1.1 = {
+        holder = 53  # Piter de Vries
+    }
+}
+
+c_refineries = {
+    1.1.1 = {
+        holder = 53  # Piter de Vries
+    }
+}
+
+c_fortress_harkonnen = {
+    1.1.1 = {
+        holder = 53  # Piter de Vries
+    }
+}
+
+###################################
+# KAITAIN TITLE HISTORY
+###################################
+
 k_kaitan = {
-    191.3.1 = {
-        holder = 60
+    1.1.1 = {
+        holder = 60  # Shaddam IV
     }
 }
+
 d_imperial_district = {
-    191.3.1 = {
-        holder = 60
-    } }
-c_imperial_city = {
-        191.3.1 = {
-            holder = 60
-        }
-}
-b_imperial_palace = {
-    191.3.1 = {
-        holder = 60
-            }
-        }
-b_imperial_city = {
-    191.3.1 = {
-        holder = 60
+    1.1.1 = {
+        holder = 60  # Shaddam IV
     }
 }
 
-
+c_imperial_city = {
+    1.1.1 = {
+        holder = 60  # Shaddam IV
+    }
+}

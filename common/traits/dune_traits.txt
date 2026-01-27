@@ -11,7 +11,7 @@ swordmaster = {
 
     desc = swordmaster_desc
 
-    icon = "gfx/interface/icons/traits/education_martial_5.dds"
+    icon = "gfx/interface/icons/traits/swordmaster.dds"
 
     valid_sex = all
 
@@ -37,7 +37,7 @@ mentat = {
 
     desc = mentat_desc
 
-    icon = "gfx/interface/icons/traits/education_learning_5.dds"
+    icon = "gfx/interface/icons/traits/mentat.dds"
 
     valid_sex = all
 
@@ -61,7 +61,7 @@ spice_addict = {
 
     desc = spice_addict_desc
 
-    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
+    icon = "gfx/interface/icons/traits/spice_addict.dds"
 
     valid_sex = all
 
@@ -83,7 +83,7 @@ suk_doctor = {
 
     desc = suk_doctor_desc
 
-    icon = "gfx/interface/icons/traits/lifestyle_physician_3.dds"
+    icon = "gfx/interface/icons/traits/suk_doctor.dds"
 
     valid_sex = all
 
@@ -106,7 +106,7 @@ weirding_way = {
 
     desc = weirding_way_desc
 
-    icon = "gfx/interface/icons/traits/education_martial_5.dds"
+    icon = "gfx/interface/icons/traits/weirding_way.dds"
 
     valid_sex = all
 
@@ -131,7 +131,7 @@ the_voice = {
 
     desc = the_voice_desc
 
-    icon = "gfx/interface/icons/traits/education_intrigue_5.dds"
+    icon = "gfx/interface/icons/traits/the_voice.dds"
 
     valid_sex = all
 
@@ -216,7 +216,7 @@ prescient = {
 
     desc = prescient_desc
 
-    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
+    icon = "gfx/interface/icons/traits/prescient.dds"
 
     valid_sex = all
 
@@ -243,7 +243,7 @@ reverend_mother = {
 
     desc = reverend_mother_desc
 
-    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
+    icon = "gfx/interface/icons/traits/reverend_mother.dds"
 
     valid_sex = female
 

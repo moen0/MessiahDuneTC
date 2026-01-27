@@ -14,13 +14,11 @@
 		dynasty_splendor_level = 2
 		type = male
 		birth = 176.1.1
-		title = d_tuonq_basin
-        government = feudal_government
         culture = fremen_culture
         religion = zensunni
         difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
         history_id = 4
-
+        government = landless_adventurer_government
 		position = { 200 400 }
 		animation = personality_bold
 	}

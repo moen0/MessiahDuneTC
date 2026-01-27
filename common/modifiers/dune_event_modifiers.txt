@@ -1,0 +1,116 @@
+# Spice-related modifiers
+
+first_spice_experience = {
+    icon = trait_lifestyle_mystic
+
+    learning = 1
+    intrigue = 1
+
+    health = 0.5
+}
+
+spice_resistant = {
+    icon = trait_lifestyle_physician
+
+    health = 0.25
+}
+
+prescient_dreams = {
+    icon = trait_lifestyle_mystic
+
+    intrigue = 2
+    learning = 2
+
+    stress_gain_mult = 0.1
+}
+
+deepening_visions = {
+    icon = trait_lifestyle_mystic
+
+    intrigue = 3
+    learning = 3
+    martial = 1
+
+    stress_gain_mult = 0.15
+    monthly_prestige = 0.25
+}
+
+spice_clarity = {
+    icon = trait_lifestyle_mystic
+
+    diplomacy = 2
+    stewardship = 2
+    learning = 3
+
+    stress_loss_mult = 0.1
+}
+
+spice_nightmares = {
+    icon = trait_paranoid
+
+    stress_gain_mult = 0.2
+
+    health = -0.25
+}
+
+eyes_of_ibad = {
+    icon = trait_lifestyle_mystic
+
+    same_opinion = 10
+    opposite_opinion = -5
+    dread_baseline_add = 5
+
+    monthly_prestige = 0.1
+}
+
+spice_longevity = {
+    icon = trait_lifestyle_physician
+
+    health = 1.0
+    life_expectancy = 10
+}
+
+spice_withdrawal = {
+    icon = trait_ill
+
+    diplomacy = -3
+    martial = -3
+    stewardship = -3
+    intrigue = -2
+    learning = -2
+    prowess = -5
+
+    health = -2.0
+    stress_gain_mult = 0.5
+
+    monthly_prestige = -0.5
+}
+
+spice_damage = {
+    icon = trait_ill
+
+    health = -1.0
+    fertility = -0.3
+
+    diplomacy = -1
+    stewardship = -1
+}
+
+prescient_strategy = {
+    icon = trait_lifestyle_blademaster
+
+    martial = 4
+    advantage = 10
+
+    monthly_prestige = 0.5
+}
+
+prescient_burden = {
+    icon = trait_depressed
+
+    stress_gain_mult = 0.2
+    health = -0.5
+
+    intrigue = 2
+    learning = 2
+}
