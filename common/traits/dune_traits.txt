@@ -11,7 +11,7 @@ swordmaster = {
 
     desc = swordmaster_desc
 
-    icon = "gfx/interface/icons/traits/swordmaster.dds"
+    icon = "swordmaster.dds"
 
     valid_sex = all
 
@@ -37,7 +37,7 @@ mentat = {
 
     desc = mentat_desc
 
-    icon = "gfx/interface/icons/traits/mentat.dds"
+    icon = "mentat.dds"
 
     valid_sex = all
 
@@ -61,7 +61,7 @@ spice_addict = {
 
     desc = spice_addict_desc
 
-    icon = "gfx/interface/icons/traits/spice_addict.dds"
+    icon = "spice_addict.dds"
 
     valid_sex = all
 
@@ -83,7 +83,7 @@ suk_doctor = {
 
     desc = suk_doctor_desc
 
-    icon = "gfx/interface/icons/traits/suk_doctor.dds"
+    icon = "suk_doctor.dds"
 
     valid_sex = all
 
@@ -106,7 +106,7 @@ weirding_way = {
 
     desc = weirding_way_desc
 
-    icon = "gfx/interface/icons/traits/weirding_way.dds"
+    icon = "weirding_way.dds"
 
     valid_sex = all
 
@@ -131,7 +131,7 @@ the_voice = {
 
     desc = the_voice_desc
 
-    icon = "gfx/interface/icons/traits/the_voice.dds"
+    icon = "the_voice.dds"
 
     valid_sex = all
 
@@ -157,7 +157,7 @@ bene_gesserit_trained = {
 
     desc = bene_gesserit_trained_desc
 
-    icon = "gfx/interface/icons/traits/education_intrigue_5.dds"
+    icon = "bene_gesserit_trained.dds"
 
     valid_sex = female
 
@@ -190,7 +190,7 @@ kwisatz_haderach = {
 
     desc = kwisatz_haderach_desc
 
-    icon = "gfx/interface/icons/traits/lifestyle_mystic_3.dds"
+    icon = "kwisatz_haderach.dds"
 
     valid_sex = male
 
@@ -216,7 +216,7 @@ prescient = {
 
     desc = prescient_desc
 
-    icon = "gfx/interface/icons/traits/prescient.dds"
+    icon = "prescient.dds"
 
     valid_sex = all
 
@@ -243,7 +243,7 @@ reverend_mother = {
 
     desc = reverend_mother_desc
 
-    icon = "gfx/interface/icons/traits/reverend_mother.dds"
+    icon = "reverend_mother.dds"
 
     valid_sex = female
 
@@ -253,3 +253,185 @@ reverend_mother = {
         intelligent = 1
     }
 }
+
+####################################
+# ARRAKIS STRUGGLE TRAITS
+# common/traits/arrakis_struggle_traits.txt
+####################################
+
+# ===========================================
+# FREMEN ADAPTATION TRAITS
+# ===========================================
+
+desert_adapted = {
+    index = 500
+
+    diplomacy = 1
+    martial = 1
+    prowess = 2
+
+    same_culture_opinion = 10
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { has_culture = culture:fremen }
+                desc = trait_desert_adapted_fremen_desc
+            }
+            desc = trait_desert_adapted_desc
+        }
+    }
+
+    icon = trait_desert_adapted
+}
+
+worm_rider = {
+    index = 501
+
+    martial = 3
+    prowess = 4
+
+    monthly_prestige = 0.5
+    dread_baseline_add = 15
+
+    same_culture_opinion = 20
+
+    desc = trait_worm_rider_desc
+
+    icon = trait_worm_rider
+}
+
+# ===========================================
+# PROPHECY TRAITS
+# ===========================================
+
+mahdi = {
+    index = 502
+
+    diplomacy = 4
+    martial = 4
+    learning = 2
+
+    monthly_prestige = 2
+    monthly_piety = 1
+    vassal_opinion = 20
+    same_faith_opinion = 30
+
+    desc = trait_mahdi_desc
+
+    icon = trait_mahdi
+
+    opposites = {
+        kwisatz_haderach
+    }
+}
+
+kwisatz_haderach = {
+    index = 503
+
+    diplomacy = 8
+    martial = 8
+    stewardship = 5
+    intrigue = 8
+    learning = 10
+    prowess = 10
+
+    health = 2
+    fertility = -0.25
+
+    monthly_prestige = 5
+    monthly_piety = 3
+    dread_baseline_add = 50
+
+    hostile_scheme_resistance_add = 50
+    owned_hostile_scheme_success_chance_add = 25
+
+    desc = trait_kwisatz_haderach_desc
+
+    icon = trait_kwisatz_haderach
+
+    opposites = {
+        mahdi
+        prescient
+    }
+}
+
+prescient = {
+    index = 504
+
+    diplomacy = 2
+    intrigue = 4
+    learning = 4
+
+    monthly_piety = 0.5
+
+    hostile_scheme_resistance_add = 20
+
+    desc = prescient_desc
+
+    icon = trait_prescient
+
+    opposites = {
+        kwisatz_haderach
+    }
+}
+
+# ===========================================
+# FACTION LOYALTY TRAITS
+# ===========================================
+
+fremen_loyalist = {
+    index = 505
+
+    diplomacy = 1
+    martial = 1
+
+    same_culture_opinion = 10
+
+    desc = trait_fremen_loyalist_desc
+
+    icon = trait_fremen_loyalist
+
+    opposites = {
+        harkonnen_loyalist
+    }
+}
+
+harkonnen_loyalist = {
+    index = 506
+
+    intrigue = 2
+
+    tyranny_gain_mult = -0.25
+    dread_baseline_add = 5
+
+    desc = trait_harkonnen_loyalist_desc
+
+    icon = trait_harkonnen_loyalist
+
+    opposites = {
+        fremen_loyalist
+    }
+}
+
+# ===========================================
+# STATUS TRAITS
+# ===========================================
+
+exiled = {
+    index = 507
+
+    diplomacy = -3
+
+    monthly_prestige = -1
+    vassal_opinion = -20
+
+    desc = trait_exiled_desc
+
+    icon = trait_exiled
+}
+
+# ===========================================
+# TRAINING TRAITS
+# ===========================================
+

@@ -1,0 +1,225 @@
+﻿####################################
+# ARRAKIS STRUGGLE ON_ACTIONS
+# glitched #
+####################################
+
+# Starting events triggered when struggle begins
+arrakis_struggle_starting_events = {
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+    }
+
+    events = {
+        100 = arrakis_struggle.0001
+    }
+}
+
+# Yearly pulse for struggle progression
+on_yearly_pulse = {
+    on_actions = {
+        arrakis_struggle_yearly_pulse
+    }
+}
+
+arrakis_struggle_yearly_pulse = {
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+        NOT = { exists = global_var:arrakis_struggle_ended }
+    }
+
+    effect = {
+        # Yearly drift catalyst
+        struggle:arrakis_struggle = {
+            activate_struggle_catalyst = {
+                catalyst = catalyst_arrakis_yearly_drift
+                character = root
+            }
+        }
+
+        # Random flavor events based on phase
+        if = {
+            limit = {
+                struggle:arrakis_struggle = {
+                    is_struggle_phase = arrakis_struggle_oppression
+                }
+            }
+            random_list = {
+                20 = {
+                   100 = arrakis_struggle.015
+                }
+                80 = { }
+            }
+        }
+        else_if = {
+            limit = {
+                struggle:arrakis_struggle = {
+                    is_struggle_phase = arrakis_struggle_resistance
+                }
+            }
+            random_list = {
+                15 = {
+                    trigger_event = arrakis_struggle.100
+                }
+                15 = {
+                    trigger_event = arrakis_struggle.102
+                }
+                70 = { }
+            }
+        }
+        else_if = {
+            limit = {
+                struggle:arrakis_struggle = {
+                    is_struggle_phase = arrakis_struggle_open_war
+                }
+            }
+            random_list = {
+                20 = {
+                    trigger_event = arrakis_struggle.200
+                }
+                15 = {
+                    trigger_event = arrakis_struggle.201
+                }
+                65 = { }
+            }
+        }
+    }
+}
+
+# On character death - check for key deaths
+on_death = {
+    on_actions = {
+        arrakis_struggle_death_check
+    }
+}
+
+arrakis_struggle_death_check = {
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+        NOT = { exists = global_var:arrakis_struggle_ended }
+    }
+
+    effect = {
+        # Paul's death
+        if = {
+            limit = {
+                has_character_flag = paul_atreides
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_paul_killed
+                    character = root
+                }
+            }
+        }
+
+        # Jessica's death
+        if = {
+            limit = {
+                has_character_flag = jessica_bene_gesserit
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_jessica_killed
+                    character = root
+                }
+            }
+        }
+
+        # Stilgar's death
+        if = {
+            limit = {
+                has_character_flag = stilgar_naib
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_stilgar_killed
+                    character = root
+                }
+            }
+        }
+
+        # Chani's death
+        if = {
+            limit = {
+                has_character_flag = chani_fremen
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_chani_killed
+                    character = root
+                }
+            }
+        }
+
+        # Baron Harkonnen's death
+        if = {
+            limit = {
+                has_character_flag = baron_harkonnen
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_baron_harkonnen_killed
+                    character = root
+                }
+            }
+        }
+
+        # Rabban's death
+        if = {
+            limit = {
+                has_character_flag = rabban_harkonnen
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_rabban_killed
+                    character = root
+                }
+            }
+        }
+    }
+}
+
+# On battle won - military catalysts
+on_battle_won = {
+    on_actions = {
+        arrakis_struggle_battle_won
+    }
+}
+
+arrakis_struggle_battle_won = {
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+        NOT = { exists = global_var:arrakis_struggle_ended }
+        is_involved_in_struggle = struggle:arrakis_struggle
+    }
+
+    effect = {
+        if = {
+            limit = {
+                has_culture = culture:fremen
+            }
+            struggle:arrakis_struggle = {
+                activate_struggle_catalyst = {
+                    catalyst = catalyst_fremen_raid_success
+                    character = root
+                }
+            }
+        }
+    }
+}
+
+# Phase change notifications
+arrakis_struggle_phase_change = {
+    trigger = {
+        exists = global_var:arrakis_struggle_active
+    }
+
+    effect = {
+        every_player = {
+            limit = {
+                is_involved_in_struggle = struggle:arrakis_struggle
+            }
+            trigger_event = arrakis_struggle.0002
+        }
+    }
+}

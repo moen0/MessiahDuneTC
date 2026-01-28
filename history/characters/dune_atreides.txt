@@ -59,14 +59,19 @@
     trait = ambitious
     trait = weirding_way
     trait = the_voice
+
     disallow_random_traits = yes
+
 
     religion = "zensunni_faith"
     culture = "fremen_culture"
     176.1.1 = {
         birth = yes
     }
-
+    191.3.1 = {
+        government = landless_adventurer_government
+        title = d_plastic_basin
+    }
     219.1.2 = {
         death = yes
     }

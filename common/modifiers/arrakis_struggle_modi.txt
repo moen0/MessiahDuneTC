@@ -1,0 +1,158 @@
+﻿####################################
+# ARRAKIS STRUGGLE MODIFIERS
+
+####################################
+
+
+water_discipline = {
+    icon = modifier_stewardship_positive
+
+    stewardship = 2
+    monthly_prestige = 0.1
+    stress_loss_mult = 0.1
+
+    desc = water_discipline_desc
+}
+
+reads_the_sand = {
+    icon = modifier_learning_positive
+
+    learning = 2
+    martial = 1
+    hostile_scheme_resistance_add = 5
+
+    desc = reads_the_sand_desc
+}
+
+owns_stillsuit = {
+    icon = modifier_health_positive
+
+    health = 0.5
+    prowess = 1
+
+    desc = owns_stillsuit_desc
+}
+
+water_rationing_modifier = {
+    icon = modifier_health_negative
+
+    health = -0.25
+    stress_gain_mult = 0.2
+    monthly_prestige = -0.5
+
+    desc = water_rationing_modifier_desc
+}
+
+# ===========================================
+# COMBAT MODIFIERS
+# ===========================================
+
+wounded_in_duel = {
+    icon = modifier_health_negative
+
+    health = -0.5
+    prowess = -3
+
+    desc = wounded_in_duel_desc
+}
+
+vengeance_sworn = {
+    icon = modifier_martial_positive
+
+    prowess = 3
+    martial = 2
+    dread_baseline_add = 10
+    stress_gain_mult = 0.15
+
+    desc = vengeance_sworn_desc
+}
+
+fedaykin_trained = {
+    icon = modifier_prowess_positive
+
+    prowess = 5
+    martial = 3
+    knight_effectiveness_mult = 0.25
+    hostile_scheme_success_chance_add = 10
+
+    desc = fedaykin_trained_desc
+}
+
+battle_wounds = {
+    icon = modifier_health_negative
+
+    health = -0.75
+    prowess = -2
+    monthly_prestige = -0.25
+
+    desc = battle_wounds_desc
+}
+
+narrow_escape = {
+    icon = modifier_health_negative
+
+    stress_gain_mult = 0.25
+    prowess = -1
+
+    desc = narrow_escape_desc
+}
+
+# ===========================================
+# WORM RIDING MODIFIERS
+# ===========================================
+
+worm_riding_failure = {
+    icon = modifier_health_negative
+
+    health = -0.5
+    prowess = -2
+    stress_gain_mult = 0.3
+
+    desc = worm_riding_failure_desc
+}
+
+commands_the_worms = {
+    icon = modifier_martial_positive
+
+    martial = 5
+    prowess = 5
+    dread_baseline_add = 30
+    monthly_prestige = 2
+    knight_effectiveness_mult = 0.5
+    levy_size = 0.25
+
+    desc = commands_the_worms_desc
+}
+
+# ===========================================
+# LEADERSHIP MODIFIERS
+# ===========================================
+
+united_fremen_army = {
+    icon = modifier_martial_positive
+
+    martial = 4
+    prowess = 3
+    levy_size = 0.5
+    levy_reinforcement_rate = 0.3
+    men_at_arms_maintenance = -0.25
+    knight_effectiveness_mult = 0.25
+
+    desc = united_fremen_army_desc
+}
+
+fremen_autonomy = {
+    icon = modifier_diplomacy_positive
+
+    diplomacy = 3
+    monthly_prestige = 1
+    vassal_opinion = 15
+    different_culture_opinion = 10
+
+    desc = fremen_autonomy_desc
+}
+
+# ===========================================
+# PRESCIENCE MODIFIERS
+# (From spice events file)
+# ===========================================

@@ -1,4 +1,4 @@
-# Spice-related modifiers
+﻿# Spice-related modifiers
 
 first_spice_experience = {
     icon = trait_lifestyle_mystic

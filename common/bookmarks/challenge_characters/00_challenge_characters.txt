@@ -7,13 +7,13 @@ challenge_character_paul = {
         dynasty_splendor_level = 3
         type = male
         birth = 176.1.1
-        title = d_tuonq_basin
-        government = feudal_government
+        government = landless_adventurer_government
+        title = c_qasr_qadim
         culture = fremen_culture
         religion = zensunni
         difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
         history_id = 4
-
+        character = 4
         animation = personality_bold
     }
 }

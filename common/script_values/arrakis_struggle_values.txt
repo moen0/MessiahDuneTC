@@ -1,0 +1,49 @@
+﻿####################################
+# ARRAKIS STRUGGLE SCRIPT VALUES
+# common/script_values/arrakis_struggle_values.txt
+####################################
+
+# ===========================================
+# CATALYST VALUES
+# Standard values from vanilla, plus custom
+# ===========================================
+
+minimal_struggle_catalyst_gain = 1
+minor_struggle_catalyst_gain = 3
+medium_struggle_catalyst_gain = 5
+major_struggle_catalyst_gain = 10
+massive_struggle_catalyst_gain = 20
+monumental_struggle_catalyst_gain = 50
+
+minimal_struggle_catalyst_over_time_gain = 1
+minor_struggle_catalyst_over_time_gain = 2
+medium_struggle_catalyst_over_time_gain = 3
+major_struggle_catalyst_over_time_gain = 5
+massive_struggle_catalyst_over_time_gain = 10
+monumental_struggle_catalyst_over_time_gain = 20
+
+# ===========================================
+# PHASE DURATION THRESHOLDS
+# ===========================================
+
+arrakis_oppression_duration = 400
+arrakis_resistance_duration = 500
+arrakis_open_war_duration = 600
+arrakis_resolution_duration = 300
+
+# ===========================================
+# PROBABILITY VALUES
+# ===========================================
+
+worm_ride_base_success_chance = 60
+kwisatz_haderach_base_survival_chance = 40
+raid_base_success_chance = 65
+ambush_base_success_chance = 70
+
+# ===========================================
+# OPINION VALUES
+# ===========================================
+
+fremen_messiah_opinion_value = 50
+worm_rider_respect_opinion_value = 30
+kwisatz_haderach_fear_opinion_value = 50

@@ -1,0 +1,295 @@
+﻿####################################
+# ARRAKIS STRUGGLE CATALYSTS
+# common/struggle/catalysts/arrakis_catalysts.txt
+####################################
+
+# ===========================================
+# TIME-BASED CATALYSTS
+# ===========================================
+
+catalyst_arrakis_yearly_drift = {
+    # Triggered by on_action yearly
+}
+
+# ===========================================
+# PAUL'S JOURNEY CATALYSTS - PHASE 1
+# ===========================================
+
+catalyst_paul_defeats_jamis = {
+    # Paul kills Jamis in ritual combat
+    # Triggered by event arrakis_struggle.010
+}
+
+catalyst_paul_accepted_by_fremen = {
+    # Stilgar accepts Paul into Sietch Tabr
+    # Triggered by event arrakis_struggle.011
+}
+
+catalyst_paul_learns_desert_ways = {
+    # Paul completes desert training
+    # Triggered by event arrakis_struggle.012
+}
+
+catalyst_paul_first_vision = {
+    # Paul experiences prescient vision
+    # Triggered by spice events
+}
+
+catalyst_lisan_al_gaib_whispers = {
+    # Prophecy spreads among Fremen
+    # Triggered periodically when Paul present
+}
+
+# ===========================================
+# PAUL'S ASCENSION CATALYSTS - PHASE 2
+# ===========================================
+
+catalyst_paul_rides_sandworm = {
+    # Paul successfully rides Shai-Hulud
+    # Triggered by event arrakis_struggle.110
+}
+
+catalyst_paul_leads_raid = {
+    # Paul commands a successful raid
+    # Triggered by raid events
+}
+
+catalyst_paul_unites_sietches = {
+    # Multiple sietches swear to Paul
+    # Triggered when allegiance threshold met
+}
+
+catalyst_paul_fedaykin_trained = {
+    # Paul completes fedaykin training
+    # Triggered by event arrakis_struggle.111
+}
+
+catalyst_mahdi_prophecy_spreads = {
+    # Fremen increasingly believe Paul is Mahdi
+    # Triggered by opinion/event thresholds
+}
+
+# ===========================================
+# FREMEN RESISTANCE CATALYSTS
+# ===========================================
+
+catalyst_fremen_raid_success = {
+    # Generic successful Fremen raid
+}
+
+catalyst_fremen_escape_patrol = {
+    # Fremen evade Harkonnen patrol
+}
+
+catalyst_sietch_remains_hidden = {
+    # Sietch avoids discovery
+}
+
+catalyst_successful_caravan_raid = {
+    # Spice caravan successfully raided
+}
+
+catalyst_harkonnen_patrol_destroyed = {
+    # Harkonnen patrol wiped out
+}
+
+catalyst_spice_production_disrupted = {
+    # Spice harvesting significantly impacted
+}
+
+catalyst_fedaykin_strike = {
+    # Fedaykin assassination/sabotage
+}
+
+catalyst_sietch_joins_paul = {
+    # New sietch pledges to Paul
+}
+
+catalyst_smugglers_alliance = {
+    # Alliance with spice smugglers
+}
+
+# ===========================================
+# HARKONNEN OPPRESSION CATALYSTS
+# ===========================================
+
+catalyst_harkonnen_atrocity = {
+    # Harkonnen commits massacre/atrocity
+    # Accelerates resistance
+}
+
+catalyst_harkonnen_raid_sietch = {
+    # Harkonnen raids a sietch
+}
+
+catalyst_fremen_executed = {
+    # Fremen publicly executed
+}
+
+catalyst_major_sietch_destroyed = {
+    # Major sietch completely destroyed
+}
+
+catalyst_fremen_leader_killed = {
+    # Naib or important leader killed
+}
+
+# ===========================================
+# DEFEAT/SETBACK CATALYSTS
+# ===========================================
+
+catalyst_paul_killed = {
+    # Paul dies - major Harkonnen victory
+}
+
+catalyst_jessica_killed = {
+    # Jessica dies
+}
+
+catalyst_stilgar_killed = {
+    # Stilgar dies
+}
+
+catalyst_chani_killed = {
+    # Chani dies
+}
+
+catalyst_paul_captured = {
+    # Paul captured by Harkonnens
+}
+
+catalyst_paul_badly_wounded = {
+    # Paul seriously injured
+}
+
+catalyst_major_raid_fails = {
+    # Major Fremen raid fails badly
+}
+
+catalyst_sietch_betrayed = {
+    # Sietch location betrayed
+}
+
+catalyst_fremen_infighting = {
+    # Fremen turn on each other
+}
+
+catalyst_fremen_betray_paul = {
+    # Fremen reject Paul as outsider
+}
+
+catalyst_multiple_sietches_destroyed = {
+    # Several sietches destroyed
+}
+
+catalyst_fremen_army_defeated = {
+    # Major military defeat
+}
+
+catalyst_sietch_tabr_falls = {
+    # Paul's home sietch falls
+}
+
+catalyst_fremen_army_annihilated = {
+    # Fremen forces destroyed
+}
+
+# ===========================================
+# OPEN WAR CATALYSTS
+# ===========================================
+
+catalyst_major_harkonnen_defeat = {
+    # Harkonnen suffer major defeat
+}
+
+catalyst_arrakeen_threatened = {
+    # Fremen threaten the capital
+}
+
+catalyst_spice_production_halted = {
+    # Spice production stops completely
+}
+
+catalyst_emperor_intervenes = {
+    # Emperor sends forces/arrives
+}
+
+catalyst_sardaukar_deployed = {
+    # Sardaukar land on Arrakis
+}
+
+catalyst_paul_controls_worms = {
+    # Paul commands sandworm forces
+}
+
+catalyst_all_sietches_united = {
+    # All Fremen united under Paul
+}
+
+catalyst_paul_revealed_as_mahdi = {
+    # Paul publicly declared Mahdi
+}
+
+catalyst_harkonnen_fortress_falls = {
+    # Major Harkonnen stronghold captured
+}
+
+catalyst_rabban_killed = {
+    # Beast Rabban killed
+}
+
+catalyst_harkonnen_troops_desert = {
+    # Harkonnen troops flee/desert
+}
+
+# ===========================================
+# SANDWORM CATALYSTS
+# ===========================================
+
+catalyst_worm_destroys_harvester = {
+    # Sandworm destroys Harkonnen harvester
+}
+
+catalyst_worm_attack_patrol = {
+    # Sandworm attacks Harkonnen patrol
+}
+
+catalyst_worm_summoned_for_battle = {
+    # Fremen summon worms for combat
+}
+
+catalyst_mass_worm_attack = {
+    # Multiple worms attack Harkonnen
+}
+
+# ===========================================
+# RESOLUTION CATALYSTS
+# ===========================================
+
+catalyst_water_of_life_trial = {
+    # Someone attempts Water of Life
+}
+
+catalyst_kwisatz_haderach_awakens = {
+    # Kwisatz Haderach confirmed
+}
+
+catalyst_final_battle_begins = {
+    # The final confrontation starts
+}
+
+catalyst_emperor_defeated = {
+    # Emperor's forces beaten
+}
+
+catalyst_baron_harkonnen_killed = {
+    # Baron Harkonnen dies
+}
+
+catalyst_imperial_truce = {
+    # Emperor offers truce
+}
+
+catalyst_fremen_accept_terms = {
+    # Fremen accept negotiated peace
+}

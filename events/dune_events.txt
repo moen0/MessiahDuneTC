@@ -1,7 +1,5 @@
-namespace = dune_spice
+﻿namespace = dune_spice
 
-# Initial Spice Consumption - Gateway Event
-# Triggered by court decision
 dune_spice.0001 = {
     type = character_event
     title = dune_spice.0001.t

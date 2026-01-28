@@ -1,0 +1,583 @@
+﻿arrakis_struggle = {
+    cultures = {
+        fremen_culture
+        harkonnen_culture
+        imperial_culture
+        caladan_culture
+    }
+
+    faiths = {
+        zensunni_faith
+        orange_catholic_faith
+    }
+
+    regions = {
+        world_arrakis
+        arrakis_deep_desert
+        arrakis_polar_regions
+    }
+
+    involvement_prerequisite_percentage = 0.6
+
+    on_start = {
+        # Initialize struggle variables
+        set_global_variable = {
+            name = arrakis_struggle_active
+            value = yes
+        }
+        # Start periodic catalyst events
+        trigger_event = arrakis_struggle.0001
+    }
+
+    on_join = {
+        # Assign initial stance based on culture/faith
+        if = {
+            limit = {
+                OR = {
+                    has_culture = culture:fremen
+                    has_culture = culture:zensunni
+                }
+            }
+            add_trait = fremen_loyalist
+        }
+        else_if = {
+            limit = {
+                has_culture = culture:harkonnen
+            }
+            add_trait = harkonnen_loyalist
+        }
+        else = {
+            # Interlopers get no automatic stance
+        }
+
+        if = {
+            limit = { is_ai = no }
+            trigger_event = arrakis_struggle.0002
+        }
+    }
+
+    on_end = {
+        set_global_variable = {
+            name = arrakis_struggle_ended
+            value = yes
+        }
+    }
+
+    start_phase = arrakis_struggle_oppression
+
+    phase_list = {
+        #################################################################
+        # PHASE 1: OPPRESSION
+        # Harkonnens rule with iron fist, Fremen hide and endure
+        #################################################################
+        arrakis_struggle_oppression = {
+            duration = { points = 400 }
+
+            future_phases = {
+                arrakis_struggle_resistance = {
+                    catalysts = {
+                        # Time passage
+                        catalyst_arrakis_yearly_drift = minimal_struggle_catalyst_over_time_gain
+
+                        # Paul's journey catalysts
+                        catalyst_paul_defeats_jamis = major_struggle_catalyst_gain
+                        catalyst_paul_accepted_by_fremen = major_struggle_catalyst_gain
+                        catalyst_paul_learns_desert_ways = medium_struggle_catalyst_gain
+                        catalyst_paul_first_vision = medium_struggle_catalyst_gain
+                        catalyst_lisan_al_gaib_whispers = minor_struggle_catalyst_gain
+
+                        # Fremen resistance catalysts
+                        catalyst_fremen_raid_success = minor_struggle_catalyst_gain
+                        catalyst_fremen_escape_patrol = minimal_struggle_catalyst_gain
+                        catalyst_sietch_remains_hidden = minimal_struggle_catalyst_gain
+
+                        # Harkonnen oppression catalysts (accelerates resistance)
+                        catalyst_harkonnen_atrocity = medium_struggle_catalyst_gain
+                        catalyst_harkonnen_raid_sietch = minor_struggle_catalyst_gain
+                        catalyst_fremen_executed = minor_struggle_catalyst_gain
+                    }
+                }
+
+                arrakis_struggle_harkonnen_dominance = {
+                    catalysts = {
+                        # Harkonnen victory conditions
+                        catalyst_paul_killed = monumental_struggle_catalyst_gain
+                        catalyst_jessica_killed = massive_struggle_catalyst_gain
+                        catalyst_major_sietch_destroyed = major_struggle_catalyst_gain
+                        catalyst_fremen_leader_killed = medium_struggle_catalyst_gain
+                        catalyst_fremen_betray_paul = major_struggle_catalyst_gain
+                    }
+                }
+            }
+
+            war_effects = {
+                name = OPPRESSION_WAR_EFFECTS_NAME
+
+                common_parameters = {
+                    fremen_cannot_declare_open_war = yes
+                    harkonnen_hunt_fremen_enabled = yes
+                }
+
+                involved_character_modifier = {
+                    # Fremen must hide
+                    hostile_scheme_resistance_add = 10
+                    owned_hostile_scheme_success_chance_add = -10
+                }
+
+                interloper_character_modifier = {
+                    # Outsiders watched by Harkonnens
+                    diplomacy = -2
+                }
+            }
+
+            faith_effects = {
+                name = OPPRESSION_FAITH_EFFECTS_NAME
+
+                involved_parameters = {
+                    zensunni_hidden_worship = yes
+                    prophecy_spreads_in_secret = yes
+                }
+
+                involved_character_modifier = {
+                    same_faith_opinion = 30
+                    different_faith_opinion = -20
+                }
+            }
+
+            culture_effects = {
+                name = OPPRESSION_CULTURE_EFFECTS_NAME
+
+                involved_parameters = {
+                    fremen_desert_survival_bonus = yes
+                    fremen_hide_from_oppressors = yes
+                }
+
+                involved_character_modifier = {
+                    same_culture_opinion = 25
+                    prowess = 2
+                }
+            }
+
+            other_effects = {
+                name = OPPRESSION_OTHER_EFFECTS_NAME
+
+                involved_parameters = {
+                    sietch_discovery_risk = yes
+                    water_discipline_required = yes
+                    desert_travel_dangerous = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_prestige = -0.5
+                    stress_gain_mult = 0.2
+                }
+
+                interloper_character_modifier = {
+                    desert_movement_speed = -0.3
+                    supply_duration = -0.5
+                }
+            }
+
+            ending_decisions = {
+                # No endings available in Oppression phase
+            }
+        }
+
+        #################################################################
+        # PHASE 2: RESISTANCE
+        # Fremen raids grow bolder, Paul rises as leader
+        #################################################################
+        arrakis_struggle_resistance = {
+            duration = { points = 500 }
+
+            future_phases = {
+                arrakis_struggle_open_war = {
+                    catalysts = {
+                        # Time passage
+                        catalyst_arrakis_yearly_drift = minimal_struggle_catalyst_over_time_gain
+
+                        # Paul's ascension catalysts
+                        catalyst_paul_rides_sandworm = massive_struggle_catalyst_gain
+                        catalyst_paul_leads_raid = major_struggle_catalyst_gain
+                        catalyst_paul_unites_sietches = major_struggle_catalyst_gain
+                        catalyst_paul_fedaykin_trained = medium_struggle_catalyst_gain
+                        catalyst_mahdi_prophecy_spreads = medium_struggle_catalyst_gain
+
+                        # Military catalysts
+                        catalyst_successful_caravan_raid = minor_struggle_catalyst_gain
+                        catalyst_harkonnen_patrol_destroyed = minor_struggle_catalyst_gain
+                        catalyst_spice_production_disrupted = medium_struggle_catalyst_gain
+                        catalyst_fedaykin_strike = minor_struggle_catalyst_gain
+
+                        # Alliance catalysts
+                        catalyst_sietch_joins_paul = medium_struggle_catalyst_gain
+                        catalyst_smugglers_alliance = minor_struggle_catalyst_gain
+                    }
+                }
+
+                arrakis_struggle_oppression = {
+                    catalysts = {
+                        # Setbacks push back to oppression
+                        catalyst_major_raid_fails = major_struggle_catalyst_gain
+                        catalyst_paul_captured = massive_struggle_catalyst_gain
+                        catalyst_sietch_betrayed = major_struggle_catalyst_gain
+                        catalyst_fremen_infighting = medium_struggle_catalyst_gain
+                    }
+                }
+
+                arrakis_struggle_harkonnen_dominance = {
+                    catalysts = {
+                        catalyst_paul_killed = monumental_struggle_catalyst_gain
+                        catalyst_jessica_killed = massive_struggle_catalyst_gain
+                        catalyst_stilgar_killed = major_struggle_catalyst_gain
+                        catalyst_multiple_sietches_destroyed = massive_struggle_catalyst_gain
+                    }
+                }
+            }
+
+            war_effects = {
+                name = RESISTANCE_WAR_EFFECTS_NAME
+
+                common_parameters = {
+                    guerrilla_warfare_enabled = yes
+                    night_raids_enabled = yes
+                }
+
+                involved_character_modifier = {
+                    # Fremen grow bolder
+                    prowess = 3
+                    martial = 2
+                    knight_effectiveness_mult = 0.25
+                    men_at_arms_maintenance = -0.3
+                }
+
+                interloper_character_modifier = {
+                    # Harkonnen forces spread thin
+                    army_maintenance_mult = 0.2
+                    enemy_hostile_scheme_success_chance_add = 10
+                }
+            }
+
+            faith_effects = {
+                name = RESISTANCE_FAITH_EFFECTS_NAME
+
+                involved_parameters = {
+                    lisan_al_gaib_prophecy_active = yes
+                    religious_fervor_bonus = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_piety = 1
+                    same_faith_opinion = 20
+                }
+            }
+
+            culture_effects = {
+                name = RESISTANCE_CULTURE_EFFECTS_NAME
+
+                involved_parameters = {
+                    desert_warfare_mastery = yes
+                    worm_riding_unlocked = yes
+                }
+
+                involved_character_modifier = {
+                    same_culture_opinion = 15
+                    different_culture_opinion = -10
+                    prowess = 2
+                }
+            }
+
+            other_effects = {
+                name = RESISTANCE_OTHER_EFFECTS_NAME
+
+                involved_parameters = {
+                    raid_harkonnen_caravans_enabled = yes
+                    recruit_fedaykin_enabled = yes
+                    spice_bribery_enabled = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_prestige = 0.5
+                    dread_baseline_add = 10
+                }
+            }
+
+            ending_decisions = {
+                # No endings yet - war must come first
+            }
+        }
+
+        #################################################################
+        # PHASE 3: OPEN WAR
+        # Full scale conflict, Emperor takes notice
+        #################################################################
+        arrakis_struggle_open_war = {
+            duration = { points = 600 }
+
+            future_phases = {
+                arrakis_struggle_resolution = {
+                    catalysts = {
+                        # Time passage
+                        catalyst_arrakis_yearly_drift = minor_struggle_catalyst_over_time_gain
+
+                        # Major battle catalysts
+                        catalyst_major_harkonnen_defeat = major_struggle_catalyst_gain
+                        catalyst_arrakeen_threatened = massive_struggle_catalyst_gain
+                        catalyst_spice_production_halted = major_struggle_catalyst_gain
+                        catalyst_emperor_intervenes = monumental_struggle_catalyst_gain
+                        catalyst_sardaukar_deployed = massive_struggle_catalyst_gain
+
+                        # Paul's power catalysts
+                        catalyst_paul_controls_worms = major_struggle_catalyst_gain
+                        catalyst_all_sietches_united = massive_struggle_catalyst_gain
+                        catalyst_paul_revealed_as_mahdi = major_struggle_catalyst_gain
+
+                        # Harkonnen collapse
+                        catalyst_harkonnen_fortress_falls = major_struggle_catalyst_gain
+                        catalyst_rabban_killed = major_struggle_catalyst_gain
+                        catalyst_harkonnen_troops_desert = medium_struggle_catalyst_gain
+                    }
+                }
+
+                arrakis_struggle_resistance = {
+                    catalysts = {
+                        # Major setbacks
+                        catalyst_fremen_army_defeated = massive_struggle_catalyst_gain
+                        catalyst_paul_badly_wounded = major_struggle_catalyst_gain
+                        catalyst_sietch_tabr_falls = massive_struggle_catalyst_gain
+                    }
+                }
+
+                arrakis_struggle_harkonnen_dominance = {
+                    catalysts = {
+                        catalyst_paul_killed = monumental_struggle_catalyst_gain
+                        catalyst_fremen_army_annihilated = monumental_struggle_catalyst_gain
+                        catalyst_chani_killed = major_struggle_catalyst_gain
+                    }
+                }
+            }
+
+            war_effects = {
+                name = OPEN_WAR_WAR_EFFECTS_NAME
+
+                common_parameters = {
+                    open_battle_enabled = yes
+                    sandworm_warfare_enabled = yes
+                    no_surrender_war = yes
+                }
+
+                involved_character_modifier = {
+                    # Total war bonuses
+                    prowess = 5
+                    martial = 4
+                    knight_effectiveness_mult = 0.5
+                    men_at_arms_damage_mult = 0.3
+                    levy_size = 0.5
+                }
+
+                interloper_character_modifier = {
+                    # Interlopers caught in crossfire
+                    hostile_scheme_resistance_add = -20
+                    stress_gain_mult = 0.5
+                }
+            }
+
+            faith_effects = {
+                name = OPEN_WAR_FAITH_EFFECTS_NAME
+
+                involved_parameters = {
+                    holy_war_fervor = yes
+                    jihad_preparation = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_piety = 2
+                    same_faith_opinion = 30
+                    different_faith_opinion = -30
+                }
+            }
+
+            culture_effects = {
+                name = OPEN_WAR_CULTURE_EFFECTS_NAME
+
+                involved_parameters = {
+                    fremen_total_mobilization = yes
+                    desert_masters = yes
+                }
+
+                involved_character_modifier = {
+                    same_culture_opinion = 25
+                    levy_reinforcement_rate = 0.5
+                }
+            }
+
+            other_effects = {
+                name = OPEN_WAR_OTHER_EFFECTS_NAME
+
+                involved_parameters = {
+                    worm_army_available = yes
+                    spice_as_weapon = yes
+                    prophecy_fulfillment_near = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_prestige = 2
+                    dread_baseline_add = 30
+                    stress_gain_mult = 0.3
+                }
+
+                involved_county_modifier = {
+                    development_growth_factor = -0.5
+                    levy_size = 0.3
+                }
+            }
+
+            ending_decisions = {
+                # Endings become available
+                arrakis_struggle_fremen_victory_decision
+                arrakis_struggle_harkonnen_dominance_decision
+                arrakis_struggle_imperial_intervention_decision
+            }
+        }
+
+        #################################################################
+        # PHASE 4: RESOLUTION
+        # Final confrontation, endings determined
+        #################################################################
+        arrakis_struggle_resolution = {
+            duration = { points = 300 }
+
+            future_phases = {
+                # No future phases - this is the endgame
+                # Endings are triggered by decisions/events
+            }
+
+            war_effects = {
+                name = RESOLUTION_WAR_EFFECTS_NAME
+
+                common_parameters = {
+                    final_battle_imminent = yes
+                    no_retreat_possible = yes
+                    emperor_present = yes
+                }
+
+                involved_character_modifier = {
+                    prowess = 8
+                    martial = 6
+                    knight_effectiveness_mult = 0.75
+                    men_at_arms_damage_mult = 0.5
+                    dread_gain_mult = 0.5
+                }
+            }
+
+            faith_effects = {
+                name = RESOLUTION_FAITH_EFFECTS_NAME
+
+                involved_parameters = {
+                    prophecy_culmination = yes
+                    water_of_life_available = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_piety = 5
+                    same_faith_opinion = 50
+                }
+            }
+
+            culture_effects = {
+                name = RESOLUTION_CULTURE_EFFECTS_NAME
+
+                involved_parameters = {
+                    fremen_destiny = yes
+                    cultural_transformation = yes
+                }
+
+                involved_character_modifier = {
+                    same_culture_opinion = 40
+                    prestige_mult = 0.5
+                }
+            }
+
+            other_effects = {
+                name = RESOLUTION_OTHER_EFFECTS_NAME
+
+                involved_parameters = {
+                    kwisatz_haderach_trial_available = yes
+                    universe_fate_decided = yes
+                    spice_control_paramount = yes
+                }
+
+                involved_character_modifier = {
+                    monthly_prestige = 5
+                    dread_baseline_add = 50
+                }
+            }
+
+            ending_decisions = {
+                arrakis_struggle_fremen_victory_decision
+                arrakis_struggle_harkonnen_dominance_decision
+                arrakis_struggle_imperial_intervention_decision
+            }
+        }
+
+        #################################################################
+        # ENDING PHASE: FREMEN VICTORY
+        #################################################################
+        arrakis_struggle_fremen_victory = {
+            duration = { points = 0 }
+
+            future_phases = { }
+
+            war_effects = {
+                name = FREMEN_VICTORY_EFFECTS_NAME
+
+                involved_character_modifier = {
+                    monthly_prestige = 10
+                    dread_baseline_add = 100
+                }
+            }
+
+            ending_decisions = { }
+        }
+
+        #################################################################
+        # ENDING PHASE: HARKONNEN DOMINANCE
+        #################################################################
+        arrakis_struggle_harkonnen_dominance = {
+            duration = { points = 0 }
+
+            future_phases = { }
+
+            war_effects = {
+                name = HARKONNEN_DOMINANCE_EFFECTS_NAME
+
+                involved_character_modifier = {
+                    tyranny_gain_mult = -0.5
+                    dread_baseline_add = 50
+                }
+            }
+
+            ending_decisions = { }
+        }
+
+        #################################################################
+        # ENDING PHASE: IMPERIAL INTERVENTION
+        #################################################################
+        arrakis_struggle_imperial_intervention = {
+            duration = { points = 0 }
+
+            future_phases = { }
+
+            war_effects = {
+                name = IMPERIAL_INTERVENTION_EFFECTS_NAME
+
+                involved_character_modifier = {
+                    diplomacy = 5
+                    monthly_prestige = 3
+                }
+            }
+
+            ending_decisions = { }
+        }
+    }
+}
